@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:06:54.505Z",
+    "generatedAt": "2026-07-14T16:09:56.666Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 166,
-    "verified": 166,
-    "pending": 483,
-    "excluded": 680,
+    "playable": 172,
+    "verified": 172,
+    "pending": 466,
+    "excluded": 691,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -30381,8 +30381,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30411,8 +30429,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30441,8 +30477,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30471,8 +30525,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30501,8 +30573,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30531,8 +30621,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30561,8 +30669,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "夜间会车遭遇对向远光灯时应避免直视、视线适当右移并降低车速；当前公开题页的正确处置与本地答案一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条第五项",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典当前小车安全题：对向远光灯时视线右移并减速靠右",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-1144900.html"
+          }
+        ]
       }
     },
     {
@@ -30591,8 +30712,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "夜间会车应在距相对方向来车150米以外改用近光灯；本地正确选项与现行条例及当前小车科目一同题一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条第五项",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典当前小车科目一题812900：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          }
+        ]
       }
     },
     {
@@ -30621,8 +30755,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "夜间在窄路、窄桥与非机动车会车时应使用近光灯；本地正确选项与现行条例及当前小车科目一同题一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条第五项",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典当前小车科目一题813100：窄路窄桥会车使用近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-813100.html"
+          }
+        ]
       }
     },
     {
@@ -30649,8 +30796,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30677,8 +30842,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30705,8 +30888,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30774,8 +30975,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "题干所述视线右移避开眩光并减速行驶是正确处置，与当前公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条第五项",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典当前小车安全题：对向远光灯时视线右移并减速靠右",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-1144900.html"
+          }
+        ]
       }
     },
     {
@@ -30925,8 +31139,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -30953,8 +31185,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-related-current-question",
+            "title": "驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -31063,8 +31313,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "对向车辆未关闭远光灯时不应加速通过，而应提示对方并减速靠右，必要时停车；故本地判断“错误”正确。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条第五项",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典当前小车科目一题883200：对向未关远光灯应减速或停车",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883200.html"
+          }
+        ]
       }
     },
     {
@@ -31091,8 +31354,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "对向车辆未关闭远光灯时应及时减速，必要时停车让行；本地判断答案与当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十八条第五项",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典当前小车科目一题883200：对向未关远光灯应减速或停车",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883200.html"
+          }
+        ]
       }
     },
     {

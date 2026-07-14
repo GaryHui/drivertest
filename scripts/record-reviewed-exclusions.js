@@ -761,6 +761,37 @@ exclusions.push(...complexWeatherAndRoadExclusionIds.map((localId) => {
   };
 }));
 
+const nightDrivingUncorroboratedIds = [
+  'police-public-4.4.1.1', 'police-public-4.4.1.2', 'police-public-4.4.1.3',
+  'police-public-4.4.1.4', 'police-public-4.4.1.5', 'police-public-4.4.1.6',
+  'police-public-4.4.2.1', 'police-public-4.4.2.2', 'police-public-4.4.2.3',
+  'police-public-4.4.2.9', 'police-public-4.4.2.10',
+];
+
+exclusions.push(...nightDrivingUncorroboratedIds.map((localId) => ({
+  localId,
+  verifiedAt: '2026-07-15',
+  verificationClass: 'current-c1-answer-page-not-fully-corroborated',
+  note: '证据不足隔离：现行实施条例能够支持夜间照明、近远光灯切换的通用规则，但当前驾考宝典C1科目一详情索引没有找到本题完整题干、选项和答案的同题页；部分灯光照射形态题属于经验性判断，不能仅凭旧附件开放。',
+  evidence: [
+    {
+      type: 'current-regulation',
+      title: '《中华人民共和国道路交通安全法实施条例》第四十八条、第五十八条',
+      url: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+    },
+    {
+      type: 'cross-check-related-current-question',
+      title: '驾考宝典当前小车科目一灯光题：夜间会车150米外改近光灯',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

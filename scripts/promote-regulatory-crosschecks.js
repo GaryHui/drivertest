@@ -479,6 +479,63 @@ reviewed.push(
   },
 );
 
+reviewed.push(
+  {
+    localId: 'police-public-4.4.1.8', expectedAnswer: 'D', publicQuestionId: '812900',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812900.html',
+    publicTitle: '驾考宝典当前小车科目一题812900：夜间会车150米外改近光灯',
+    verifiedAt: '2026-07-15',
+    note: '夜间会车应在距相对方向来车150米以外改用近光灯；本地正确选项与现行条例及当前小车科目一同题一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第四十八条第五项',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.4.1.9', expectedAnswer: 'B', publicQuestionId: '813100',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-813100.html',
+    publicTitle: '驾考宝典当前小车科目一题813100：窄路窄桥会车使用近光灯',
+    verifiedAt: '2026-07-15',
+    note: '夜间在窄路、窄桥与非机动车会车时应使用近光灯；本地正确选项与现行条例及当前小车科目一同题一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第四十八条第五项',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.4.1.7', expectedAnswer: 'A', publicQuestionId: '1144900-related',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-1144900.html',
+    publicTitle: '驾考宝典当前小车安全题：对向远光灯时视线右移并减速靠右',
+    verifiedAt: '2026-07-15',
+    note: '夜间会车遭遇对向远光灯时应避免直视、视线适当右移并降低车速；当前公开题页的正确处置与本地答案一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第四十八条第五项',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.4.2.5', expectedAnswer: 'A', publicQuestionId: '1144900-related-judgment',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-1144900.html',
+    publicTitle: '驾考宝典当前小车安全题：对向远光灯时视线右移并减速靠右',
+    verifiedAt: '2026-07-15',
+    note: '题干所述视线右移避开眩光并减速行驶是正确处置，与当前公开题页一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第四十八条第五项',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.4.2.13', expectedAnswer: 'B', publicQuestionId: '883200-related-false',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883200.html',
+    publicTitle: '驾考宝典当前小车科目一题883200：对向未关远光灯应减速或停车',
+    verifiedAt: '2026-07-15',
+    note: '对向车辆未关闭远光灯时不应加速通过，而应提示对方并减速靠右，必要时停车；故本地判断“错误”正确。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第四十八条第五项',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.4.2.14', expectedAnswer: 'A', publicQuestionId: '883200-related-true',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883200.html',
+    publicTitle: '驾考宝典当前小车科目一题883200：对向未关远光灯应减速或停车',
+    verifiedAt: '2026-07-15',
+    note: '对向车辆未关闭远光灯时应及时减速，必要时停车让行；本地判断答案与当前小车科目一公开题页一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第四十八条第五项',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+);
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);
