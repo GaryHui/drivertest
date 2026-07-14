@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T15:17:51.529Z",
+    "generatedAt": "2026-07-14T15:22:05.659Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 149,
-    "verified": 149,
-    "pending": 711,
-    "excluded": 469,
+    "playable": 152,
+    "verified": 152,
+    "pending": 685,
+    "excluded": 492,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -9190,8 +9190,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9220,8 +9233,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9250,8 +9276,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9323,8 +9362,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9353,8 +9405,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9383,8 +9448,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9413,8 +9491,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9443,8 +9534,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9473,8 +9577,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9503,8 +9620,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "对扣留的拼装机动车或达到报废标准的机动车，依法收缴并强制报废。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第一百条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 802500",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-802500.html"
+          }
+        ]
       }
     },
     {
@@ -9531,8 +9661,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9559,8 +9702,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9587,8 +9743,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9615,8 +9784,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "以欺骗、贿赂等不正当手段取得机动车驾驶许可，应收缴驾驶证并撤销驾驶许可。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》第九十三条",
+            "url": "https://www.gov.cn/gongbao/content/2022/content_5679696.htm"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 14638500",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-14638500.html"
+          }
+        ]
       }
     },
     {
@@ -9643,8 +9825,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9671,8 +9866,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9699,8 +9907,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9727,8 +9948,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9755,8 +9989,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9783,8 +10030,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9811,8 +10071,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9839,8 +10112,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9867,8 +10153,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9895,8 +10194,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "收缴的拼装机动车应强制报废，不得拆卸后发还所有人。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第一百条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 802500",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-802500.html"
+          }
+        ]
       }
     },
     {
@@ -9923,8 +10235,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -9951,8 +10276,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《道路交通安全违法行为处理程序规定》（公安部令第157号）",
+            "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {

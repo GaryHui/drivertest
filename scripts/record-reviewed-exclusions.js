@@ -168,6 +168,33 @@ exclusions.push(...uncorroboratedCivilRules.map(([localId, label]) => ({
   ],
 })));
 
+const uncorroboratedEnforcementProcedureIds = [
+  'police-public-1.5.1.1', 'police-public-1.5.1.2', 'police-public-1.5.1.3',
+  'police-public-1.5.1.5', 'police-public-1.5.1.6', 'police-public-1.5.1.7',
+  'police-public-1.5.1.8', 'police-public-1.5.1.9', 'police-public-1.5.1.10',
+  'police-public-1.5.2.1', 'police-public-1.5.2.2', 'police-public-1.5.2.3',
+  'police-public-1.5.2.5', 'police-public-1.5.2.6', 'police-public-1.5.2.8',
+  'police-public-1.5.2.9', 'police-public-1.5.2.10', 'police-public-1.5.2.11',
+  'police-public-1.5.2.12', 'police-public-1.5.2.13', 'police-public-1.5.2.14',
+  'police-public-1.5.2.16', 'police-public-1.5.2.17',
+];
+
+exclusions.push(...uncorroboratedEnforcementProcedureIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-public-bank-not-corroborated',
+  note: '证据不足隔离：本题属于旧版交通违法处理程序细节；已对照公安部令第157号现行程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。为避免把旧程序措辞教给学生，补齐当前题页证据前不开放。',
+  evidence: [
+    {
+      type: 'current-regulation', title: '《道路交通安全违法行为处理程序规定》（公安部令第157号）',
+      url: 'https://www.beijing.gov.cn/zhengce/zhengcefagui/202004/t20200415_1803977.html',
+    },
+    {
+      type: 'cross-check-absent', title: '驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

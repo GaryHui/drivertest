@@ -264,6 +264,30 @@ reviewed.push(
 
 reviewed.push(
   {
+    localId: 'police-public-1.5.1.11', expectedAnswer: 'C', publicQuestionId: '802500',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-802500.html',
+    note: '对扣留的拼装机动车或达到报废标准的机动车，依法收缴并强制报废。',
+    lawTitle: '《中华人民共和国道路交通安全法》第一百条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.5.2.4', expectedAnswer: 'A', publicQuestionId: '14638500',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-14638500.html',
+    note: '以欺骗、贿赂等不正当手段取得机动车驾驶许可，应收缴驾驶证并撤销驾驶许可。',
+    lawTitle: '《机动车驾驶证申领和使用规定》第九十三条',
+    lawUrl: 'https://www.gov.cn/gongbao/content/2022/content_5679696.htm',
+  },
+  {
+    localId: 'police-public-1.5.2.15', expectedAnswer: 'B', publicQuestionId: '802500',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-802500.html',
+    note: '收缴的拼装机动车应强制报废，不得拆卸后发还所有人。',
+    lawTitle: '《中华人民共和国道路交通安全法》第一百条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+);
+
+reviewed.push(
+  {
     localId: 'police-public-1.3.1.2', expectedAnswer: 'C', publicQuestionId: '827300',
     publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-827300.html',
     note: '违反交通运输管理法规发生重大事故，致人重伤、死亡或使公私财产遭受重大损失并构成交通肇事罪，处3年以下有期徒刑或者拘役。',
