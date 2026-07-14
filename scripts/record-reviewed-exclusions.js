@@ -1128,6 +1128,36 @@ exclusions.push(...instrumentAndSafetyDeviceIds.map((localId) => {
   };
 }));
 
+const legacyMaintenanceAndTyreIds = bank.questions
+  .filter((question) => question.id.startsWith('police-public-6.3.') && question.review?.status === 'pending')
+  .map((question) => question.id);
+
+exclusions.push(...legacyMaintenanceAndTyreIds.map((localId) => {
+  const corrupted = localId === 'police-public-6.3.2.9';
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: corrupted
+      ? 'dangerous-or-corrupted-answer-exclusion'
+      : 'legacy-maintenance-knowledge-not-current-c1',
+    note: corrupted
+      ? '数据污染隔离：题干尾部混入整个第7章“事故自救、急救和危险化学品”标题；复原题干前不得开放。'
+      : '题库范围隔离：本题属于旧版车辆日常维护、发动机舱检查、备胎或轮胎保养操作知识。相关原理可能仍然成立，但当前小车C1科目一详情索引未找到完整同题，不能用技术常识替代当前考试题页核验。',
+    evidence: [
+      {
+        type: 'current-c1-scope',
+        title: '驾考宝典2026小车科目一第5章机动车基础知识公开入口',
+        url: 'https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html',
+      },
+      {
+        type: 'cross-check-absent',
+        title: '当前1168个可读取小车科目一详情页未检出本组完整同题',
+        url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+    ],
+  };
+}));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({
