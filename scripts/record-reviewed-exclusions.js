@@ -405,6 +405,85 @@ exclusions.push({
   ],
 });
 
+const uncorroboratedRolloverEscapeIds = [
+  'police-public-5.7.1.1', 'police-public-5.7.1.2', 'police-public-5.7.1.3',
+  'police-public-5.7.2.1', 'police-public-5.7.2.2', 'police-public-5.7.2.3',
+  'police-public-5.7.2.4',
+];
+
+exclusions.push(...uncorroboratedRolloverEscapeIds.map((localId) => ({
+  localId,
+  verificationClass: 'legacy-emergency-escape-not-corroborated',
+  note: localId === 'police-public-5.7.1.3'
+    ? '证据不足隔离：本地旧题正确选项混入下一章节标题，数据已污染；且本题属于翻车逃生安全文明驾驶内容，当前C1科目一详情索引未收录同题，不开放。'
+    : '证据不足隔离：本题涉及翻车时跳车、身体姿势或落地滚动等高风险逃生动作；2026-07-14抓取的驾考宝典当前C1科目一索引及1168个可读详情页中未找到同题，也未取得现行权威操作规范逐项支持。为避免教授危险或过时动作，暂不开放。',
+  evidence: [
+    {
+      type: 'source',
+      title: '承德市公安局公开汽车类旧版题库（翻车逃生章节）',
+      url: 'https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
+const uncorroboratedCollisionPostureIds = [
+  'police-public-5.6.1.1', 'police-public-5.6.1.2', 'police-public-5.6.1.3',
+  'police-public-5.6.2.1', 'police-public-5.6.2.2', 'police-public-5.6.2.3',
+  'police-public-5.6.2.4', 'police-public-5.6.2.5',
+];
+
+exclusions.push(...uncorroboratedCollisionPostureIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-c1-subject-one-not-corroborated',
+  note: localId === 'police-public-5.6.1.3'
+    ? '证据不足隔离：本地旧题正确选项混入下一章节标题，数据已污染；同类碰撞姿势题当前归在安全文明驾驶题页，不应原样进入科目一。'
+    : '证据不足隔离：本题属于碰撞前操控或身体保护姿势等高风险安全文明驾驶内容；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。为避免把不同科目或过时动作混入科目一，暂不开放。',
+  evidence: [
+    {
+      type: 'cross-check-related-subject',
+      title: '驾考宝典当前安全文明驾驶题页：正面碰撞不可避免时的处置',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-982000.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
+const uncorroboratedSkidRecoveryIds = [
+  'police-public-5.5.1.1', 'police-public-5.5.1.2', 'police-public-5.5.1.3',
+  'police-public-5.5.1.4', 'police-public-5.5.1.5', 'police-public-5.5.2.1',
+  'police-public-5.5.2.2', 'police-public-5.5.2.3', 'police-public-5.5.2.4',
+  'police-public-5.5.2.5',
+];
+
+exclusions.push(...uncorroboratedSkidRecoveryIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-c1-subject-one-not-corroborated',
+  note: localId === 'police-public-5.5.1.5'
+    ? '证据不足隔离：本地旧题正确选项混入下一章节标题，数据已污染；同类侧滑操控题当前主要归入安全文明驾驶题页，不开放。'
+    : '证据不足隔离：本题属于侧滑成因或失控后的具体操控动作；驾考宝典当前公开页面将同类题主要列在小车安全文明驾驶范围，2026-07-14抓取的C1科目一详情索引未找到可逐项核对的同题。涉及制动和转向动作，不能仅凭旧题答案开放。',
+  evidence: [
+    {
+      type: 'cross-check-related-subject',
+      title: '驾考宝典当前小车页面：泥泞、溜滑路面猛转方向题列于科目四章节练习',
+      url: 'https://www.jiakaobaodian.com/mnks/car.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({
