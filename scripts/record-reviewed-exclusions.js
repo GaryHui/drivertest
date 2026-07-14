@@ -1273,6 +1273,66 @@ exclusions.push(...supersededLicenceBusinessIds.map((localId) => {
   };
 }));
 
+const outdatedGeneralRuleChoiceIds = [
+  'police-public-1.2.1.9', 'police-public-1.2.1.10', 'police-public-1.2.1.83',
+].filter((localId) => bank.questions.some(
+  (question) => question.id === localId && question.review?.status === 'pending',
+));
+
+exclusions.push(...outdatedGeneralRuleChoiceIds.map((localId) => {
+  const inspectionCycle = ['police-public-1.2.1.9', 'police-public-1.2.1.10'].includes(localId);
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: inspectionCycle
+      ? 'superseded-inspection-cycle-exclusion'
+      : 'superseded-impounded-vehicle-disposal-wording',
+    note: inspectionCycle
+      ? '旧规隔离：小型、微型非营运载客汽车检验周期已经调整，本题仍使用“6年内每2年、超过6年不满15年每年”的旧周期，不得开放。'
+      : '过时表述隔离：现行道路交通安全法规定公告三个月仍不处理的扣留车辆“依法处理”，本题直接概括为“依法拍卖”，不能作为通用现行答案。',
+    evidence: [
+      {
+        type: 'law',
+        title: inspectionCycle
+          ? '公安部等部门深化机动车检验制度改革、调整非营运小微型载客汽车检验周期'
+          : '《中华人民共和国道路交通安全法》第一百一十二条',
+        url: inspectionCycle
+          ? 'https://www.gov.cn/xinwen/2022-09/15/content_5709948.htm'
+          : 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+      },
+      {
+        type: 'cross-check-absent',
+        title: '驾考宝典当前小车科目一详情索引未保留本题旧表述',
+        url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+    ],
+  };
+}));
+
+const ambiguousUphillUTurnQuestion = bank.questions.find(
+  (question) => question.id === 'police-public-1.2.2.20' && question.review?.status === 'pending',
+);
+if (ambiguousUphillUTurnQuestion) {
+  exclusions.push({
+    localId: ambiguousUphillUTurnQuestion.id,
+    verifiedAt: '2026-07-15',
+    verificationClass: 'overbroad-current-rule-wording-exclusion',
+    note: '过度概括隔离：现行条例明确禁止在陡坡掉头，但“上坡途中”并不当然等同于陡坡；是否允许还取决于标志、标线、视距和是否妨碍通行。旧题用无条件判断表达，不能作为现行通用规则开放。',
+    evidence: [
+      {
+        type: 'law',
+        title: '《中华人民共和国道路交通安全法实施条例》第四十九条',
+        url: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+      },
+      {
+        type: 'cross-check-absent',
+        title: '驾考宝典当前小车科目一详情索引未保留该过度概括题干',
+        url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+    ],
+  });
+}
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

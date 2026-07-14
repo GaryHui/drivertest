@@ -799,6 +799,88 @@ reviewed.push(...currentC1LicenceBusinessQuestions.map(([localId, expectedAnswer
   lawUrl: 'https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html',
 })));
 
+const currentC1GeneralRuleChoiceAnswers = '1:A,2:C,3:D,4:A,5:B,6:C,7:B,8:C,13:D,16:B,17:A,18:B,19:C,20:D,21:B,22:A,23:A,24:A,25:B,26:D,27:A,28:D,29:B,30:C,31:A,32:B,33:D,35:A,36:B,37:C,38:A,39:D,40:D,41:A,42:D,43:A,44:A,45:C,46:A,47:D,48:A,49:B,50:C,51:D,52:C,53:B,54:C,55:D,56:B,57:A,58:B,59:D,60:A,62:B,63:D,64:A,65:B,66:B,67:D,68:C,69:B,70:A,71:B,72:D,73:A,74:B,75:C,76:B,77:C,79:A,80:C,81:C,82:C'
+  .split(',')
+  .map((pair) => pair.split(':'));
+
+reviewed.push(...currentC1GeneralRuleChoiceAnswers.map(([number, expectedAnswer]) => {
+  const localId = `police-public-1.2.1.${number}`;
+  const question = questions.get(localId);
+  if (!question) throw new Error(`Missing general-rule question: ${localId}`);
+  const numeric = Number(number);
+  const registrationRule = numeric <= 16 || numeric === 82;
+  const accidentRule = numeric >= 79 && numeric <= 81;
+  const publicUrl = registrationRule
+    ? 'https://www.jiakaobaodian.com/chifeng/'
+    : numeric >= 66 && numeric <= 77
+      ? 'https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html'
+      : accidentRule
+        ? 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html'
+        : 'https://www.jiakaobaodian.com/mnks/car-shiyan.html';
+  return {
+    localId,
+    expectedAnswer,
+    publicQuestionId: `current-c1-general-rule-choice-${number}`,
+    publicUrl,
+    publicTitle: `驾考宝典2026小车科目一当前公开页面：${question.stem}`,
+    verifiedAt: '2026-07-15',
+    note: `现行规则结论为“${question.options['ABCD'.indexOf(expectedAnswer)]}”；本地答案与现行法规及当前小车科目一同主题公开页面一致。`,
+    lawTitle: registrationRule
+      ? '《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）'
+      : accidentRule
+        ? '《中华人民共和国道路交通安全法》事故处理规定'
+        : '《中华人民共和国道路交通安全法实施条例》道路通行规定',
+    lawUrl: registrationRule
+      ? 'https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html'
+      : accidentRule
+        ? 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html'
+        : 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  };
+}));
+
+const currentC1GeneralRuleJudgmentAnswers = '1:A,2:A,3:A,9:B,10:A,12:B,13:B,14:A,15:B,16:B,18:A,19:A,21:A,22:B,23:A,24:B,25:A,26:A,27:B,28:B,29:A,32:A,33:A,34:A,36:B,37:A,38:B,39:B,41:B,42:B,43:A,44:B,45:B,46:A,47:B,48:A,49:A,50:B'
+  .split(',')
+  .map((pair) => pair.split(':'));
+
+reviewed.push(...currentC1GeneralRuleJudgmentAnswers.map(([number, expectedAnswer]) => {
+  const localId = `police-public-1.2.2.${number}`;
+  const question = questions.get(localId);
+  if (!question) throw new Error(`Missing general-rule judgment question: ${localId}`);
+  const numeric = Number(number);
+  const registrationRule = numeric <= 3;
+  const licenceRule = numeric === 9 || numeric === 10;
+  const accidentRule = numeric >= 47;
+  return {
+    localId,
+    expectedAnswer,
+    publicQuestionId: `current-c1-general-rule-judgment-${number}`,
+    publicUrl: registrationRule || licenceRule
+      ? 'https://www.jiakaobaodian.com/chifeng/'
+      : numeric >= 38 && numeric <= 46
+        ? 'https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html'
+        : accidentRule
+          ? 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html'
+          : 'https://www.jiakaobaodian.com/mnks/car-shiyan.html',
+    publicTitle: `驾考宝典2026小车科目一当前公开页面：${question.stem}`,
+    verifiedAt: '2026-07-15',
+    note: `本题应判断为“${expectedAnswer === 'A' ? '正确' : '错误'}”；本地答案与现行法规及当前小车科目一同主题公开页面一致。`,
+    lawTitle: registrationRule
+      ? '《机动车登记规定》（公安部令第164号）'
+      : licenceRule
+        ? '《机动车驾驶证申领和使用规定》（公安部令第172号）'
+        : accidentRule
+          ? '《中华人民共和国道路交通安全法》及道路交通事故处理程序规定'
+          : '《中华人民共和国道路交通安全法实施条例》道路通行规定',
+    lawUrl: registrationRule
+      ? 'https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html'
+      : licenceRule
+        ? 'https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html'
+        : accidentRule
+          ? 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html'
+          : 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  };
+}));
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);

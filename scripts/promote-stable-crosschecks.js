@@ -23,7 +23,10 @@ for (const result of process.env.REVOKE_GENERATED_CROSSCHECKS === '1' ? [] : cro
   if (result.status !== 'answer-agrees' || !stableSection.test(result.localId)) continue;
   const question = byId.get(result.localId);
   if (!question || question.needsImage || highRisk.test(question.stem)) continue;
-  if (decisions.decisions[result.localId]) continue;
+  // 旧版同步曾让专用车型与C1通用题共用编号，非C1隔离结论可能覆盖C1精确匹配。
+  // 仅在这种已知碰撞结论下允许稳定同题复核恢复C1题；其他人工结论仍优先。
+  if (decisions.decisions[result.localId]
+      && decisions.decisions[result.localId].verificationClass !== 'non-c1-scope-exclusion') continue;
 
   decisions.decisions[result.localId] = {
     expectedAnswer: question.answer,

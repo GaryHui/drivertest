@@ -43,7 +43,13 @@ function normalize(raw, source) {
   if (!options.length && /^(正确|错误|对|错)$/i.test(clean(rawAnswer))) options = ['正确', '错误'];
   const answer = answerLetter(rawAnswer);
   if (!stem || options.length < 2 || !answer || answer.charCodeAt(0) - 65 >= options.length) return null;
-  const id = `${source.code}-${clean(raw.id || raw.questionId || sha(stem + options.join('|')))}`;
+  const rawId = clean(raw.id || raw.questionId || sha(stem + options.join('|')));
+  const category = raw.category || source.category || 'car-general';
+  // 公安附件的客车、货车和轮式机械车章节会从1.1.1.1重新编号。
+  // 专用车型必须带类别前缀，否则会与C1通用题共享审核结论。
+  const id = category === 'car-general'
+    ? `${source.code}-${rawId}`
+    : `${source.code}-${category}-${rawId}`;
   const question = {
     id,
     stem,
@@ -54,7 +60,7 @@ function normalize(raw, source) {
     needsImage: Boolean(raw.needsImage || raw.image || raw.url),
     source: { code: source.code, name: source.name, url: source.url, importedAt: TODAY },
     region: raw.region || source.region || '全国',
-    category: raw.category || source.category || 'car-general',
+    category,
     subject: 1,
     vehicle: raw.vehicle || source.vehicle || 'C1',
     legacy: Boolean(raw.legacy || source.legacy),
@@ -81,7 +87,15 @@ function addSource(target, file, source) {
   let count = 0;
   for (const raw of rows) {
     const q = normalize(raw, source);
-    if (q) { target.push(q); count++; }
+    if (q) {
+      // 源附件自身偶有重复编号（例如2.3.1.12同时用于选择题和判断题）。
+      // 保留首题原编号，后续同编号题使用内容指纹，确保每道题可独立审核。
+      if (target.some((existing) => existing.id === q.id)) {
+        q.id = `${q.id}-dup-${sha(q.stem + '|' + q.options.join('|'))}`;
+      }
+      target.push(q);
+      count++;
+    }
   }
   return count;
 }

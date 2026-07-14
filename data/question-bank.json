@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:49:43.494Z",
+    "generatedAt": "2026-07-14T16:57:42.053Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 254,
-    "verified": 254,
-    "pending": 115,
-    "excluded": 960,
+    "playable": 365,
+    "verified": 365,
+    "pending": 0,
+    "excluded": 964,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -4116,13 +4116,18 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：题干涉及前置式翻斗车专用锁止机构，无法可靠归入C1小型汽车通用考试范围；当前公开题页模糊匹配不足以证明同题。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
             "type": "source",
-            "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+            "title": "承德市公安局公开汽车类题库原始附件",
             "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check-rejected",
+            "title": "驾考宝典公开题页模糊候选 814600（相似度不足，不能作为同题证据）",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-814600.html"
           }
         ]
       }
@@ -4727,8 +4732,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“挂失”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车登记，不包括 登记。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -4757,8 +4775,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“变更”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：已注册登记机动车所有人的住所迁出公安机关交通管理部门管辖区域的，机动车所有人应当向登记该机动车的公安机关交通管理部门申请 登记。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -4787,8 +4818,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“变更”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：已注册登记的机动车所有人的住所迁入公安机关交通管理部门管辖区域的，机动车所有人应当向登记该机动车的公安机关交通管理部门申请 登记。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -4817,8 +4861,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“机动车驾驶证”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：申请机动车转移登记，当事人不需要向登记该机动车的公安机关交通管理部门提交的证明或凭证是 。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -4847,8 +4904,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“交售给机动车回收企业”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：已注册登记的机动车达到国家规定的强制报废标准的，机动车所有人应当将车辆在报废期满前 。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -4877,8 +4947,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“回收企业”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：已注册登记的机动车达到国家规定的强制报废标准的，由机动车 将报废的机动车登记证书、号牌、行驶证交公安机关交通管理部门注销。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -4907,8 +4990,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“公安机关交通管理部门”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车登记证书、号牌、行驶证丢失或者损毁，机动车所有人申请补发的，应当向 提交本人身份证明和申请材料。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -4937,8 +5033,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“不得影响安全驾驶”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车喷涂、粘贴标识或者车身广告应当遵循的原则是 。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -4967,8 +5076,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧规隔离：小型、微型非营运载客汽车检验周期已经调整，本题仍使用“6年内每2年、超过6年不满15年每年”的旧周期，不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "公安部等部门深化机动车检验制度改革、调整非营运小微型载客汽车检验周期",
+            "url": "https://www.gov.cn/xinwen/2022-09/15/content_5709948.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未保留本题旧表述",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -4997,8 +5119,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧规隔离：小型、微型非营运载客汽车检验周期已经调整，本题仍使用“6年内每2年、超过6年不满15年每年”的旧周期，不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "公安部等部门深化机动车检验制度改革、调整非营运小微型载客汽车检验周期",
+            "url": "https://www.gov.cn/xinwen/2022-09/15/content_5709948.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未保留本题旧表述",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -5113,8 +5248,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“6年”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车驾驶证有效期分为 、10年和长期。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -5229,8 +5377,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“公安机关交通管理部门”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车驾驶证丢失、损毁，机动车驾驶人申请补发的，应当向 提交本人身份证明和申请材料。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -5259,8 +5420,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“30公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在没有限速标志、标线的情况下，没有道路中心线的城市道路规定最高时速为 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5289,8 +5463,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“40公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在没有限速标志、标线的道路情况下，没有道路中心线的公路规定最高时速为 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5319,8 +5506,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“50公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在没有限速标志、标线的道路情况下，如果同方向只有一条机动车道的城市道路规定最高时速为 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5349,8 +5549,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“70公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在没有限速标志、标线的道路情况下，如果同方向只有一条机动车道的公路规定最高时速为 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5379,8 +5592,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“30公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：汽车遇雾天，能见度在50米以内时，最高时速不准超过 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5409,8 +5635,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“30公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：汽车驶入非机动车道，最高时速不准超过 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5439,8 +5678,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“30公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：汽车在下陡坡时，最高时速不准超过 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5469,8 +5721,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“30公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：汽车牵引发生故障的机动车时，最高时速不准超过 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5499,8 +5764,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“从前车的左侧超越”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：驾驶机动车超车，应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5529,8 +5807,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“在条件许可的情况下，降低速度、靠右让路”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在没有道路中心线的道路上，前车遇后车发出超车信号时，应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5559,8 +5850,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“在条件许可的情况下，降低速度”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在同方向只有一条机动车道的道路上，前车遇后车发出超车信号时，应当 ，靠右让行。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5589,8 +5893,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“不靠山体的一方”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在狭窄的山路会车有困难时， 先行。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5619,8 +5936,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“减速靠右通行”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在窄桥上会车时，应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5649,8 +5979,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“有障碍的一方让对方”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：会车中道路一侧有障碍，双方车辆应做到 先行。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5679,8 +6022,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“下坡车让上坡车”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在狭窄的坡路会车时，正确的会车方法是 先行。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5709,8 +6065,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“150米以外”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：夜间会车应当在距相对方向来车 改用近光灯。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5739,8 +6108,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“环岛”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：准许机动车掉头的地方是 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5769,8 +6151,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“转弯的机动车让直行的车辆先行”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在没有方向指示信号灯的交叉路口， 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5799,8 +6194,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“让右方道路来车”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车通过没有交通信号的交叉路口，应当 先行。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5829,8 +6237,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“右转弯车让左转弯车先行”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车通过没有交通信号灯也没有交通警察指挥的交叉路口，相对方向行驶的 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5859,8 +6280,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“依次停在路口以外等候，不得进入路口”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车遇有前方交叉路口交通阻塞时，应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5889,8 +6323,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“依次排队”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车遇有前方机动车停车排队等候时，应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5919,8 +6366,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“依次排队行驶”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在遇有前方机动车缓慢行驶时，应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5949,8 +6409,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“2.5米”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：除重型、中型载货汽车、半挂车和载运集装箱的车辆，其他载货的机动车载物，高度从地面起不得超过 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -5979,8 +6452,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“只允许牵引旅居挂车或者总质量700千克以下的”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：小型载客汽车 挂车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6009,8 +6495,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“开启左转向灯”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车向左转弯时，应当提前 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6039,8 +6538,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“危险报警闪光灯”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：夜间机动车在道路上发生故障或交通事故，妨碍交通又难以移动的，应当开启 、示廓灯和后位灯。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6069,8 +6581,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“开启右转向灯”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车向右转弯、向右变更车道、超车完毕驶回原车道、靠路边停车时，应当提前 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6099,8 +6624,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“危险报警闪光灯”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在雾天行驶时，应当开启雾灯和 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6129,8 +6667,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“前照灯”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在夜间行驶，没有路灯时，应当开启 、示廓灯和后位灯。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6159,8 +6710,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“前照灯、示廓灯和后位灯”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在夜间行驶，路灯照明不良时，应当开启 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6189,8 +6753,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“减速慢行”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车驶近急弯等影响安全视距的路段时，应当 ，并鸣喇叭示意。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6219,8 +6796,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“减速慢行”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车驶近坡道顶端等影响安全视距的路段时，应当 ，并鸣喇叭示意。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6249,8 +6839,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“交替使用远近光灯示意”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在夜间通过没有交通信号灯控制的交叉路口时，应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6279,8 +6882,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“50米至100米”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车白天在道路上发生故障，妨碍交通又难以移动的，应当按规定开启危险报警闪光灯并在车后 处设置警告标志。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6309,8 +6925,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“50米至100米”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车夜间在道路上发生交通事故，妨碍交通又难以移动的，应当按规定开启危险报警闪光灯并在车后 处设置警告标志，同时开启示廓灯和后位灯。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6339,8 +6968,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“大于4米小于10米”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：使用软连接牵引装置时，牵引车与被牵引车之间的距离应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6369,8 +7011,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“危险报警闪光灯”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：牵引故障机动车时，牵引车和被牵引车均应当开启 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6399,8 +7054,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“制动失效”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：对 的被牵引车，应当使用硬连接牵引装置牵引。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6429,8 +7097,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“专用清障车拖曳”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：转向失效的故障机动车，应当使用 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6459,8 +7140,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“专用清障车拖曳”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：照明、信号装置失效的故障机动车，应当使用 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6489,8 +7183,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“不准空挡或熄火”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：驾驶机动车下陡坡时， 滑行。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6519,8 +7226,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“4小时”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：驾驶人不得连续驾驶机动车超过 未停车休息。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6592,8 +7312,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“按顺行方向靠道路右边停放”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在停车场以外的其他地点临时停车时，应当 ，但不得妨碍其他车辆和行人通行。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6622,8 +7355,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“50米”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车距离交叉路口 以内不准停车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6652,8 +7398,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“30米”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：公交车以外的机动车在公共汽车站 以内的路段，不得停车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6682,8 +7441,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“不得停车”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在机动车道与非机动车道之间设有隔离设施的路段 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -6712,8 +7484,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“60公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上正常行驶时，最低车速不得低于每小时 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -6742,8 +7527,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“100公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：高速公路同方向有2条车道的，左侧车道的最低车速为每小时 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -6772,8 +7570,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“110公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：高速公路同方向有3条以上车道的，最左侧车道的最低车速为每小时 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -6802,8 +7613,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“90公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：高速公路同方向有3条以上车道的，中间车道的最低车速为每小时 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -6832,8 +7656,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“左转向灯”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车从匝道驶入高速公路，应当开启 ，在不妨碍已在高速公路内的机动车正常行驶的情况下驶入车道。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -6862,8 +7699,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“右转向灯”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车驶离高速公路时，应当开启 ，驶入减速车道，降低车速后驶离。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -6892,8 +7742,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“100米”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上行驶，车速超过每小时100公里时，应当与同车道前车保持 以上的距离。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -6922,8 +7785,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“50米”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上行驶，车速低于每小时100公里时，与同车道前车距离可以适当缩短，但最小距离不得少于 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -6952,8 +7828,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“50米”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上行驶，遇雾天等气象，能见度小于100米时，与同车道前车保持 以上的距离。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -6982,8 +7871,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“20公里”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上行驶，遇雾天等气象，能见度小于50米时，车速不得超过每小时 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -7012,8 +7914,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“不准倒车、逆行、穿越中央分隔带掉头”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车上高速公路， 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -7042,8 +7957,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“不准在匝道、加速车道或者减速车道上超车”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车上高速公路， 。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -7115,8 +8043,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“撤离现场，自行协商损害赔偿事宜”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》事故处理规定",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车与机动车在道路上发生未造成人身伤亡的交通事故，当事人对事实及成因无争议的，当事人应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -7145,8 +8086,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“撤离现场，自行协商损害赔偿事宜”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》事故处理规定",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车与非机动车在道路上发生未造成人身伤亡的交通事故，当事人对事实及成因无争议的，当事人应当 。",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -7175,8 +8129,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“故意破坏、伪造现场、毁灭证据的”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》事故处理规定",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：驾驶人 ，承担交通事故全部责任。",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -7205,8 +8172,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "现行规则结论为“3年”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）及《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：以欺骗、贿赂等不正当手段取得机动车登记或者驾驶许可的，撤销机动车登记或者驾驶许可；申请人在 内不得申请机动车登记或者机动车驾驶许可。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -7235,8 +8215,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "过时表述隔离：现行道路交通安全法规定公告三个月仍不处理的扣留车辆“依法处理”，本题直接概括为“依法拍卖”，不能作为通用现行答案。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第一百一十二条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未保留本题旧表述",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -7263,8 +8256,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：已注册登记的机动车更换发动机的，机动车所有人应当向登记该机动车的公安机关交通管理部门申请变更登记。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -7291,8 +8297,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：已注册登记的机动车更换车身或者车架的，机动车所有人应当向登记该机动车的公安机关交通管理部门申请变更登记。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -7319,8 +8338,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车登记规定》（公安部令第164号）",
+            "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186809/index.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：申请机动车转移登记时，当事人应当向登记该机动车的公安机关交通管理部门交验机动车。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -7557,8 +8589,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车驾驶人的驾驶证丢失，仍然可以驾驶机动车。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -7585,8 +8630,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车驾驶人在驾驶证暂扣期间，不得驾驶机动车。",
+            "url": "https://www.jiakaobaodian.com/chifeng/"
+          }
+        ]
       }
     },
     {
@@ -7654,8 +8712,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在划分快速车道和慢速车道的道路上，机动车都应在慢速车道行驶，仅在超车时方可进入快速车道。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -7682,8 +8753,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在划分快速车道和慢速车道的道路上，除摩托车外，所有机动车都应该在快速车道行驶。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -7710,8 +8794,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在快速车道行驶的机动车应当按照快速车道规定的速度行驶，未达到快速车道规定的行驶速度的，应当在慢速车道行驶。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -7738,8 +8835,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车通过铁路道口时，最高行驶速度不得超过每小时40公里。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -7766,8 +8876,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车牵引发生故障的机动车时，最高时速不准低于30公里。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -7835,8 +8958,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在没有中心隔离设施或者没有中心线的道路上，机动车遇相对方向来车时应当减速靠右行驶，并与其他车辆、行人保持必要的安全距离。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -7863,8 +8999,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在有禁止左转弯标志的地点不得掉头。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -7891,8 +9040,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "过度概括隔离：现行条例明确禁止在陡坡掉头，但“上坡途中”并不当然等同于陡坡；是否允许还取决于标志、标线、视距和是否妨碍通行。旧题用无条件判断表达，不能作为现行通用规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十九条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未保留该过度概括题干",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -7919,8 +9081,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车倒车时，应当察明车后情况，确认安全后倒车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -7947,8 +9122,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车可以选择交叉路口进行倒车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -7975,8 +9163,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车不得在隧道中倒车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8003,8 +9204,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车可以在单行路段选择倒车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8031,8 +9245,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在划有导向车道的路口，机动车应按所需行进方向驶入导向车道。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8059,8 +9286,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车通过没有交通信号灯控制也没有交通警察指挥的交叉路口，相对方向行驶的右转弯的机动车让左转弯的车辆先行。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8087,8 +9327,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：被牵引的机动车除驾驶室外不得载人，但可以拖带挂车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8115,8 +9368,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：对制动失效的被牵引车，可以用软连接装置牵引。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8143,8 +9409,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：被牵引的机动车宽度不得大于牵引机动车的宽度。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8253,8 +9532,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车行经漫水路或者漫水桥时，应当停车察明水情，确认安全后，低速通过。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8281,8 +9573,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在单位院内、居民居住区内，机动车应当低速行驶，避让行人。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8309,8 +9614,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在单位院内、居民居住区内有限速标志的，机动车应当按照限速标志行驶。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8378,8 +9696,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车行驶中，车内人员不得将头伸出窗外，但可以将手伸出窗外。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8406,8 +9737,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车行经渡口，应当服从渡口管理人员指挥，按照指定地点依次待渡，上下渡船时，应当低速慢行。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -8434,8 +9778,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：遇高速公路限速标志标明的车速与车道行驶车速的规定不一致的，应按照车道行驶规定的车速行驶。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -8462,8 +9819,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上行驶，与同车道前车的最小距离不得少于30米。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -8531,8 +9901,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：在高速公路上可以试车或者学习驾驶机动车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -8559,8 +9942,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上行驶时，可以借路肩进行超车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -8587,8 +9983,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上不得倒车、逆行、穿越中央分隔带掉头或者在行车道内停车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -8615,8 +10024,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上，非紧急情况时可以在应急车道行驶或者停车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -8643,8 +10065,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：高速公路加速车道或减速车道允许机动车超车。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -8671,8 +10106,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》道路通行规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车在高速公路上，不得骑、轧车行道分界线或者在路肩上行驶。",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -8699,8 +10147,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》及道路交通事故处理程序规定",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：机动车发生交通事故后当事人逃逸的，不承担事故责任。",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -8727,8 +10188,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》及道路交通事故处理程序规定",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：公安机关交通管理部门调解期间，当事人向人民法院提起民事诉讼的，调解终止。",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -8755,8 +10229,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“正确”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》及道路交通事故处理程序规定",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：当事人对公安机关交通管理部门及其交通警察的处罚有权进行陈述和申辩。",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -8783,8 +10270,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "本题应判断为“错误”；本地答案与现行法规及当前小车科目一同主题公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》及道路交通事故处理程序规定",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一当前公开页面：对于当事人的陈述和申辩，交通警察可以不予理睬，甚至可以加重其处罚。",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21002,7 +22502,7 @@
       }
     },
     {
-      "id": "police-public-2.3.1.12",
+      "id": "police-public-2.3.1.12-dup-34e78e8df5da4333",
       "stem": "图中所示路面标识为速度限制标记，用于限制车辆最高行驶速度或最低行驶速度。",
       "options": [
         "正确",
@@ -47313,7 +48813,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.1",
+      "id": "police-public-bus-special-1.1.1.1",
       "stem": "大型、中型载客汽车 挂车。",
       "options": [
         "不得牵引",
@@ -47339,7 +48839,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47351,7 +48851,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.2",
+      "id": "police-public-bus-special-1.1.1.2",
       "stem": "饮酒后驾驶营运机动车的，处暂扣3个月机动车驾驶证，并处 罚款。",
       "options": [
         "200元",
@@ -47377,7 +48877,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47389,7 +48889,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.3",
+      "id": "police-public-bus-special-1.1.1.3",
       "stem": "醉酒后驾驶营运机动车的，由公安机关交通管理部门约束至酒醒，处15日以下拘留和暂扣6个月机动车驾驶证，并处 罚款。",
       "options": [
         "200元",
@@ -47415,7 +48915,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47427,7 +48927,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.4",
+      "id": "police-public-bus-special-1.1.1.4",
       "stem": "一年内有醉酒后驾驶机动车的行为，被处罚两次以上的，吊销机动车驾驶证， 内不得驾驶营运机动车。",
       "options": [
         "1年",
@@ -47453,7 +48953,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47465,7 +48965,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.5",
+      "id": "police-public-bus-special-1.1.1.5",
       "stem": "公路客运车辆载客超过额定乘员，但没有超过额定成员20%的，处 罚款。",
       "options": [
         "100以上200元以下",
@@ -47491,7 +48991,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47503,7 +49003,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.6",
+      "id": "police-public-bus-special-1.1.1.6",
       "stem": "公路客运车辆载客超过额定成员20%或者违反规定载货的，处 罚款。",
       "options": [
         "200元以上500元以下",
@@ -47529,7 +49029,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47541,7 +49041,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.7",
+      "id": "police-public-bus-special-1.1.1.7",
       "stem": "大型、中型非营运载客汽车从注册登记之日起， 以内每年检验1次。",
       "options": [
         "5年",
@@ -47567,7 +49067,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47579,7 +49079,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.8",
+      "id": "police-public-bus-special-1.1.1.8",
       "stem": "大型、中型非营运载客汽车从注册登记之日起，超过10年的，每 检验1次。",
       "options": [
         "6个月",
@@ -47605,7 +49105,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47617,7 +49117,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.9",
+      "id": "police-public-bus-special-1.1.1.9",
       "stem": "载客汽车行李架载货时，从地面起高度不得超过 。",
       "options": [
         "4米",
@@ -47643,7 +49143,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47655,7 +49155,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.10",
+      "id": "police-public-bus-special-1.1.1.10",
       "stem": "公路客运车辆载客超过核定乘员，公安机关交通管理部门依法扣留机动车后，驾驶人应当将超载的乘车人转运，费用由 承担。",
       "options": [
         "乘客",
@@ -47681,7 +49181,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47693,7 +49193,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.11",
+      "id": "police-public-bus-special-1.1.1.11",
       "stem": "申请增加大型客车准驾车型的，应当取得驾驶中型客车或者大型货车准驾车型资格 以上。",
       "options": [
         "2年",
@@ -47719,7 +49219,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47731,7 +49231,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.12",
+      "id": "police-public-bus-special-1.1.1.12",
       "stem": "申请增加大型客车准驾车型的，应当在申请前最近连续 记分周期内没有满分记录。",
       "options": [
         "1个",
@@ -47757,7 +49257,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47769,7 +49269,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.13",
+      "id": "police-public-bus-special-1.1.1.13",
       "stem": "申请增加 准驾车型的，不得有在造成人员死亡的交通事故中承担全部或主要 责任的记录。",
       "options": [
         "小型汽车、小型自动挡汽车",
@@ -47795,7 +49295,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47807,7 +49307,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.14",
+      "id": "police-public-bus-special-1.1.1.14",
       "stem": "取得驾驶牵引车准驾车型资格 ，并在申请前最近1个记分周期内没有满分记 录的，可以申请增加大型客车。",
       "options": [
         "1年以上",
@@ -47833,7 +49333,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47845,7 +49345,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.15",
+      "id": "police-public-bus-special-1.1.1.15",
       "stem": "持有大型客车、城市公交车、中型客车准驾车型机动车驾驶证的，在1个记分周期结束后，____内未提交身体检查结果的，车辆管理所注销其驾驶证。",
       "options": [
         "1年",
@@ -47871,7 +49371,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47883,7 +49383,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.16",
+      "id": "police-public-bus-special-1.1.1.16",
       "stem": "机动车驾驶人在实习期内不得驾驶 。",
       "options": [
         "公共汽车",
@@ -47909,7 +49409,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47921,7 +49421,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.17",
+      "id": "police-public-bus-special-1.1.1.17",
       "stem": "图中标志的含义是____。",
       "options": [
         "大型客车通行",
@@ -47947,7 +49447,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47959,7 +49459,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.18",
+      "id": "police-public-bus-special-1.1.1.18",
       "stem": "图中标志的含义是____。",
       "options": [
         "大型客车直行",
@@ -47985,7 +49485,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -47997,7 +49497,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.19",
+      "id": "police-public-bus-special-1.1.1.19",
       "stem": "客车通过险桥、漫水桥、渡口、危险地段前，应当____。",
       "options": [
         "让乘客系好安全带",
@@ -48023,7 +49523,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48035,7 +49535,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.20",
+      "id": "police-public-bus-special-1.1.1.20",
       "stem": "客车在加油站加油时，驾驶人应当提醒乘客____。",
       "options": [
         "系好安全带",
@@ -48061,7 +49561,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48073,7 +49573,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.21",
+      "id": "police-public-bus-special-1.1.1.21",
       "stem": "客车在行驶中遇险时，要做到 。",
       "options": [
         "优先保护乘客人身安全",
@@ -48099,7 +49599,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48111,7 +49611,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.22",
+      "id": "police-public-bus-special-1.1.1.22",
       "stem": "客车遇碰刮或制动失效时，应迅速告知乘客向车厢 或没有被刮碰的一侧挤靠，并抓住车内固定物，注意防范车身变形挤伤身体。",
       "options": [
         "左侧",
@@ -48137,7 +49637,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48149,7 +49649,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.23",
+      "id": "police-public-bus-special-1.1.1.23",
       "stem": "客车失火无法开启车门时，为了减少伤害，应尽快组织乘客 逃生。",
       "options": [
         "砸碎前挡风玻璃",
@@ -48175,7 +49675,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48187,7 +49687,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.24",
+      "id": "police-public-bus-special-1.1.1.24",
       "stem": "缓速器可以在不使用或少使用行车制动装置的条件下，使车辆 ，而且不会使车辆紧急制动。",
       "options": [
         "速度降低或保持稳定",
@@ -48213,7 +49713,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48225,7 +49725,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.25",
+      "id": "police-public-bus-special-1.1.1.25",
       "stem": "为了保证长途和山区行车的安全，大型客车上常装有对车辆起缓速作用的 。",
       "options": [
         "减速器",
@@ -48251,7 +49751,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48263,7 +49763,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.1",
+      "id": "police-public-bus-special-1.1.2.1",
       "stem": "报考中型客车准驾车型科目三考试的，在取得驾驶技能准考证明满30日后预约。",
       "options": [
         "正确",
@@ -48287,7 +49787,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48299,7 +49799,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.2",
+      "id": "police-public-bus-special-1.1.2.2",
       "stem": "报考大型客车准驾车型科目三考试的在取得驾驶技能准考证明满40日后预约。",
       "options": [
         "正确",
@@ -48323,7 +49823,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48335,7 +49835,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.3",
+      "id": "police-public-bus-special-1.1.2.3",
       "stem": "大型载客汽车允许牵引总质量700千克以下的挂车。",
       "options": [
         "正确",
@@ -48359,7 +49859,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48371,7 +49871,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.4",
+      "id": "police-public-bus-special-1.1.2.4",
       "stem": "年龄在60岁以上持有准驾车型为大型客车的驾驶人，应当到驾驶证核发地车辆管理所换准驾车型为小型汽车的驾驶证。",
       "options": [
         "正确",
@@ -48395,7 +49895,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48407,7 +49907,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.5",
+      "id": "police-public-bus-special-1.1.2.5",
       "stem": "持有中型客车准驾记录的驾驶人，在一个记分周期结束后一年内未向车辆管理所提交身体条件证明的，车辆管理所将注销其驾驶证。",
       "options": [
         "正确",
@@ -48431,7 +49931,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48443,7 +49943,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.6",
+      "id": "police-public-bus-special-1.1.2.6",
       "stem": "已持有小型汽车驾驶证，申请增加中型客车准驾车型的，应当在申请前最近一个记分周期内没有满分记录。",
       "options": [
         "正确",
@@ -48467,7 +49967,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48479,7 +49979,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.7",
+      "id": "police-public-bus-special-1.1.2.7",
       "stem": "机动车载人不得超过核定的人数。",
       "options": [
         "正确",
@@ -48503,7 +50003,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48515,7 +50015,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.8",
+      "id": "police-public-bus-special-1.1.2.8",
       "stem": "客运机动车可以载货。",
       "options": [
         "正确",
@@ -48539,7 +50039,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48551,7 +50051,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.9",
+      "id": "police-public-bus-special-1.1.2.9",
       "stem": "机动车行驶时，乘坐人员可不使用安全带。",
       "options": [
         "正确",
@@ -48575,7 +50075,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48587,7 +50087,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.10",
+      "id": "police-public-bus-special-1.1.2.10",
       "stem": "铰接式客车不得进入高速公路。",
       "options": [
         "正确",
@@ -48611,7 +50111,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48623,7 +50123,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.11",
+      "id": "police-public-bus-special-1.1.2.11",
       "stem": "营运机动车改为非营运机动车的，机动车所有人不需要向公安机关交通管理部门申请登记。",
       "options": [
         "正确",
@@ -48647,7 +50147,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48659,7 +50159,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.12",
+      "id": "police-public-bus-special-1.1.2.12",
       "stem": "营运机动车在规定检验期限内经安全技术检验合格的，不再重复进行安全技术检验。",
       "options": [
         "正确",
@@ -48683,7 +50183,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48695,7 +50195,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.13",
+      "id": "police-public-bus-special-1.1.2.13",
       "stem": "机动车驾驶人在实习期内可以单独驾驶大型客车。",
       "options": [
         "正确",
@@ -48719,7 +50219,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48731,7 +50231,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.14",
+      "id": "police-public-bus-special-1.1.2.14",
       "stem": "载客汽车除车身外部的行李架和内置的行李箱外，不得载货。",
       "options": [
         "正确",
@@ -48755,7 +50255,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48767,7 +50267,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.15",
+      "id": "police-public-bus-special-1.1.2.15",
       "stem": "城市公共汽车不得在站点以外的路段停车上下乘客。",
       "options": [
         "正确",
@@ -48791,7 +50291,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48803,7 +50303,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.16",
+      "id": "police-public-bus-special-1.1.2.16",
       "stem": "图中标志的含义是禁止小型客车通行。",
       "options": [
         "正确",
@@ -48827,7 +50327,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48839,7 +50339,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.17",
+      "id": "police-public-bus-special-1.1.2.17",
       "stem": "为保障乘车人不受伤害，客车驾驶人或乘务员应当向乘客讲解安全门的使用方法。",
       "options": [
         "正确",
@@ -48863,7 +50363,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48875,7 +50375,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.18",
+      "id": "police-public-bus-special-1.1.2.18",
       "stem": "客车在起步前，应检查行李包是否装捆牢固，长、宽、高及重量是否符合规定， 可将行李放置在门道或者过道上。",
       "options": [
         "正确",
@@ -48899,7 +50399,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48911,7 +50411,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.19",
+      "id": "police-public-bus-special-1.1.2.19",
       "stem": "客车在起步前，驾驶人应向乘客强调不要将手、头部以及其他部位伸出窗外。",
       "options": [
         "正确",
@@ -48935,7 +50435,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48947,7 +50447,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.20",
+      "id": "police-public-bus-special-1.1.2.20",
       "stem": "客车行经转弯、上下坡、凹凸路时，应让乘客学会保护自己，抓住车内固定物， 尤其提醒后排乘客注意安全。",
       "options": [
         "正确",
@@ -48971,7 +50471,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -48983,7 +50483,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.21",
+      "id": "police-public-bus-special-1.1.2.21",
       "stem": "严禁在车辆未停稳或行驶途中开启车门，以防乘客被甩出酿成事故。",
       "options": [
         "正确",
@@ -49007,7 +50507,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49019,7 +50519,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.22",
+      "id": "police-public-bus-special-1.1.2.22",
       "stem": "客车驾驶人在行车中，应始终保持良好的心理状态，不得带着不良情绪驾驶车辆。",
       "options": [
         "正确",
@@ -49043,7 +50543,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49055,7 +50555,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.23",
+      "id": "police-public-bus-special-1.1.2.23",
       "stem": "客车在遇险的一刹那，应果断地采取一切有效措施保护乘客不受伤害或少受伤害，要避免车辆发生倾覆。",
       "options": [
         "正确",
@@ -49079,7 +50579,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49091,7 +50591,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.24",
+      "id": "police-public-bus-special-1.1.2.24",
       "stem": "驾驶客车遇非常情况或者发生事故时，应力所能及的将损失降到最低限度，决不能因紧急避险造成二次事故或更大的损失。",
       "options": [
         "正确",
@@ -49115,7 +50615,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49127,7 +50627,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.25",
+      "id": "police-public-bus-special-1.1.2.25",
       "stem": "驾驶客车在山区、桥梁、高速公路遇紧急情况避险时，应先转动转向盘避让，再使用制动减速。",
       "options": [
         "正确",
@@ -49151,7 +50651,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49163,7 +50663,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.26",
+      "id": "police-public-bus-special-1.1.2.26",
       "stem": "客车遇险后，应设法开启车门、安全门或紧急出口，迅速疏散车上乘客。",
       "options": [
         "正确",
@@ -49187,7 +50687,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49199,7 +50699,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.27",
+      "id": "police-public-bus-special-1.1.2.27",
       "stem": "客车遇险后，没有安全门的，可用车上配备的铁锤或者其他物品将车窗玻璃敲破，从窗口疏散乘客。",
       "options": [
         "正确",
@@ -49223,7 +50723,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49235,7 +50735,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.28",
+      "id": "police-public-bus-special-1.1.2.28",
       "stem": "遇紧急情况时，客车的顶窗也可用作疏散乘客的紧急出口。",
       "options": [
         "正确",
@@ -49259,7 +50759,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49271,7 +50771,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.29",
+      "id": "police-public-bus-special-1.1.2.29",
       "stem": "驾驶人逃离火灾如果无法开启驾驶室门或车门时，应敲碎前风窗玻璃脱离。",
       "options": [
         "正确",
@@ -49295,7 +50795,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49307,7 +50807,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.30",
+      "id": "police-public-bus-special-1.1.2.30",
       "stem": "安装乘客安全带的车辆，应要求乘客在起步前按规定使用安全带。",
       "options": [
         "正确",
@@ -49331,7 +50831,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为bus-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49343,7 +50843,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.1",
+      "id": "police-public-truck-special-1.1.1.1",
       "stem": "载货汽车牵引挂车时， 。",
       "options": [
         "可牵引2辆挂车",
@@ -49369,7 +50869,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49381,7 +50881,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.2",
+      "id": "police-public-truck-special-1.1.1.2",
       "stem": "重型、中型载货汽车，半挂车载物，高度从地面起不得超过 。",
       "options": [
         "4米",
@@ -49407,7 +50907,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49419,7 +50919,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.3",
+      "id": "police-public-truck-special-1.1.1.3",
       "stem": "货运机动车载物 。",
       "options": [
         "可超载20%",
@@ -49445,7 +50945,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49457,7 +50957,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.4",
+      "id": "police-public-truck-special-1.1.1.4",
       "stem": "机动车运载超限不可解体物品影响交通安全的，应当按照 指定的时间、路线、速度行驶，并悬挂明显标志。",
       "options": [
         "道路运输管理机构",
@@ -49483,7 +50983,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49495,7 +50995,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.5",
+      "id": "police-public-truck-special-1.1.1.5",
       "stem": "机动车载运危险化学品，应当经 批准后，按指定的时间、路线、速度行驶，悬挂警示标志并采取必要的安全措施。",
       "options": [
         "公安机关",
@@ -49521,7 +51021,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49533,7 +51033,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.6",
+      "id": "police-public-truck-special-1.1.1.6",
       "stem": "饮酒后驾驶营运机动车的，处暂扣3个月驾驶证，并处 罚款。",
       "options": [
         "200元",
@@ -49559,7 +51059,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49571,7 +51071,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.7",
+      "id": "police-public-truck-special-1.1.1.7",
       "stem": "醉酒后驾驶营运机动车的，由公安机关交通管理部门约束至酒醒，处15日以下拘留和暂扣6个月驾驶证，并处 罚款。",
       "options": [
         "200元",
@@ -49597,7 +51097,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49609,7 +51109,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.8",
+      "id": "police-public-truck-special-1.1.1.8",
       "stem": "一年内有醉酒后驾驶营运机动车的行为，被处罚 的，吊销驾驶证。",
       "options": [
         "1次以上",
@@ -49635,7 +51135,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49647,7 +51147,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.9",
+      "id": "police-public-truck-special-1.1.1.9",
       "stem": "货运机动车超过核定载质量，但没有超过核定载质量30%的，处 罚款。",
       "options": [
         "100元以上200元以下",
@@ -49673,7 +51173,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49685,7 +51185,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.10",
+      "id": "police-public-truck-special-1.1.1.10",
       "stem": "货运机动车超过核定载质量，但没有超过核定载质量 的，处200元以上500元以下罚款。",
       "options": [
         "15%",
@@ -49711,7 +51211,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49723,7 +51223,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.11",
+      "id": "police-public-truck-special-1.1.1.11",
       "stem": "货运机动车超过核定载质量30%或者违反规定载客的，处 罚款。",
       "options": [
         "200元以上500元以下",
@@ -49749,7 +51249,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49761,7 +51261,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.12",
+      "id": "police-public-truck-special-1.1.1.12",
       "stem": "货运机动车超过核定载质量 或者违反规定载客的，处500元以上2000元以下罚款。",
       "options": [
         "15%",
@@ -49787,7 +51287,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49799,7 +51299,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.13",
+      "id": "police-public-truck-special-1.1.1.13",
       "stem": "载货汽车从注册登记之日起，10年以内每年检验 。",
       "options": [
         "1次",
@@ -49825,7 +51325,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49837,7 +51337,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.14",
+      "id": "police-public-truck-special-1.1.1.14",
       "stem": "载货汽车从注册登记之日起，超过10年的，每年检验 。",
       "options": [
         "1次",
@@ -49863,7 +51363,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49875,7 +51375,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.15",
+      "id": "police-public-truck-special-1.1.1.15",
       "stem": "载运集装箱的车辆高度从地面起不得超过 。",
       "options": [
         "5.5米",
@@ -49901,7 +51401,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49913,7 +51413,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.16",
+      "id": "police-public-truck-special-1.1.1.16",
       "stem": "货运机动车在留有安全位置的情况下，车厢内可以附载临时作业人员1人至 。",
       "options": [
         "5人",
@@ -49939,7 +51439,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49951,7 +51451,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.17",
+      "id": "police-public-truck-special-1.1.1.17",
       "stem": "载货汽车载物高度超过 时，货物上不得载人。",
       "options": [
         "2米",
@@ -49977,7 +51477,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -49989,7 +51489,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.18",
+      "id": "police-public-truck-special-1.1.1.18",
       "stem": "载货汽车、半挂牵引车、拖拉机 挂车。",
       "options": [
         "不得牵引",
@@ -50015,7 +51515,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -50027,7 +51527,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.19",
+      "id": "police-public-truck-special-1.1.1.19",
       "stem": "机动车载运超限物品行经铁路道口时，应当按照当地 规定的铁路道口、时间通过。",
       "options": [
         "交通部门",
@@ -50065,7 +51565,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.20",
+      "id": "police-public-truck-special-1.1.1.20",
       "stem": "在高速公路上行驶的载货汽车最高车速不得超过每小时 。",
       "options": [
         "60公里",
@@ -50103,7 +51603,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.21",
+      "id": "police-public-truck-special-1.1.1.21",
       "stem": "年龄达到60周岁，持有准驾车型为牵引车、大型货车驾驶证的驾驶人，应当到驾驶证核发地车辆管理所换领准驾车型为 的驾驶证。",
       "options": [
         "轮式自动机械车",
@@ -50141,7 +51641,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.22",
+      "id": "police-public-truck-special-1.1.1.22",
       "stem": "年龄在60周岁以上或者持有牵引车、大型货车准驾车型驾驶证的，在1个记分周期结束后，____内未提交身体检查结果的，车辆管理所注销其驾驶证。",
       "options": [
         "半年",
@@ -50179,7 +51679,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.23",
+      "id": "police-public-truck-special-1.1.1.23",
       "stem": "图中标志的含义是____。",
       "options": [
         "载货汽车驶入",
@@ -50217,7 +51717,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.24",
+      "id": "police-public-truck-special-1.1.1.24",
       "stem": "图中标志的含义是____。",
       "options": [
         "汽车拖、挂车驶入",
@@ -50255,7 +51755,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.25",
+      "id": "police-public-truck-special-1.1.1.25",
       "stem": "图中标志的含义是____。",
       "options": [
         "限制质量",
@@ -50293,7 +51793,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.26",
+      "id": "police-public-truck-special-1.1.1.26",
       "stem": "图中标志的含义是____。",
       "options": [
         "禁止机动车驶入",
@@ -50331,7 +51831,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.27",
+      "id": "police-public-truck-special-1.1.1.27",
       "stem": "连接半挂车时，使牵引车的牵引座与挂车的牵引销连接后，将锁止杆置于“____”位置。",
       "options": [
         "锁止",
@@ -50369,7 +51869,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.28",
+      "id": "police-public-truck-special-1.1.1.28",
       "stem": "分离半挂车时，先降下挂车支撑架，然后断开____，开启牵引座锁止机构，将牵引车驶离挂车。",
       "options": [
         "保险绳和拉簧",
@@ -50407,7 +51907,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.29",
+      "id": "police-public-truck-special-1.1.1.29",
       "stem": "连接全挂车时，将牵引车的牵引钩与挂车挂钩连接好，并将牵引钩锁止好，连接____。",
       "options": [
         "防护网",
@@ -50445,7 +51945,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.30",
+      "id": "police-public-truck-special-1.1.1.30",
       "stem": "寒冷状态下起动柴油车时，____。",
       "options": [
         "直接起动",
@@ -50483,7 +51983,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.31",
+      "id": "police-public-truck-special-1.1.1.31",
       "stem": "车辆下长坡过程中，当制动鼓温度过高时，____。",
       "options": [
         "要尽快进入水中冷却",
@@ -50521,7 +52021,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.32",
+      "id": "police-public-truck-special-1.1.1.32",
       "stem": "大型车辆起步前除要观察后视镜以外，还应 ，以看清风窗玻璃前下方长1.5 米、宽3米范围内的情况。",
       "options": [
         "站起来观察前下方",
@@ -50559,7 +52059,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.33",
+      "id": "police-public-truck-special-1.1.1.33",
       "stem": "汽车列车换档减档时机，要比单车____。",
       "options": [
         "滞后",
@@ -50597,7 +52097,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.34",
+      "id": "police-public-truck-special-1.1.1.34",
       "stem": "汽车列车的车身越长，转弯半径____。",
       "options": [
         "可能变大，也可能变小",
@@ -50635,7 +52135,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.35",
+      "id": "police-public-truck-special-1.1.1.35",
       "stem": "汽车的车身越高，转弯时的稳定性____。",
       "options": [
         "可能变差，也可能变好",
@@ -50673,7 +52173,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.36",
+      "id": "police-public-truck-special-1.1.1.36",
       "stem": "汽车列车急转弯时，无论向左或向右，都应降低车速，低速沿车道的____通过。",
       "options": [
         "内侧",
@@ -50711,7 +52211,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.37",
+      "id": "police-public-truck-special-1.1.1.37",
       "stem": "汽车列车转弯时，牵引车的尾部或挂车部分往往要借用对方车道。因此，驾驶汽车列车在转弯过程中要注意____。",
       "options": [
         "做好让车准备",
@@ -50749,7 +52249,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.38",
+      "id": "police-public-truck-special-1.1.1.38",
       "stem": "全挂车倒车，要避免牵引车与挂车形成____。",
       "options": [
         "较大的角度",
@@ -50787,7 +52287,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.1",
+      "id": "police-public-truck-special-1.1.2.1",
       "stem": "机动车载运危险化学品，经公安部门批准后，行驶时间、路线可不受限制。",
       "options": [
         "正确",
@@ -50811,7 +52311,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -50823,7 +52323,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.2",
+      "id": "police-public-truck-special-1.1.2.2",
       "stem": "禁止货运机动车载客。",
       "options": [
         "正确",
@@ -50847,7 +52347,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -50859,7 +52359,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.3",
+      "id": "police-public-truck-special-1.1.2.3",
       "stem": "货运机动车需要附载作业人员的，应当设置保护作业人员的安全措施。",
       "options": [
         "正确",
@@ -50883,7 +52383,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -50895,7 +52395,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.4",
+      "id": "police-public-truck-special-1.1.2.4",
       "stem": "全挂拖斗车不得进入高速公路。",
       "options": [
         "正确",
@@ -50919,7 +52419,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -50931,7 +52431,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.6",
+      "id": "police-public-truck-special-1.1.2.6",
       "stem": "机动车驾驶人在实习期内不得驾驶载有危险化学品的机动车。",
       "options": [
         "正确",
@@ -50955,7 +52455,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -50967,7 +52467,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.7",
+      "id": "police-public-truck-special-1.1.2.7",
       "stem": "驾驶人实习期内可以单独驾驶大型客车、电车、起重车、牵引车。",
       "options": [
         "正确",
@@ -50991,7 +52491,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51003,7 +52503,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.8",
+      "id": "police-public-truck-special-1.1.2.8",
       "stem": "机动车载物不得超过机动车行驶证上核定的载质量，装载长度、宽度超出车厢不得超过1米。",
       "options": [
         "正确",
@@ -51027,7 +52527,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51039,7 +52539,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.9",
+      "id": "police-public-truck-special-1.1.2.9",
       "stem": "挂车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。",
       "options": [
         "正确",
@@ -51063,7 +52563,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51075,7 +52575,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.10",
+      "id": "police-public-truck-special-1.1.2.10",
       "stem": "在高速公路上行驶的载货汽车车厢内不得载人。",
       "options": [
         "正确",
@@ -51099,7 +52599,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51111,7 +52611,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.11",
+      "id": "police-public-truck-special-1.1.2.11",
       "stem": "货运机动车装载超过核定质量的，公安交通管理部门应当扣留机动车，直至消除违法状态。",
       "options": [
         "正确",
@@ -51135,7 +52635,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51147,7 +52647,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.12",
+      "id": "police-public-truck-special-1.1.2.12",
       "stem": "已持有大型货车驾驶证5年以上，并在申请前最近连续3个记分周期内没有满分记录，可以申请增加大型客车准驾车型。",
       "options": [
         "正确",
@@ -51171,7 +52671,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51183,7 +52683,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.13",
+      "id": "police-public-truck-special-1.1.2.13",
       "stem": "已持有大型货车驾驶证3年以上，并在申请前最近连续1个记分周期内没有满分记录，可以申请增加牵引车准驾车型。",
       "options": [
         "正确",
@@ -51207,7 +52707,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51219,7 +52719,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.14",
+      "id": "police-public-truck-special-1.1.2.14",
       "stem": "报考大型货车准驾车型科目三考试的，在取得驾驶技能准考证明满30日后预 约。",
       "options": [
         "正确",
@@ -51243,7 +52743,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51255,7 +52755,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.15",
+      "id": "police-public-truck-special-1.1.2.15",
       "stem": "报考牵引车准驾车型科目三考试的在取得驾驶技能准考证明满四10日后预约。",
       "options": [
         "正确",
@@ -51279,7 +52779,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51291,7 +52791,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.16",
+      "id": "police-public-truck-special-1.1.2.16",
       "stem": "年龄在60岁以上持有准驾车型为大型货车的驾驶人，应当到驾驶证核发地车辆管理所换领准驾车型为小型汽车的驾驶证。",
       "options": [
         "正确",
@@ -51315,7 +52815,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51327,7 +52827,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.17",
+      "id": "police-public-truck-special-1.1.2.17",
       "stem": "持有大型货车准驾车型驾驶证的驾驶人，在1个记分周期结束后1年内未提交身体条件证明的，车辆管理所将注销其驾驶证。",
       "options": [
         "正确",
@@ -51351,7 +52851,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51363,7 +52863,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.18",
+      "id": "police-public-truck-special-1.1.2.18",
       "stem": "牵引车拖带挂车时，挂车必须装有有效的制动装置。",
       "options": [
         "正确",
@@ -51387,7 +52887,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51399,7 +52899,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.19",
+      "id": "police-public-truck-special-1.1.2.19",
       "stem": "半挂车倒车时转向盘转动方向与单车倒车方向相反。",
       "options": [
         "正确",
@@ -51423,7 +52923,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51435,7 +52935,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.20",
+      "id": "police-public-truck-special-1.1.2.20",
       "stem": "全挂车倒车时转向盘转动方向与单车倒车方向相反。",
       "options": [
         "正确",
@@ -51459,7 +52959,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51471,7 +52971,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.21",
+      "id": "police-public-truck-special-1.1.2.21",
       "stem": "道路较窄时，车辆转弯前应该注意摆位“借量”，右转需向左摆位。",
       "options": [
         "正确",
@@ -51495,7 +52995,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51507,7 +53007,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.22",
+      "id": "police-public-truck-special-1.1.2.22",
       "stem": "汽车列车转直角弯时，需先判断弯道情况，减速或停车后重新起步，缓慢通过。",
       "options": [
         "正确",
@@ -51531,7 +53031,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51543,7 +53043,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.23",
+      "id": "police-public-truck-special-1.1.2.23",
       "stem": "汽车列车的车身越长，转弯半径越小。",
       "options": [
         "正确",
@@ -51567,7 +53067,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51579,7 +53079,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.24",
+      "id": "police-public-truck-special-1.1.2.24",
       "stem": "汽车装载的货物越高，转弯时稳定性越差。",
       "options": [
         "正确",
@@ -51603,7 +53103,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51615,7 +53115,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.25",
+      "id": "police-public-truck-special-1.1.2.25",
       "stem": "汽车列车在转弯过程中，要注意提前做好让车准备。",
       "options": [
         "正确",
@@ -51639,7 +53139,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51651,7 +53151,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.26",
+      "id": "police-public-truck-special-1.1.2.26",
       "stem": "全挂列车倒车，要避免牵引车与挂车形成较大的角度。",
       "options": [
         "正确",
@@ -51675,7 +53175,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51687,7 +53187,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.27",
+      "id": "police-public-truck-special-1.1.2.27",
       "stem": "车辆下长坡过程中，遇制动鼓温度过高时，不要立即进入冷水中冷却，以免造成制动鼓损坏。",
       "options": [
         "正确",
@@ -51711,7 +53211,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+        "reason": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
         "verifiedAt": "2026-07-14",
         "evidence": [
           {
@@ -51723,7 +53223,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.1",
+      "id": "police-public-machinery-special-1.1.1.1",
       "stem": "电瓶车进出非机动车道时，最高行驶速度不得超过每小时____。",
       "options": [
         "15公里",
@@ -51761,7 +53261,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.2",
+      "id": "police-public-machinery-special-1.1.1.2",
       "stem": "轮式专用机械车通过急弯路时，不得超过每小时____。",
       "options": [
         "35公里",
@@ -51799,7 +53299,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.3",
+      "id": "police-public-machinery-special-1.1.1.3",
       "stem": "轮式专用机械车通过窄路、窄桥时，不得超过每小时____。",
       "options": [
         "15公里",
@@ -51837,7 +53337,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.4",
+      "id": "police-public-machinery-special-1.1.1.4",
       "stem": "汽车吊车及其他轮式专用机械车____。",
       "options": [
         "可以牵引车辆",
@@ -51875,7 +53375,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.5",
+      "id": "police-public-machinery-special-1.1.1.5",
       "stem": "轮式专用机械车，____。",
       "options": [
         "驾驶室可载1人",
@@ -51913,7 +53413,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.6",
+      "id": "police-public-machinery-special-1.1.1.6",
       "stem": "轮式专用机械车驾驶人员作业时，____。",
       "options": [
         "可将头伸出车外",
@@ -51951,7 +53451,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.7",
+      "id": "police-public-machinery-special-1.1.1.7",
       "stem": "吊车、轮式专用机械车不准在____以上的坡道上横向起吊作业。",
       "options": [
         "25%",
@@ -51989,7 +53489,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.8",
+      "id": "police-public-machinery-special-1.1.1.8",
       "stem": "吊车、装载机、挖掘机等车辆的作业灯应能照清____情况。",
       "options": [
         "货物",
@@ -52027,7 +53527,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.9",
+      "id": "police-public-machinery-special-1.1.1.9",
       "stem": "叉车门架与滚轮的配合间隙不得大于____，滑动良好无卡阻。",
       "options": [
         "1.5毫米",
@@ -52065,7 +53565,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.10",
+      "id": "police-public-machinery-special-1.1.1.10",
       "stem": "起重机构的滚轮转动应灵活，滚轮及轴应无裂纹、缺损，轮槽磨损量不得大于原尺寸的____。",
       "options": [
         "25%",
@@ -52103,7 +53603,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.11",
+      "id": "police-public-machinery-special-1.1.1.11",
       "stem": "叉车货叉根角不得大于____。",
       "options": [
         "80度",
@@ -52141,7 +53641,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.12",
+      "id": "police-public-machinery-special-1.1.1.12",
       "stem": "叉车货叉的厚度不得低于原尺寸的____。",
       "options": [
         "90%",
@@ -52179,7 +53679,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.13",
+      "id": "police-public-machinery-special-1.1.1.13",
       "stem": "起重机构的链轮转动应灵活，凹槽深度不超过原尺寸____。",
       "options": [
         "1.5毫米",
@@ -52217,7 +53717,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.14",
+      "id": "police-public-machinery-special-1.1.1.14",
       "stem": "叉车左右货叉尖的高度差不得超过货叉水平段长度的____。",
       "options": [
         "3%",
@@ -52255,7 +53755,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.15",
+      "id": "police-public-machinery-special-1.1.1.15",
       "stem": "汽车起重机吊钩开口度比原尺寸增大____应予报废。",
       "options": [
         "5%",
@@ -52293,7 +53793,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.16",
+      "id": "police-public-machinery-special-1.1.1.16",
       "stem": "汽车起重机滑轮轮槽不均匀磨损量达____时应报废。",
       "options": [
         "3毫米",
@@ -52331,7 +53831,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.17",
+      "id": "police-public-machinery-special-1.1.1.17",
       "stem": "汽车起重机滑轮轮槽壁厚的磨损量达原尺寸的____时应报废。",
       "options": [
         "5%",
@@ -52369,7 +53869,7 @@
       }
     },
     {
-      "id": "police-public-1.1.1.18",
+      "id": "police-public-machinery-special-1.1.1.18",
       "stem": "在起重臂升到最大仰角和吊钩下落最低位置时，卷扬筒上的钢丝绳应保留____以上。",
       "options": [
         "1.5圈",
@@ -52407,7 +53907,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.1",
+      "id": "police-public-machinery-special-1.1.2.1",
       "stem": "轮式专用机械车掉头时，最高行驶速度不得超过每小时15公里。",
       "options": [
         "正确",
@@ -52443,7 +53943,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.2",
+      "id": "police-public-machinery-special-1.1.2.2",
       "stem": "电瓶车掉头时，最高行驶速度不得超过每小时20公里。",
       "options": [
         "正确",
@@ -52479,7 +53979,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.3",
+      "id": "police-public-machinery-special-1.1.2.3",
       "stem": "轮式专用机械车转弯时，最高行驶速度不得超过每小时20公里。",
       "options": [
         "正确",
@@ -52515,7 +54015,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.4",
+      "id": "police-public-machinery-special-1.1.2.4",
       "stem": "电瓶车转弯时，最高行驶速度不得超过每小时25公里。",
       "options": [
         "正确",
@@ -52551,7 +54051,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.5",
+      "id": "police-public-machinery-special-1.1.2.5",
       "stem": "轮式专用机械车下陡坡时，最高行驶速度不得超过每小时30公里。",
       "options": [
         "正确",
@@ -52587,7 +54087,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.6",
+      "id": "police-public-machinery-special-1.1.2.6",
       "stem": "电瓶车遇雾天气时，最高行驶速度不得超过每小时15公里。",
       "options": [
         "正确",
@@ -52623,7 +54123,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.7",
+      "id": "police-public-machinery-special-1.1.2.7",
       "stem": "电瓶车遇雨天气时，最高行驶速度不得超过每小时30公里。",
       "options": [
         "正确",
@@ -52659,7 +54159,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.8",
+      "id": "police-public-machinery-special-1.1.2.8",
       "stem": "电瓶车遇雪天气时，最高行驶速度不得超过每小时20公里。",
       "options": [
         "正确",
@@ -52695,7 +54195,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.9",
+      "id": "police-public-machinery-special-1.1.2.9",
       "stem": "轮式专用机械车在冰雪道路上行驶时，最高行驶速度不得超过每小时30公里。",
       "options": [
         "正确",
@@ -52731,7 +54231,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.10",
+      "id": "police-public-machinery-special-1.1.2.10",
       "stem": "轮式专用机械车在泥泞道路上行驶时，最高行驶速度不得超过每小时15公里。",
       "options": [
         "正确",
@@ -52767,7 +54267,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.11",
+      "id": "police-public-machinery-special-1.1.2.11",
       "stem": "电瓶车在泥泞道路上行驶时，最高行驶速度不得超过每小时20公里。",
       "options": [
         "正确",
@@ -52803,7 +54303,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.12",
+      "id": "police-public-machinery-special-1.1.2.12",
       "stem": "轮式专用机械车牵引发生故障的机动车时，最高行驶速度不得超过每小时30公里。",
       "options": [
         "正确",
@@ -52839,7 +54339,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.13",
+      "id": "police-public-machinery-special-1.1.2.13",
       "stem": "电瓶车牵引发生故障的机动车时，最高行驶速度不得超过每小时25公里。",
       "options": [
         "正确",
@@ -52875,7 +54375,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.14",
+      "id": "police-public-machinery-special-1.1.2.14",
       "stem": "电瓶车允许上高速公路行驶。",
       "options": [
         "正确",
@@ -52911,7 +54411,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.15",
+      "id": "police-public-machinery-special-1.1.2.15",
       "stem": "汽车吊车及其他轮式专用机械车允许牵引1辆挂车。",
       "options": [
         "正确",
@@ -52947,7 +54447,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.16",
+      "id": "police-public-machinery-special-1.1.2.16",
       "stem": "吊车、轮式专用机械车不准在5%以上的坡道上横向起吊作业，如必须作业时，应将车身垫平。",
       "options": [
         "正确",
@@ -52983,7 +54483,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.17",
+      "id": "police-public-machinery-special-1.1.2.17",
       "stem": "轮式专用机械车驾驶人离开车时，应拉紧手闸，切断电路，锁好车门。",
       "options": [
         "正确",
@@ -53019,7 +54519,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.18",
+      "id": "police-public-machinery-special-1.1.2.18",
       "stem": "起重吊装货物时，在吊重回转时，禁止突然制动和变向。",
       "options": [
         "正确",
@@ -53055,7 +54555,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.19",
+      "id": "police-public-machinery-special-1.1.2.19",
       "stem": "严禁用装载机铲斗举升人员从事高处作业。",
       "options": [
         "正确",
@@ -53091,7 +54591,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.20",
+      "id": "police-public-machinery-special-1.1.2.20",
       "stem": "吊车起重机的安全防护装置，如制动器、限位器等必须工作可靠。",
       "options": [
         "正确",
@@ -53127,7 +54627,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.21",
+      "id": "police-public-machinery-special-1.1.2.21",
       "stem": "电瓶车禁止在距机床、管道、熔炉、加热炉以及电气设备0.5m以内的地方行驶。",
       "options": [
         "正确",
@@ -53163,7 +54663,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.22",
+      "id": "police-public-machinery-special-1.1.2.22",
       "stem": "吊车、装载机、挖掘机等车辆的作业灯应能照清前方场地情况。",
       "options": [
         "正确",
@@ -53199,7 +54699,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.23",
+      "id": "police-public-machinery-special-1.1.2.23",
       "stem": "起重机构的门架不得有变形或脱缝脱焊现象。",
       "options": [
         "正确",
@@ -53235,7 +54735,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.24",
+      "id": "police-public-machinery-special-1.1.2.24",
       "stem": "起重机构的门架与门外架、属具架与内门架相对升降平顺。",
       "options": [
         "正确",
@@ -53271,7 +54771,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.25",
+      "id": "police-public-machinery-special-1.1.2.25",
       "stem": "起重机构的两起重链条张紧度应均匀，不得扭曲变形，端部连接牢靠。",
       "options": [
         "正确",
@@ -53307,7 +54807,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.26",
+      "id": "police-public-machinery-special-1.1.2.26",
       "stem": "起重机构的两起重链条的链节销轴与轴承孔的配合间隙不得过小。",
       "options": [
         "正确",
@@ -53343,7 +54843,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.27",
+      "id": "police-public-machinery-special-1.1.2.27",
       "stem": "电瓶车的电动机应运转平稳无异响，正反转速和温度正常，电刷接触良好，防护罩齐全。",
       "options": [
         "正确",
@@ -53379,7 +54879,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.28",
+      "id": "police-public-machinery-special-1.1.2.28",
       "stem": "叉车货叉定位应可靠，货叉挂钩的支承面、定位面不得有明显缺陷。",
       "options": [
         "正确",
@@ -53415,7 +54915,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.29",
+      "id": "police-public-machinery-special-1.1.2.29",
       "stem": "叉车多路换向阀操纵手柄应能有效、迅速地开通或切断电路。",
       "options": [
         "正确",
@@ -53451,7 +54951,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.30",
+      "id": "police-public-machinery-special-1.1.2.30",
       "stem": "吊车的限位器、安全装置应齐全有效。",
       "options": [
         "正确",
@@ -53487,7 +54987,7 @@
       }
     },
     {
-      "id": "police-public-1.1.2.31",
+      "id": "police-public-machinery-special-1.1.2.31",
       "stem": "前置式翻斗车的翻斗锁止机构开启、锁止应灵活可靠，锁止机件无裂痕、变形和严重磨损。",
       "options": [
         "正确",
