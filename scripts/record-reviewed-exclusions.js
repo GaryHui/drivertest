@@ -1051,6 +1051,36 @@ exclusions.push(...hazardousMaterialsNonC1Ids.map((localId) => {
   };
 }));
 
+const legacyMechanicalKnowledgeIds = bank.questions
+  .filter((question) => question.id.startsWith('police-public-6.1.') && question.review?.status === 'pending')
+  .map((question) => question.id);
+
+exclusions.push(...legacyMechanicalKnowledgeIds.map((localId) => {
+  const corrupted = localId === 'police-public-6.1.1.10';
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: corrupted
+      ? 'dangerous-or-corrupted-answer-exclusion'
+      : 'legacy-mechanical-knowledge-not-current-c1',
+    note: corrupted
+      ? '数据污染隔离：最后一个选项混入“6.1.2 判断题（5题）”章节标题；且该组发动机、传动系结构题未在当前C1科目一公开详情索引中找到完整同题。'
+      : '题库范围隔离：题目考查发动机、润滑系、传动系或机械操纵原理。当前C1科目一仍有机动车基础知识，但公开详情页未收录本题；不能用汽车构造常识代替当前考试题页核验，暂不开放。',
+    evidence: [
+      {
+        type: 'current-c1-scope',
+        title: '驾考宝典2026小车科目一第5章机动车基础知识公开入口',
+        url: 'https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html',
+      },
+      {
+        type: 'cross-check-absent',
+        title: '当前1168个可读取小车科目一详情页未检出本组完整同题',
+        url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+    ],
+  };
+}));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({
