@@ -332,6 +332,79 @@ exclusions.push(...uncorroboratedEngineStallIds.map((localId) => ({
   ],
 })));
 
+const uncorroboratedCrosswindIds = [
+  'police-public-5.11.1.1',
+  'police-public-5.11.2.1',
+  'police-public-5.11.2.2',
+  'police-public-5.11.2.3',
+];
+
+exclusions.push(...uncorroboratedCrosswindIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-c1-subject-one-not-corroborated',
+  note: localId === 'police-public-5.11.1.1'
+    ? '证据不足隔离：本地旧题正确选项混入下一章节标题，题目数据已污染；当前公开题页可确认隧道出口横风会导致方向偏移，但未找到当前C1科目一同题来核对本题四个处置选项，因此不开放。'
+    : '证据不足隔离：本题属于横风应急操控旧题，当前公开页面仍有“隧道出口横风导致方向偏移”的相关题，但2026-07-14抓取的C1科目一详情索引中没有可逐项核对的同题；缺少现行科目一同题证据，暂不开放。',
+  evidence: [
+    {
+      type: 'cross-check-related',
+      title: '驾考宝典2026小车页面：隧道出口横风会引起车辆方向偏移',
+      url: 'https://www.jiakaobaodian.com/shaoxing/',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前详情索引未检出同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
+const uncorroboratedEmergencyAvoidanceIds = [
+  'police-public-5.12.1.1',
+  'police-public-5.12.1.2',
+  'police-public-5.12.2.1',
+  'police-public-5.12.2.2',
+  'police-public-5.12.2.3',
+];
+
+exclusions.push(...uncorroboratedEmergencyAvoidanceIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-c1-subject-one-not-corroborated',
+  note: ['police-public-5.12.1.2', 'police-public-5.12.2.3'].includes(localId)
+    ? '证据不足隔离：本地旧题题干或正确选项混入相邻章节标题，数据已污染；相关安全原理虽可在当前公开页面找到，但无法把污染题原样开放给学生。'
+    : '证据不足隔离：本题属于紧急避险安全文明驾驶旧题；驾考宝典当前公开页把同题或同规则放在科目三安全文明驾驶题页，2026-07-14抓取的C1科目一详情索引没有可逐项核验的同题，因此不混入科目一练习。',
+  evidence: [
+    {
+      type: 'cross-check-related-subject',
+      title: '驾考宝典当前安全文明驾驶题页：紧急避险先避人后避物',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-976900.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1科目一索引未检出同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
+exclusions.push({
+  localId: 'police-public-2.2.2.50',
+  verificationClass: 'current-public-bank-not-corroborated',
+  note: '证据不足隔离：现行GB 5768.3-2025仍规定道路交通标线，但2026-07-14抓取的驾考宝典当前C1科目一详情索引中未找到“立面标记”同题；搜索结果仅有客车、货车题页，不能据此确认其仍属于当前C1科目一题，暂不开放。',
+  evidence: [
+    {
+      type: 'current-standard',
+      title: 'GB 5768.3-2025《道路交通标志和标线 第3部分：道路交通标线》',
+      url: 'https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=A9BE85F3DDD0EC531B98C84B3312E240',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+});
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

@@ -385,6 +385,44 @@ reviewed.push({
   lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
 });
 
+reviewed.push(
+  {
+    localId: 'police-public-2.2.1.2', expectedAnswer: 'A', publicQuestionId: '1158400',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158400.html',
+    note: '警告标志用于警告道路使用者注意道路交通中的危险或需要采取安全行动的情况。',
+    lawTitle: 'GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》',
+    lawUrl: 'https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451',
+  },
+  {
+    localId: 'police-public-2.2.1.4', expectedAnswer: 'D', publicQuestionId: '1158500',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158500.html',
+    note: '指路标志用于传递道路方向、地点和距离信息。',
+    lawTitle: 'GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》',
+    lawUrl: 'https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451',
+  },
+  {
+    localId: 'police-public-2.2.1.6', expectedAnswer: 'D', publicQuestionId: '1158400',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158400.html',
+    note: '禁令标志用于禁止或限制道路使用者的交通行为。',
+    lawTitle: 'GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》',
+    lawUrl: 'https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451',
+  },
+  {
+    localId: 'police-public-2.2.1.10', expectedAnswer: 'C', publicQuestionId: '1158400',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158400.html',
+    note: '辅助标志设在主标志下方，用于对主标志进行辅助说明。',
+    lawTitle: 'GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》',
+    lawUrl: 'https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451',
+  },
+  {
+    localId: 'police-public-2.2.2.51', expectedAnswer: 'A', publicQuestionId: '1158400',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158400.html',
+    note: '主标志不能完整表达规定时，应通过辅助标志作补充说明。',
+    lawTitle: 'GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》',
+    lawUrl: 'https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451',
+  },
+);
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);

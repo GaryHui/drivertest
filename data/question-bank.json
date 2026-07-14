@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T15:39:35.531Z",
+    "generatedAt": "2026-07-14T15:45:04.614Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 157,
-    "verified": 157,
-    "pending": 644,
-    "excluded": 528,
+    "playable": 162,
+    "verified": 162,
+    "pending": 629,
+    "excluded": 538,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -13578,8 +13578,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "警告标志用于警告道路使用者注意道路交通中的危险或需要采取安全行动的情况。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》",
+            "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1158400",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158400.html"
+          }
+        ]
       }
     },
     {
@@ -13608,8 +13621,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "指路标志用于传递道路方向、地点和距离信息。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》",
+            "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1158500",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158500.html"
+          }
+        ]
       }
     },
     {
@@ -13638,8 +13664,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "禁令标志用于禁止或限制道路使用者的交通行为。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》",
+            "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1158400",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158400.html"
+          }
+        ]
       }
     },
     {
@@ -13744,8 +13783,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "辅助标志设在主标志下方，用于对主标志进行辅助说明。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》",
+            "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1158400",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158400.html"
+          }
+        ]
       }
     },
     {
@@ -18734,8 +18786,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：现行GB 5768.3-2025仍规定道路交通标线，但2026-07-14抓取的驾考宝典当前C1科目一详情索引中未找到“立面标记”同题；搜索结果仅有客车、货车题页，不能据此确认其仍属于当前C1科目一题，暂不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-standard",
+            "title": "GB 5768.3-2025《道路交通标志和标线 第3部分：道路交通标线》",
+            "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=A9BE85F3DDD0EC531B98C84B3312E240"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -18762,8 +18827,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "主标志不能完整表达规定时，应通过辅助标志作补充说明。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "GB 5768.2-2022《道路交通标志和标线 第2部分：道路交通标志》",
+            "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=15B1FC09EE1AE92F1A9EC97BA3C9E451"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1158400",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1158400.html"
+          }
+        ]
       }
     },
     {
@@ -35794,8 +35872,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本地旧题正确选项混入下一章节标题，题目数据已污染；当前公开题页可确认隧道出口横风会导致方向偏移，但未找到当前C1科目一同题来核对本题四个处置选项，因此不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related",
+            "title": "驾考宝典2026小车页面：隧道出口横风会引起车辆方向偏移",
+            "url": "https://www.jiakaobaodian.com/shaoxing/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35822,8 +35913,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于横风应急操控旧题，当前公开页面仍有“隧道出口横风导致方向偏移”的相关题，但2026-07-14抓取的C1科目一详情索引中没有可逐项核对的同题；缺少现行科目一同题证据，暂不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related",
+            "title": "驾考宝典2026小车页面：隧道出口横风会引起车辆方向偏移",
+            "url": "https://www.jiakaobaodian.com/shaoxing/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35850,8 +35954,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于横风应急操控旧题，当前公开页面仍有“隧道出口横风导致方向偏移”的相关题，但2026-07-14抓取的C1科目一详情索引中没有可逐项核对的同题；缺少现行科目一同题证据，暂不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related",
+            "title": "驾考宝典2026小车页面：隧道出口横风会引起车辆方向偏移",
+            "url": "https://www.jiakaobaodian.com/shaoxing/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35878,8 +35995,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于横风应急操控旧题，当前公开页面仍有“隧道出口横风导致方向偏移”的相关题，但2026-07-14抓取的C1科目一详情索引中没有可逐项核对的同题；缺少现行科目一同题证据，暂不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related",
+            "title": "驾考宝典2026小车页面：隧道出口横风会引起车辆方向偏移",
+            "url": "https://www.jiakaobaodian.com/shaoxing/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35908,8 +36038,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于紧急避险安全文明驾驶旧题；驾考宝典当前公开页把同题或同规则放在科目三安全文明驾驶题页，2026-07-14抓取的C1科目一详情索引没有可逐项核验的同题，因此不混入科目一练习。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：紧急避险先避人后避物",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-976900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1科目一索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35938,8 +36081,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本地旧题题干或正确选项混入相邻章节标题，数据已污染；相关安全原理虽可在当前公开页面找到，但无法把污染题原样开放给学生。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：紧急避险先避人后避物",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-976900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1科目一索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35966,8 +36122,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于紧急避险安全文明驾驶旧题；驾考宝典当前公开页把同题或同规则放在科目三安全文明驾驶题页，2026-07-14抓取的C1科目一详情索引没有可逐项核验的同题，因此不混入科目一练习。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：紧急避险先避人后避物",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-976900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1科目一索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35994,8 +36163,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于紧急避险安全文明驾驶旧题；驾考宝典当前公开页把同题或同规则放在科目三安全文明驾驶题页，2026-07-14抓取的C1科目一详情索引没有可逐项核验的同题，因此不混入科目一练习。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：紧急避险先避人后避物",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-976900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1科目一索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36022,8 +36204,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本地旧题题干或正确选项混入相邻章节标题，数据已污染；相关安全原理虽可在当前公开页面找到，但无法把污染题原样开放给学生。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：紧急避险先避人后避物",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-976900.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1科目一索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
