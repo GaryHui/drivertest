@@ -281,6 +281,57 @@ exclusions.push(...uncorroboratedCompulsoryInsuranceIds.map((localId) => ({
   ],
 })));
 
+const uncorroboratedTunnelSafetyIds = [
+  'police-public-4.3.1.1',
+  'police-public-4.3.1.2',
+];
+
+exclusions.push(...uncorroboratedTunnelSafetyIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-public-bank-not-corroborated',
+  note: localId.endsWith('.2')
+    ? '证据不足隔离：本地旧题的正确选项混入下一章节标题，且“示宽灯或近光灯”比当前公开题常用的“开启近光灯”范围更宽；2026-07-14抓取的驾考宝典当前C1科目一索引中未找到可逐项核对的同题详情页，因此不开放。'
+    : '证据不足隔离：本题属于单向放行隧道会车处置的旧版安全常识题；在2026-07-14抓取的驾考宝典当前C1科目一索引及1168个可读详情页中未找到可靠同题，补齐当前题页证据前不开放。',
+  evidence: [
+    {
+      type: 'current-regulation',
+      title: '《中华人民共和国道路交通安全法实施条例》（隧道及灯光通行规则）',
+      url: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（未检出可可靠核对的同题详情页）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
+const uncorroboratedEngineStallIds = [
+  'police-public-5.4.1.1',
+  'police-public-5.4.2.1',
+  'police-public-5.4.2.2',
+];
+
+exclusions.push(...uncorroboratedEngineStallIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-c1-subject-one-not-corroborated',
+  note: localId === 'police-public-5.4.1.1'
+    ? '证据不足隔离：正确选项混入下一章节标题，原题数据已污染；当前公开页面将同类发动机熄火应急处置题放在安全文明驾驶题页，2026-07-14抓取的C1科目一详情索引中没有可逐项核对的同题，因此不开放。'
+    : '证据不足隔离：题目所述应急处置与GA/T 1773.2-2021相关规则方向一致，驾考宝典也有安全文明驾驶同题，但2026-07-14抓取的当前C1科目一详情索引未收录该题；为防止把科目三安全文明题混入科目一，暂不开放。',
+  evidence: [
+    {
+      type: 'cross-check-related-subject',
+      title: '驾考宝典当前安全文明驾驶题页：发动机熄火后靠边停车检查',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-981600.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1科目一索引未检出同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

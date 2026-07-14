@@ -375,6 +375,16 @@ reviewed.push(
   },
 );
 
+reviewed.push({
+  localId: 'police-public-2.3.1.1',
+  expectedAnswer: 'D',
+  publicQuestionId: '805100',
+  publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805100.html',
+  note: '道路交通标线按功能分为指示标线、警告标线、禁止标线；本题选项虽按“指示、禁止、警告”排列，分类内容与现行规定一致。',
+  lawTitle: '《中华人民共和国道路交通安全法实施条例》第三十条',
+  lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+});
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);
