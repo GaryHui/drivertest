@@ -102,6 +102,12 @@ const uncorroboratedCurrentRules = [
   ['police-public-1.1.1.72', '逾期不履行行政处罚决定的强制执行题'],
   ['police-public-1.1.1.73', '交通违法行为人15日内接受处理题'],
   ['police-public-1.1.1.74', '无正当理由逾期未接受处理的吊证题'],
+  ['police-public-1.1.2.34', '设计最高时速低于70公里的机动车能否进入高速公路题'],
+  ['police-public-1.1.2.38', '道路交通安全违法行为处罚种类题'],
+  ['police-public-1.1.2.42', '到期不缴罚款每日加处3%题'],
+  ['police-public-1.1.2.43', '道路交通安全法“道路”定义题'],
+  ['police-public-1.1.2.44', '广场、公共停车场是否属于“道路”题'],
+  ['police-public-1.1.2.45', '道路交通安全法“交通事故”定义题'],
 ];
 
 exclusions.push(...uncorroboratedCurrentRules.map(([localId, label]) => ({

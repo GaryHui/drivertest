@@ -262,6 +262,44 @@ reviewed.push(
   },
 );
 
+reviewed.push(
+  {
+    localId: 'police-public-1.1.2.32', expectedAnswer: 'B', publicQuestionId: '819000',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-819000.html',
+    note: '道路养护车辆、工程作业车作业时，其他车辆和人员应当注意避让；“不用让行”的表述错误。',
+    lawTitle: '《中华人民共和国道路交通安全法》第五十四条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.1.2.35', expectedAnswer: 'B', publicQuestionId: '822900',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-822900.html',
+    note: '高速公路发生故障时，人员应转移至右侧路肩或应急车道并报警，不应在故障车前方躲避。',
+    lawTitle: '《中华人民共和国道路交通安全法》第六十八条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.1.2.37', expectedAnswer: 'A', publicQuestionId: '823300',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-823300.html',
+    note: '因抢救受伤人员变动交通事故现场，应当标明位置。',
+    lawTitle: '《中华人民共和国道路交通安全法》第七十条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.1.2.39', expectedAnswer: 'B', publicQuestionId: '802500',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-802500.html',
+    note: '拼装机动车或达到报废标准的机动车不得临时上道路行驶。',
+    lawTitle: '《中华人民共和国道路交通安全法》第一百条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.1.2.40', expectedAnswer: 'A', publicQuestionId: '1133600',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1133600.html',
+    note: '违反道路交通安全法规发生重大交通事故并构成犯罪，依法追究刑事责任并吊销驾驶证。',
+    lawTitle: '《中华人民共和国道路交通安全法》第一百零一条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+);
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);
