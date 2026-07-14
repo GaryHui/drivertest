@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T14:38:35.486Z",
+    "generatedAt": "2026-07-14T14:44:18.914Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 73,
-    "verified": 73,
-    "pending": 1223,
+    "playable": 74,
+    "verified": 74,
+    "pending": 1222,
     "excluded": 33,
     "imports": {
       "police": 1339,
@@ -24478,8 +24478,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "同方向3条以上车道，最左侧车道最低车速为110公里/小时；同向4车道且车速高于110公里/小时应在最左侧车道行驶。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第七十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 879000",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-879000.html"
+          }
+        ]
       }
     },
     {

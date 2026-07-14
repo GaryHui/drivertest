@@ -1311,6 +1311,24 @@
           "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883200.html"
         }
       ]
+    },
+    "police-public-4.1.1.6": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "同方向3条以上车道，最左侧车道最低车速为110公里/小时；同向4车道且车速高于110公里/小时应在最左侧车道行驶。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 879000",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-879000.html"
+        }
+      ]
     }
   }
 }
