@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T14:49:53.398Z",
+    "generatedAt": "2026-07-14T14:52:08.201Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 91,
-    "verified": 91,
-    "pending": 1206,
+    "playable": 98,
+    "verified": 98,
+    "pending": 1199,
     "excluded": 32,
     "imports": {
       "police": 1339,
@@ -18970,8 +18970,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.8），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 870400",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-870400.html"
+          }
+        ]
       }
     },
     {
@@ -20338,8 +20351,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.8462），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 872400",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-872400.html"
+          }
+        ]
       }
     },
     {
@@ -20441,8 +20467,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.8485），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 872600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-872600.html"
+          }
+        ]
       }
     },
     {
@@ -21445,8 +21484,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.8182），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 874200",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-874200.html"
+          }
+        ]
       }
     },
     {
@@ -21801,8 +21853,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.8462），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 874700",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-874700.html"
+          }
+        ]
       }
     },
     {
@@ -25504,8 +25569,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.8182），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 881000",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-881000.html"
+          }
+        ]
       }
     },
     {
@@ -28983,8 +29061,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.8302），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 896900",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-896900.html"
+          }
+        ]
       }
     },
     {

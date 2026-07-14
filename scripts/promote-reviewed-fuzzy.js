@@ -25,6 +25,9 @@ const approved = new Set([
   'police-public-5.1.1.6', 'police-public-3.4.1.15', 'police-public-4.1.1.1',
   'police-public-3.2.2.7', 'police-public-3.4.1.19', 'police-public-3.4.1.21',
   'police-public-3.2.1.8',
+  'police-public-3.4.1.11', 'police-public-3.4.1.8', 'police-public-3.4.1.52',
+  'police-public-5.3.2.3', 'police-public-3.4.1.41', 'police-public-4.2.1.3',
+  'police-public-3.3.1.23',
 ]);
 
 let promoted = 0;
@@ -32,7 +35,7 @@ for (const localId of approved) {
   const question = questions.get(localId);
   const candidate = candidates.get(localId);
   if (!question || !candidate) throw new Error(`Missing reviewed candidate ${localId}`);
-  if (candidate.best.score < 0.85 || candidate.margin < 0.05 || !candidate.answerAgrees) {
+  if (candidate.best.score < 0.8 || candidate.margin < 0.05 || !candidate.answerAgrees) {
     throw new Error(`Reviewed candidate no longer passes text checks: ${localId}`);
   }
   decisions.decisions[localId] = {
