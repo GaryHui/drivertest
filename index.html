@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#16251d">
+  <title>粤驾速记｜科目一数字训练营</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="comic.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="返回首页"><span class="brand-mark">粤</span><span>驾速记<small>广东 · 新规题库</small></span></a>
+    <nav><button data-view="learn">7张表</button><button data-view="contrast">易混对比</button><button data-view="quiz">模拟练习</button></nav>
+    <button id="streak" class="streak" title="连续学习"><span>🔥</span><b>0</b> 天</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">不是背题干，是看懂数字</p>
+        <h1>把科目一，<br><em>压成 7 张表。</em></h1>
+        <p class="hero-sub">先学规则 → 只练错题 → 对比相似数字。题目换个说法，你也能判断。</p>
+        <div class="hero-actions"><button class="primary" data-view="learn">开始 15 分钟速记 <span>→</span></button><button class="ghost" data-view="quiz">来 10 题摸底</button></div>
+        <p class="source-note"><span></span>依据公安部令第163号、第172号等现行公开法规整理 · 2026-07 核验</p>
+      </div>
+      <div class="hero-card" aria-label="满分教育记忆卡">
+        <div class="ticket-head"><span>今日最难数字</span><b>01 / 07</b></div>
+        <div class="road"><i></i><i></i><i></i></div>
+        <p>小型汽车 · 满分学习</p>
+        <div class="number-chain"><div><strong>7</strong><small>天起步</small></div><span>＋</span><div><strong>7</strong><small>每次递增</small></div><span>→</span><div class="cap"><strong>60</strong><small>天封顶</small></div></div>
+        <div class="memory"><span>记忆画面</span>一周一格往上叠，叠到两个月就停。</div>
+        <div class="danger"><b>⚠ 易混</b> 大中型重点车型：<strong>30 → ＋30 → 120</strong></div>
+        <figure class="memory-comic"><img src="assets/full-score-memory.png" alt="小汽车跨过7天日历到60天封顶，大巴跨过30天日历到120天封顶的记忆漫画"><figcaption>小车按周爬，大车按月扛｜7·7·60 vs 30·30·120</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div><b id="learnedCount">0</b><span>已掌握规则</span></div><div><b id="accuracy">—</b><span>练习正确率</span></div><div><b id="wrongCount">0</b><span>待消灭错题</span></div><div><b>90</b><span>分合格线</span></div>
+    </section>
+
+    <section id="learn" class="section">
+      <div class="section-title"><div><p class="eyebrow">ROUND 01 · 建立规则地图</p><h2>7 张数字总表</h2></div><p>点击专题，再点卡片标记“已掌握”。<br>每条都只回答五件事：谁、情况、数字、例外、易混。</p></div>
+      <div id="topicTabs" class="topic-tabs"></div>
+      <div id="topicIntro" class="topic-intro"></div>
+      <div id="cards" class="card-grid"></div>
+    </section>
+
+    <section id="contrast" class="section contrast-section">
+      <div class="section-title"><div><p class="eyebrow">ROUND 02 · 专治张冠李戴</p><h2>相似数字，对着记</h2></div><p>大脑不怕数字多，怕数字没有关系。<br>左右一对照，差异就成了线索。</p></div>
+      <div id="contrastGrid" class="contrast-grid"></div>
+    </section>
+
+    <section id="quiz" class="section quiz-section">
+      <div class="quiz-side">
+        <p class="eyebrow">ROUND 03 · 只练薄弱处</p><h2>数字拆弹局</h2>
+        <p>答错不只告诉你答案，还要指出你混淆了哪个数字。</p>
+        <div class="mode-list">
+          <button class="mode active" data-mode="mixed"><span>🎯</span><b>10题摸底<small>全专题随机</small></b></button>
+          <button class="mode" data-mode="wrong"><span>🩹</span><b>错题急救<small>只练答错过的</small></b></button>
+          <button class="mode" data-mode="numbers"><span>🔢</span><b>数字对撞<small>专练相似数字</small></b></button>
+        </div>
+      </div>
+      <div id="quizBox" class="quiz-box"></div>
+    </section>
+
+    <section class="method">
+      <p class="eyebrow">最稳的四轮复习法</p><h2>别再从第 1 题刷到第 2000 题</h2>
+      <div class="steps"><div><i>1</i><b>按专题学</b><span>只记规则</span></div><div><i>2</i><b>只做错题</b><span>写清错在哪个数字</span></div><div><i>3</i><b>相似对比</b><span>专练数字边界</span></div><div><i>4</i><b>考前压缩</b><span>只看总表与错题</span></div></div>
+    </section>
+  </main>
+  <footer><div class="brand"><span class="brand-mark">粤</span><span>驾速记</span></div><p>学习工具不承诺百分百通过；实际考试以公安交管部门现行规定为准。</p><div><a href="https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/11186803/index.html" target="_blank" rel="noreferrer">记分办法</a><a href="https://jtgl.beijing.gov.cn/jgj/jgxx/flfg/gabgz/543498902/index.html" target="_blank" rel="noreferrer">驾考规定</a></div></footer>
+  <div id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

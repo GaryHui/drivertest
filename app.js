@@ -1,0 +1,52 @@
+const topics=[
+{id:'points',icon:'🧮',name:'记分题',tag:'12 · 9 · 6 · 3 · 1',intro:'先看危险程度，再找车型和道路。旧资料里的“2分”已取消。',cards:[
+['饮酒驾驶','机动车驾驶人','饮酒后驾驶机动车','12分','不分车型','酒驾12分；醉驾还涉及刑事责任'],['肇事逃逸','机动车驾驶人','致人轻伤以上或死亡后逃逸，尚不犯罪','12分','造成轻微伤/财产损失逃逸为6分','先看伤情：“轻伤以上”才12'],['高速倒车','机动车驾驶人','高速公路或城市快速路倒车、逆行、穿越中央分隔带','12分','普通道路逆行为3分','高速危险翻倍，直接12'],['准驾不符','机动车驾驶人','驾驶与准驾车型不符的机动车','9分','无证驾驶是处罚概念，不等同记分','新规从旧12分降为9分'],['遮挡号牌','机动车驾驶人','故意遮挡、污损机动车号牌','9分','不按规定安装号牌为3分','“故意遮污”9，“安装不规”3'],['高速违法停车','机动车驾驶人','高速公路或城市快速路违法停车','9分','一般道路违法停车通常不记分、依法罚款','停车地点决定9分'],['占应急车道','机动车驾驶人','违法占用高速公路应急车道行驶','6分','违法停车是9分','应急道行驶6，停下9'],['不让校车','机动车驾驶人','未按规定避让校车','3分','校车超员按比例可能6或12','避让看3分'],['不系安全带','机动车驾驶人','在道路上行驶未按规定系安全带','1分','乘客不系带处罚不记驾驶人分','新规为1分'] ]},
+{id:'speed',icon:'⚡',name:'速度题',tag:'道路 · 天气 · 能见度',intro:'无标志先看“有没有中心线”，高速恶劣天气只背 261、145、520。',cards:[
+['无中心线城市路','小型汽车','无道路中心线的城市道路','30 km/h','公路为40','城3公4'],['同向一车道城市路','小型汽车','同方向只有1条机动车道的城市道路','50 km/h','公路为70','城5公7'],['高速最低速度','小型汽车','高速公路正常行驶','60 km/h','最高不超过120','高低是60—120'],['能见度＜200米','高速驾驶人','雾雨雪等能见度小于200米','≤60 km/h','车距≥100米','261：200看见、60速度、100距离'],['能见度＜100米','高速驾驶人','能见度小于100米','≤40 km/h','车距≥50米','145：100、40、50'],['能见度＜50米','高速驾驶人','能见度小于50米','≤20 km/h','尽快驶离高速','520：50、20、离开'] ]},
+{id:'time',icon:'⏱',name:'时间题',tag:'拘留 · 换证 · 实习 · 审验',intro:'时间题先辨“天、月、年”，再辨起点是到期前、到期后还是记分周期后。',cards:[
+['满分学习·小型车','小型汽车驾驶人','一个周期内每增加一次满分教育或累积记分每增加12分','7天起；每次＋7天','每次最多60天','大中型重点车型是30、30、120'],['满分学习·重点车','大客/重牵/公交/中客/大货驾驶人','一个周期满分及递增','30天起；每次＋30天','每次最多120天','小型车是7、7、60'],['换证窗口','驾驶人','驾驶证有效期届满换证','到期前90日内','可向核发地或核发地以外车管所申请','不是30日'],['实习期','初次申领汽车类或摩托车类驾驶证人','初次取得准驾车型','12个月','增驾同类车型不再单设实习期','实习标志贴车身后部'],['信息变更','驾驶人','户籍迁出或联系方式等变化','30日内','迁入地车管所换证','换证90日，变更30日'],['审验学习','需审验驾驶人','有记分的审验教育','不少于3小时','部分情形可网络学习','不是满分学习7天'] ]},
+{id:'distance',icon:'📏',name:'距离题',tag:'停车 · 警告 · 跟车',intro:'距离题画一条路来记：普通路50—100，高速警告150以外。',cards:[
+['普通路故障警告','机动车驾驶人','车辆在道路上故障难以移动','车后50—100米','夜间还应开示廓灯和后位灯','普通路一个足球场以内'],['高速故障警告','机动车驾驶人','车辆在高速公路故障','车后150米以外','人员迅速转移到右侧路肩或应急车道','高速更快，所以更远'],['禁停30米','机动车驾驶人','公交站、急救站、加油站、消防站等','30米以内禁停','使用上述设施的车辆除外','站点30米'],['禁停50米','机动车驾驶人','路口、铁道路口、急弯、窄路、桥梁等','50米以内禁停','无特殊例外','路口弯桥50米'],['高速车距','高速驾驶人','车速超过100 km/h','≥100米','低于100时≥50米','速度100对应距离100'] ]},
+{id:'fine',icon:'🧾',name:'罚款题',tag:'金额区间 · 违法性质',intro:'罚款金额会受具体法条和地方裁量影响；先按违法性质分组，不拿口诀替代法条。',cards:[
+['补换证后用原证','驾驶人','补领驾驶证后继续使用原驾驶证','20—200元','由交管部门收回原证','“一人两证”低档罚款'],['实习期违规牵引','实习期驾驶人','驾驶机动车牵引挂车','20—200元','实习期本就禁止牵引挂车','实习违规常见20—200'],['逾期不审验仍驾驶','驾驶人','逾期不参加审验仍驾驶机动车','200—500元','交管部门先公告停止使用等依情形处理','逾期类看200—500'],['伪造变造证牌','机动车驾驶人','伪造、变造或使用伪造证牌','2000—5000元','并可拘留；构成犯罪追刑责','高额＋拘留＋12分风险'],['饮酒驾驶','机动车驾驶人','饮酒后驾驶机动车','1000—2000元','暂扣6个月驾驶证并记12分','罚款、暂扣、记分三件套'] ]},
+{id:'license',icon:'🪪',name:'证件题',tag:'申领 · 补换 · 注销',intro:'先分清四个词：注销是资格消灭；吊销是处罚；撤销针对不正当取得；扣留是暂时控制。',cards:[
+['遗失补证','驾驶人','驾驶证遗失','向车管所申请补发','补发后原证作废','不得同时使用原证'],['期满换证','驾驶人','驾驶证有效期满','提前90日内','逾期一年内仍可正常换；超一年未满三年考科一恢复','“补”因丢损，“换”因到期/信息变更'],['身体不适合驾驶','驾驶人','身体条件不再适合驾驶机动车','注销驾驶证','有适合其他准驾车型的可降级换证','注销不是行政处罚'],['醉酒驾驶','机动车驾驶人','醉酒驾驶机动车','吊销驾驶证','依法追究刑事责任，5年内不得重申；营运车10年','饮酒是暂扣，醉酒是吊销'],['欺骗贿赂取得','申请人','以欺骗、贿赂等不正当手段取得驾驶证','撤销驾驶许可','3年内不得再次申领','考试作弊常见1年，不正当取得3年'] ]},
+{id:'lights',icon:'💡',name:'灯光通行题',tag:'夜间 · 会车 · 特殊路段',intro:'灯光不是越亮越安全：近距离跟车、会车、照明良好都别用远光。',cards:[
+['夜间会车','机动车驾驶人','夜间与对向车会车','距对向来车150米外改近光','窄路窄桥与非机动车会车也用近光','150米切近光'],['夜间超车','机动车驾驶人','夜间准备超越前车','交替使用远近光灯示意','确认安全后从左侧超越','不是一直开远光'],['雾天行驶','机动车驾驶人','雾天行驶','开雾灯和危险报警闪光灯','能见度低时还须按261/145/520控速','双闪不是所有恶劣天气都开'],['无信号环岛','机动车驾驶人','进入环形路口','准备进入者让已在路口内者先行','转弯让直行的一般原则仍适用','进环岛让环内'],['特殊路段','机动车驾驶人','急弯、坡路、拱桥、人行横道、无信号路口','交替使用远近光灯示意','夜间照明不良可开远光','“提示”用交替，不是常亮远光'] ]}
+];
+
+const contrasts=[
+['满分学习','小型车','7 → ＋7 → 60','重点车型','30 → ＋30 → 120','一周对一个月，两月对四月'],['故障警告','普通道路','50—100米','高速公路','150米以外','路越快，警告越远'],['禁止停车','站点附近','30米','路口/弯/桥','50米','站三、口五'],['能见度','＜200米','60速 / 100距','＜100米','40速 / 50距','261、145 两组连读'],['证件处理','醉酒驾驶','吊销','骗取驾驶证','撤销','行为违法被吊销，取得违法被撤销'],['高速行为','占应急道行驶','6分','高速违法停车','9分','停住更危险：6升9']
+];
+
+const questions=[
+{t:'小型载客汽车驾驶人在一个记分周期内参加满分教育次数每增加一次，学习时间增加7天，每次最多60天。',a:['正确','错误'],c:0,e:'正确。记成“7起、加7、封顶60”；重点车型才是“30、30、120”。',topic:'时间题',number:true},
+{t:'现行道路交通违法一次记分仍包含2分档。',a:['正确','错误'],c:1,e:'错误。现行档位是12、9、6、3、1分，旧口诀中的2分已取消。',topic:'记分题',number:true},
+{t:'在高速公路违法占用应急车道行驶，一次记多少分？',a:['3分','6分','9分','12分'],c:1,e:'记6分。容易与“高速违法停车9分”混淆。',topic:'记分题',number:true},
+{t:'高速公路能见度小于100米时，最高车速和最小车距正确的是？',a:['60 km/h，100米','40 km/h，50米','20 km/h，50米','30 km/h，100米'],c:1,e:'口诀“145”：能见度100、车速40、车距50。',topic:'速度题',number:true},
+{t:'车辆在普通道路故障且难以移动，警告标志应放在车后多远？',a:['30米以内','50—100米','100—150米','150米以外'],c:1,e:'普通道路50—100米；高速公路是150米以外。',topic:'距离题',number:true},
+{t:'驾驶证有效期满，最早可在到期前多久申请换证？',a:['30日','60日','90日','120日'],c:2,e:'到期前90日内。注意信息变化通常是30日内办理。',topic:'时间题',number:true},
+{t:'夜间会车应在距对向来车多少米以外改用近光灯？',a:['50米','100米','150米','200米'],c:2,e:'150米以外改近光。近距离跟车和会车均不要用远光。',topic:'灯光题',number:true},
+{t:'故意遮挡机动车号牌，一次记多少分？',a:['3分','6分','9分','12分'],c:2,e:'故意遮挡、污损号牌记9分；不按规定安装号牌记3分。',topic:'记分题',number:true},
+{t:'公交站、急救站、加油站等站点多少米以内不得停车？',a:['20米','30米','50米','100米'],c:1,e:'站点30米；路口、急弯、窄路、桥梁等是50米。',topic:'距离题',number:true},
+{t:'醉酒驾驶机动车，驾驶证处理方式是？',a:['扣留','暂扣','吊销','撤销'],c:2,e:'醉驾吊销；通过欺骗、贿赂等不正当手段取得驾驶证才是撤销。',topic:'证件题'},
+{t:'高速公路能见度小于50米时，应将车速控制在20 km/h以下并尽快驶离。',a:['正确','错误'],c:0,e:'正确。口诀“520”：50米能见度、20速度、尽快离开。',topic:'速度题',number:true},
+{t:'机动车在高速公路违法停车，一次记6分。',a:['正确','错误'],c:1,e:'错误，高速违法停车记9分；违法占用应急车道行驶才是6分。',topic:'记分题',number:true}
+];
+
+const state=JSON.parse(localStorage.getItem('yue-drive-state')||'{"mastered":[],"wrong":[],"answered":0,"correct":0,"last":"","streak":0}');
+let currentTopic=topics[0].id,quizMode='mixed',quiz=[],qIndex=0,locked=false;
+const save=()=>{localStorage.setItem('yue-drive-state',JSON.stringify(state));updateStats()};
+function initStreak(){const today=new Date().toISOString().slice(0,10);if(state.last!==today){const yesterday=new Date(Date.now()-864e5).toISOString().slice(0,10);state.streak=state.last===yesterday?(state.streak||0)+1:1;state.last=today;save()}}
+function updateStats(){document.querySelector('#learnedCount').textContent=state.mastered.length;document.querySelector('#wrongCount').textContent=state.wrong.length;document.querySelector('#accuracy').textContent=state.answered?Math.round(state.correct/state.answered*100)+'%':'—';document.querySelector('#streak b').textContent=state.streak||0}
+function renderTabs(){topicTabs.innerHTML=topics.map(t=>`<button class="${t.id===currentTopic?'active':''}" data-topic="${t.id}">${t.icon} ${t.name}</button>`).join('');topicTabs.querySelectorAll('button').forEach(b=>b.onclick=()=>{currentTopic=b.dataset.topic;renderTabs();renderCards()})}
+function renderCards(){const t=topics.find(x=>x.id===currentTopic);topicIntro.innerHTML=`<b>${t.icon} ${t.name}</b><span>${t.intro}</span>`;cards.innerHTML=t.cards.map((c,i)=>{const id=`${t.id}-${i}`,done=state.mastered.includes(id);return `<article class="rule-card ${done?'mastered':''}"><div class="rule-card-head"><h3>${c[0]}</h3><button class="master-btn" data-id="${id}" aria-label="标记掌握">${done?'✓':'○'}</button></div><div class="fields"><div class="field"><small>谁</small><b>${c[1]}</b></div><div class="field"><small>什么情况</small><b>${c[2]}</b></div><div class="field number"><small>多少数字 / 结果</small><b>${c[3]}</b></div><div class="field"><small>上限 / 例外</small><b>${c[4]}</b></div></div><div class="mixup">⚠ 易混项：${c[5]}</div></article>`}).join('');cards.querySelectorAll('.master-btn').forEach(b=>b.onclick=()=>toggleMaster(b.dataset.id))}
+function toggleMaster(id){const i=state.mastered.indexOf(id);i<0?state.mastered.push(id):state.mastered.splice(i,1);save();renderCards();toast(i<0?'已收入你的掌握清单 ✓':'已取消掌握标记')}
+function renderContrasts(){contrastGrid.innerHTML=contrasts.map(c=>`<article class="versus"><p>${c[0]}</p><div class="vs-row"><div class="vs-side"><small>${c[1]}</small><strong>${c[2]}</strong></div><i>VS</i><div class="vs-side"><small>${c[3]}</small><strong>${c[4]}</strong></div></div><div class="tip">💡 ${c[5]}</div></article>`).join('')}
+function startQuiz(){let pool=quizMode==='wrong'?questions.filter((_,i)=>state.wrong.includes(i)):quizMode==='numbers'?questions.filter(q=>q.number):questions;if(!pool.length){quizBox.innerHTML='<div class="empty"><h3>错题本还是空的 🎉</h3><p>先完成一轮摸底，答错的题会自动来到这里。</p></div>';return}quiz=[...pool].sort(()=>Math.random()-.5).slice(0,10);qIndex=0;renderQuestion()}
+function renderQuestion(){locked=false;if(qIndex>=quiz.length){const score=quiz.filter(q=>q._ok).length;quizBox.innerHTML=`<div class="empty"><p class="eyebrow">本轮完成</p><h3>${score===quiz.length?'满分通关！':'答对 '+score+' / '+quiz.length}</h3><p>${score/quiz.length>=.9?'已经达到90分合格线，继续保持。':'回到错题急救，把混淆数字再对比一次。'}</p><button class="primary" onclick="startQuiz()">再来一轮</button></div>`;return}const q=quiz[qIndex];quizBox.innerHTML=`<div class="quiz-progress"><i style="width:${qIndex/quiz.length*100}%"></i></div><div class="quiz-meta"><span>${q.topic}</span><b>${qIndex+1} / ${quiz.length}</b></div><h3>${q.t}</h3><div class="answers">${q.a.map((a,i)=>`<button class="answer" data-a="${i}"><b>${String.fromCharCode(65+i)}.</b> ${a}</button>`).join('')}</div><div id="feedback"></div>`;quizBox.querySelectorAll('.answer').forEach(b=>b.onclick=()=>answer(+b.dataset.a))}
+function answer(choice){if(locked)return;locked=true;const q=quiz[qIndex],ok=choice===q.c,globalIndex=questions.indexOf(q);q._ok=ok;state.answered++;if(ok){state.correct++;state.wrong=state.wrong.filter(i=>i!==globalIndex)}else if(!state.wrong.includes(globalIndex))state.wrong.push(globalIndex);save();quizBox.querySelectorAll('.answer').forEach((b,i)=>{if(i===q.c)b.classList.add('correct');else if(i===choice)b.classList.add('wrong');b.disabled=true});feedback.innerHTML=`<div class="explain"><b>${ok?'✓ 判断正确':'✕ 这题混淆了'}</b><br>${q.e}</div><button class="next-btn">下一题 →</button>`;feedback.querySelector('button').onclick=()=>{qIndex++;renderQuestion()}}
+function toast(s){const el=document.querySelector('#toast');el.textContent=s;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),1800)}
+document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>document.querySelector('#'+b.dataset.view).scrollIntoView({behavior:'smooth'}));
+document.querySelectorAll('.mode').forEach(b=>b.onclick=()=>{document.querySelectorAll('.mode').forEach(x=>x.classList.remove('active'));b.classList.add('active');quizMode=b.dataset.mode;startQuiz()});
+initStreak();renderTabs();renderCards();renderContrasts();startQuiz();updateStats();
