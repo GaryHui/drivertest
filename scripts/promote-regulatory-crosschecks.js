@@ -676,6 +676,32 @@ reviewed.push(...currentC1EnvironmentQuestions.map(([localId, expectedAnswer, ru
   lawUrl: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
 })));
 
+const currentC1CivilizedDrivingQuestions = [
+  ['police-public-3.3.1.21', 'A', '前方路口交通堵塞时，应在路口外依次等候，不得进入路口', 'https://www.jiakaobaodian.com/xianning/'],
+  ['police-public-3.3.1.22', 'B', '超车时前车不让出超车空间，应停止超车', 'https://www.jiakaobaodian.com/mnks/car-dongying.html'],
+  ['police-public-3.3.1.31', 'B', '道路行驶应按照限速标志控制车速', 'https://www.jiakaobaodian.com/mnks/car-shiyan.html'],
+  ['police-public-3.3.2.3', 'B', '规定速度不是可以再上浮10%的基准，超过限速即属于超速', 'https://www.jiakaobaodian.com/mnks/car-shiyan.html'],
+  ['police-public-3.3.2.4', 'A', '驾驶车辆在道路上行驶时，应按照规定速度安全行驶', 'https://www.jiakaobaodian.com/mnks/car-shiyan.html'],
+  ['police-public-3.3.2.6', 'A', '安全行车应遵守限速规定，不得超速', 'https://www.jiakaobaodian.com/mnks/car-shiyan.html'],
+  ['police-public-3.3.2.7', 'A', '驾驶机动车不得拨打、接听手持电话', 'https://www.jiakaobaodian.com/wuhan/'],
+  ['police-public-3.3.2.10', 'B', '超车不得越道路实线，题述做法错误', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871000.html'],
+  ['police-public-3.3.2.14', 'B', '跟车必须保持足以采取紧急制动措施的安全距离', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871100.html'],
+  ['police-public-3.3.2.21', 'B', '变更车道前必须按规定使用转向灯，观察无车不能免除该义务', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871500.html'],
+  ['police-public-3.3.2.28', 'A', '狭窄路段会车应减速礼让，必要时停车让行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871900.html'],
+];
+
+reviewed.push(...currentC1CivilizedDrivingQuestions.map(([localId, expectedAnswer, rule, publicUrl], index) => ({
+  localId,
+  expectedAnswer,
+  publicQuestionId: `current-c1-civilized-driving-${index + 1}`,
+  publicUrl,
+  publicTitle: `驾考宝典2026小车科目一公开页面：${rule}`,
+  verifiedAt: '2026-07-15',
+  note: `${rule}；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。`,
+  lawTitle: '《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定',
+  lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+})));
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);

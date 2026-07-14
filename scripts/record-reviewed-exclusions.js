@@ -947,6 +947,41 @@ exclusions.push(...environmentOperationUncorroboratedIds.map((localId) => {
   };
 }));
 
+const verifiedCivilizedDrivingIds = new Set([
+  'police-public-3.3.1.21', 'police-public-3.3.1.22', 'police-public-3.3.1.31',
+  'police-public-3.3.2.3', 'police-public-3.3.2.4', 'police-public-3.3.2.6',
+  'police-public-3.3.2.7',
+  // 既有精确/人工公开题页核验题，必须保留原 verified 结论。
+  'police-public-3.3.1.3', 'police-public-3.3.1.7', 'police-public-3.3.1.8',
+  'police-public-3.3.1.16', 'police-public-3.3.1.20', 'police-public-3.3.1.23',
+  'police-public-3.3.1.28', 'police-public-3.3.1.29', 'police-public-3.3.2.10',
+  'police-public-3.3.2.14', 'police-public-3.3.2.21', 'police-public-3.3.2.28',
+]);
+
+const civilizedDrivingUncorroboratedIds = bank.questions
+  .filter((question) => question.id.startsWith('police-public-3.3.'))
+  .map((question) => question.id)
+  .filter((localId) => !verifiedCivilizedDrivingIds.has(localId));
+
+exclusions.push(...civilizedDrivingUncorroboratedIds.map((localId) => ({
+  localId,
+  verifiedAt: '2026-07-15',
+  verificationClass: 'current-c1-subject-one-not-corroborated',
+  note: '证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。',
+  evidence: [
+    {
+      type: 'cross-check-related-subject',
+      title: '驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）',
+      url: 'https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

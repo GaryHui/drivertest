@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:20:42.248Z",
+    "generatedAt": "2026-07-14T16:27:35.073Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 195,
-    "verified": 195,
-    "pending": 402,
-    "excluded": 732,
+    "playable": 202,
+    "verified": 202,
+    "pending": 357,
+    "excluded": 770,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -22898,8 +22898,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -22928,8 +22941,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23001,8 +23027,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23031,8 +23070,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23147,8 +23199,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23177,8 +23242,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23207,8 +23285,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23237,8 +23328,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23267,8 +23371,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23297,8 +23414,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23327,8 +23457,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23400,8 +23543,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23430,8 +23586,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23503,8 +23672,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "前方路口交通堵塞时，应在路口外依次等候，不得进入路口；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：前方路口交通堵塞时，应在路口外依次等候，不得进入路口",
+            "url": "https://www.jiakaobaodian.com/xianning/"
+          }
+        ]
       }
     },
     {
@@ -23533,8 +23715,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "超车时前车不让出超车空间，应停止超车；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：超车时前车不让出超车空间，应停止超车",
+            "url": "https://www.jiakaobaodian.com/mnks/car-dongying.html"
+          }
+        ]
       }
     },
     {
@@ -23606,8 +23801,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23636,8 +23844,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23666,8 +23887,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23696,8 +23930,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23812,8 +24059,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23842,8 +24102,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "道路行驶应按照限速标志控制车速；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：道路行驶应按照限速标志控制车速",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -23870,8 +24143,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23898,8 +24184,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -23926,8 +24225,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "规定速度不是可以再上浮10%的基准，超过限速即属于超速；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：规定速度不是可以再上浮10%的基准，超过限速即属于超速",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -23954,8 +24266,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶车辆在道路上行驶时，应按照规定速度安全行驶；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：驾驶车辆在道路上行驶时，应按照规定速度安全行驶",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -23982,8 +24307,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24010,8 +24348,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "安全行车应遵守限速规定，不得超速；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：安全行车应遵守限速规定，不得超速",
+            "url": "https://www.jiakaobaodian.com/mnks/car-shiyan.html"
+          }
+        ]
       }
     },
     {
@@ -24038,8 +24389,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶机动车不得拨打、接听手持电话；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：驾驶机动车不得拨打、接听手持电话",
+            "url": "https://www.jiakaobaodian.com/wuhan/"
+          }
+        ]
       }
     },
     {
@@ -24066,8 +24430,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24094,8 +24471,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24123,17 +24513,17 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "verified",
-        "reason": "公安公开汽车类题库与驾考宝典2026公开C1题页题干完全一致、答案一致；不含记分、处罚、证件、期限或数字规则。",
-        "verifiedAt": "2026-07-14",
+        "reason": "超车不得越道路实线，题述做法错误；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
         "evidence": [
           {
-            "type": "official-question-bank",
-            "title": "承德市公安局2025-08-20公开汽车类题库",
-            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
           },
           {
             "type": "cross-check",
-            "title": "驾考宝典2026小车科目一公开题 871000",
+            "title": "驾考宝典2026小车科目一公开页面：超车不得越道路实线，题述做法错误",
             "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871000.html"
           }
         ]
@@ -24163,8 +24553,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24191,8 +24594,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24219,8 +24635,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24248,17 +24677,17 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "verified",
-        "reason": "公安公开汽车类题库与驾考宝典2026公开C1题页题干完全一致、答案一致；不含记分、处罚、证件、期限或数字规则。",
-        "verifiedAt": "2026-07-14",
+        "reason": "跟车必须保持足以采取紧急制动措施的安全距离；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
         "evidence": [
           {
-            "type": "official-question-bank",
-            "title": "承德市公安局2025-08-20公开汽车类题库",
-            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
           },
           {
             "type": "cross-check",
-            "title": "驾考宝典2026小车科目一公开题 871100",
+            "title": "驾考宝典2026小车科目一公开页面：跟车必须保持足以采取紧急制动措施的安全距离",
             "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871100.html"
           }
         ]
@@ -24288,8 +24717,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24316,8 +24758,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24344,8 +24799,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24372,8 +24840,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24400,8 +24881,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24428,8 +24922,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24457,17 +24964,17 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "verified",
-        "reason": "公安公开汽车类题库与驾考宝典2026公开C1题页题干完全一致、答案一致；不含记分、处罚、证件、期限或数字规则。",
-        "verifiedAt": "2026-07-14",
+        "reason": "变更车道前必须按规定使用转向灯，观察无车不能免除该义务；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
         "evidence": [
           {
-            "type": "official-question-bank",
-            "title": "承德市公安局2025-08-20公开汽车类题库",
-            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
           },
           {
             "type": "cross-check",
-            "title": "驾考宝典2026小车科目一公开题 871500",
+            "title": "驾考宝典2026小车科目一公开页面：变更车道前必须按规定使用转向灯，观察无车不能免除该义务",
             "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871500.html"
           }
         ]
@@ -24497,8 +25004,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24525,8 +25045,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24553,8 +25086,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24581,8 +25127,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24609,8 +25168,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24637,8 +25209,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于助人礼仪、环保习惯、驾驶姿势或概括性安全文明表述；相关内容在公开页面中更多见于安全文明驾驶/科目四，当前C1科目一详情索引未找到可核对题干、选项和答案的完整同题页，因此不凭常识推断开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶公开题页（同类文明驾驶内容）",
+            "url": "https://www.jiakaobaodian.com/kaoshi/6d175fae_220000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -24666,17 +25251,17 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "verified",
-        "reason": "公安公开汽车类题库与驾考宝典2026公开C1题页题干完全一致、答案一致；不含记分、处罚、证件、期限或数字规则。",
-        "verifiedAt": "2026-07-14",
+        "reason": "狭窄路段会车应减速礼让，必要时停车让行；本地正确答案与现行道路交通安全规则及当前小车科目一公开页面一致。",
+        "verifiedAt": "2026-07-15",
         "evidence": [
           {
-            "type": "official-question-bank",
-            "title": "承德市公安局2025-08-20公开汽车类题库",
-            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》关于路口拥堵、限速、超车和妨碍安全驾驶行为的规定",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
           },
           {
             "type": "cross-check",
-            "title": "驾考宝典2026小车科目一公开题 871900",
+            "title": "驾考宝典2026小车科目一公开页面：狭窄路段会车应减速礼让，必要时停车让行",
             "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871900.html"
           }
         ]
