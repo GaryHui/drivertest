@@ -1021,6 +1021,36 @@ exclusions.push(...roadOperationUncorroboratedIds.map((localId) => {
   };
 }));
 
+const hazardousMaterialsNonC1Ids = bank.questions
+  .filter((question) => question.id.startsWith('police-public-7.2.') && question.review?.status === 'pending')
+  .map((question) => question.id);
+
+exclusions.push(...hazardousMaterialsNonC1Ids.map((localId) => {
+  const corrupted = localId === 'police-public-7.2.1.4';
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: corrupted
+      ? 'dangerous-or-corrupted-answer-exclusion'
+      : 'specialized-hazardous-materials-not-current-c1',
+    note: corrupted
+      ? '数据污染隔离：选项尾部混入“7.2.2 判断题（5题）”章节标题；同时该题属于危险化学品分类知识，不属于当前普通C1科目一公开题库范围。'
+      : '范围隔离：题目考查危险化学品分类或专业灭火处置，属于危险货物运输/安全应急专业知识；当前小车C1科目一公开题库未收录完整同题，普通C1学员不应以旧题库中的专业处置题作为考试答案。',
+    evidence: [
+      {
+        type: 'scope',
+        title: '驾考宝典2026小车科目一公开题库入口（未收录本组危险化学品专业题）',
+        url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+      {
+        type: 'official-specialized-rule',
+        title: '交通运输部《道路危险货物运输管理规定》',
+        url: 'https://xxgk.mot.gov.cn/2020/jigou/fgs/202212/t20221201_3711168.html',
+      },
+    ],
+  };
+}));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({
