@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T15:49:27.638Z",
+    "generatedAt": "2026-07-14T15:55:10.005Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
@@ -10,8 +10,8 @@
     "c1Candidates": 1161,
     "playable": 162,
     "verified": 162,
-    "pending": 604,
-    "excluded": 563,
+    "pending": 581,
+    "excluded": 586,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -34727,8 +34727,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -34757,8 +34770,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -34787,8 +34813,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -34817,8 +34856,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本地旧题正确选项混入下一章节标题，数据已污染；车辆灭火同类题当前位于安全文明驾驶题页，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -34845,8 +34897,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -34873,8 +34938,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -34901,8 +34979,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -34929,8 +35020,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -34957,8 +35061,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -34985,8 +35102,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35013,8 +35143,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35041,8 +35184,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35069,8 +35225,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及车辆火灾、燃油或电器灭火及人员防护等高风险操作；驾考宝典当前同类详情页位于小车安全文明驾驶题库，2026-07-14抓取的C1科目一详情索引没有同题。缺少当前科目一同题及独立权威消防依据，不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题页：发动机着火处置",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-983000.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35099,8 +35268,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险逃生题隔离：题目方向虽可能与“立即开门/开窗、必要时破窗”一致，但当前C1科目一详情索引未找到可逐项核对的同题。车辆落水逃生涉及生命安全，在题干、选项及答案获得当前题页和权威指引双重确认前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35129,8 +35316,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险逃生题隔离：题目方向虽可能与“立即开门/开窗、必要时破窗”一致，但当前C1科目一详情索引未找到可逐项核对的同题。车辆落水逃生涉及生命安全，在题干、选项及答案获得当前题页和权威指引双重确认前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35159,8 +35364,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险逃生题隔离：题目方向虽可能与“立即开门/开窗、必要时破窗”一致，但当前C1科目一详情索引未找到可逐项核对的同题。车辆落水逃生涉及生命安全，在题干、选项及答案获得当前题页和权威指引双重确认前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35189,8 +35412,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "现行指引冲突隔离：旧题把“等待水灌满或接近灌满车厢后再逃生”作为正确做法；交通运输部与应急管理部当前公开指引均强调车辆落水后立即开门、开窗，无法开启时迅速破窗逃生，不能把延迟逃生当作通用首选规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35219,8 +35460,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "危险且数据污染隔离：选项包含“塑料袋套头并扎紧脖子”等不可作为教学内容的高风险表述，题目还混入下一章节标题；即使正确答案不是该选项，也不得向学生展示。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35247,8 +35506,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险逃生题隔离：题目方向虽可能与“立即开门/开窗、必要时破窗”一致，但当前C1科目一详情索引未找到可逐项核对的同题。车辆落水逃生涉及生命安全，在题干、选项及答案获得当前题页和权威指引双重确认前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35275,8 +35552,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "现行指引冲突隔离：旧题把“等待水灌满或接近灌满车厢后再逃生”作为正确做法；交通运输部与应急管理部当前公开指引均强调车辆落水后立即开门、开窗，无法开启时迅速破窗逃生，不能把延迟逃生当作通用首选规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35303,8 +35598,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险逃生题隔离：题目方向虽可能与“立即开门/开窗、必要时破窗”一致，但当前C1科目一详情索引未找到可逐项核对的同题。车辆落水逃生涉及生命安全，在题干、选项及答案获得当前题页和权威指引双重确认前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35331,8 +35644,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险逃生题隔离：题目方向虽可能与“立即开门/开窗、必要时破窗”一致，但当前C1科目一详情索引未找到可逐项核对的同题。车辆落水逃生涉及生命安全，在题干、选项及答案获得当前题页和权威指引双重确认前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35359,8 +35690,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险逃生题隔离：题目方向虽可能与“立即开门/开窗、必要时破窗”一致，但当前C1科目一详情索引未找到可逐项核对的同题。车辆落水逃生涉及生命安全，在题干、选项及答案获得当前题页和权威指引双重确认前不开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部安全生产事故警示通报：车辆涉水应开门、砸窗、疏散、逃生",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "应急管理部车辆落水自救提示：打、砸、快、逃",
+            "url": "https://www.mem.gov.cn/xw/jyll/202007/t20200730_357204.shtml"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
