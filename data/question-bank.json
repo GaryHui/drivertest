@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T14:52:08.201Z",
+    "generatedAt": "2026-07-14T14:56:00.851Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 98,
-    "verified": 98,
-    "pending": 1199,
-    "excluded": 32,
+    "playable": 120,
+    "verified": 120,
+    "pending": 1175,
+    "excluded": 34,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -1845,8 +1845,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "将机动车交由未取得机动车驾驶证的人驾驶，除罚款外可以并处吊销机动车驾驶证。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -1875,8 +1888,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "将机动车交由驾驶证被吊销、暂扣的人驾驶，除罚款外可以并处吊销机动车驾驶证。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -3103,8 +3129,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "隔离：题干涉及前置式翻斗车专用锁止机构，无法可靠归入C1小型汽车通用考试范围；当前公开题页模糊匹配不足以证明同题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "source",
+            "title": "承德市公安局公开汽车类题库原始附件",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check-rejected",
+            "title": "驾考宝典公开题页模糊候选 814600（相似度不足，不能作为同题证据）",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-814600.html"
+          }
+        ]
       }
     },
     {
@@ -3256,8 +3295,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "机动车在高速公路发生故障或者交通事故且无法正常行驶，应由救援车、清障车拖曳、牵引。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第六十八条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 823000",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-823000.html"
+          }
+        ]
       }
     },
     {
@@ -3396,8 +3448,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "造成交通事故后逃逸的，吊销机动车驾驶证，且终生不得重新取得机动车驾驶证。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第一百零一条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1130900",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1130900.html"
+          }
+        ]
       }
     },
     {
@@ -5321,8 +5386,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "连续驾驶机动车超过4小时，应停车休息且停车休息时间不少于20分钟。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第六十二条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 823600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-823600.html"
+          }
+        ]
       }
     },
     {
@@ -5831,8 +5909,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "机动车在高速公路行驶，非紧急情况不得在应急车道行驶或者停车。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第八十二条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 878900",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-878900.html"
+          }
+        ]
       }
     },
     {
@@ -6501,8 +6592,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.5652），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 813400",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-813400.html"
+          }
+        ]
       }
     },
     {
@@ -6865,8 +6969,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.5806），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 824000",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-824000.html"
+          }
+        ]
       }
     },
     {
@@ -6893,8 +7010,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "不得在机动车驾驶室前后窗范围内悬挂、放置妨碍驾驶人视线的物品。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第六十二条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 824100",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-824100.html"
+          }
+        ]
       }
     },
     {
@@ -7005,8 +7135,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.6），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 819700",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-819700.html"
+          }
+        ]
       }
     },
     {
@@ -7145,8 +7288,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "高速公路能见度小于50米时，车速不得超过每小时20公里，并从最近出口尽快驶离。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第八十一条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1130500",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1130500.html"
+          }
+        ]
       }
     },
     {
@@ -7543,8 +7699,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "违反交通运输管理法规发生重大事故，使公私财产遭受重大损失并构成交通肇事罪，处三年以下有期徒刑或者拘役。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国刑法》第一百三十三条",
+            "url": "https://www.npc.gov.cn/WZWSREL3pncmR3L25wYy9mbHN5eXdkL2Zsd2QvMjAwMi0wNC8xOS9jb250ZW50XzI5MzMzNS5odG0%3D"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 827700",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-827700.html"
+          }
+        ]
       }
     },
     {
@@ -8611,8 +8780,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "碰撞建筑物、公共设施或者其他设施造成损毁，应当报警等候处理，不得驶离。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第八十八条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 830700",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-830700.html"
+          }
+        ]
       }
     },
     {
@@ -17780,8 +17962,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.6667），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 868400",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-868400.html"
+          }
+        ]
       }
     },
     {
@@ -20862,8 +21057,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.7917），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 873400",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-873400.html"
+          }
+        ]
       }
     },
     {
@@ -21364,8 +21572,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.7778），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 874000",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-874000.html"
+          }
+        ]
       }
     },
     {
@@ -22494,8 +22715,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.5116），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 875600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-875600.html"
+          }
+        ]
       }
     },
     {
@@ -22938,8 +23172,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.5556），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 876600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-876600.html"
+          }
+        ]
       }
     },
     {
@@ -23035,8 +23282,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.5），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 876600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-876600.html"
+          }
+        ]
       }
     },
     {
@@ -25438,8 +25698,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "高速公路能见度小于100米时，车速不得超过每小时40公里，与同车道前车保持50米以上距离。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第八十一条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1130500",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1130500.html"
+          }
+        ]
       }
     },
     {
@@ -27468,8 +27741,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.6071），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1098000",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1098000.html"
+          }
+        ]
       }
     },
     {
@@ -28887,8 +29173,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "人工复核：题干仅有轻微措辞差异（Dice 0.5），正确选项文字一致；不涉及数字或处罚规则。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "official-question-bank",
+            "title": "承德市公安局2025-08-20公开汽车类题库",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 896500",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-896500.html"
+          }
+        ]
       }
     },
     {
@@ -39890,8 +40189,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "隔离：题干涉及前置式翻斗车专用锁止机构，无法可靠归入C1小型汽车通用考试范围；当前公开题页模糊匹配不足以证明同题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "source",
+            "title": "承德市公安局公开汽车类题库原始附件",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          },
+          {
+            "type": "cross-check-rejected",
+            "title": "驾考宝典公开题页模糊候选 814600（相似度不足，不能作为同题证据）",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-814600.html"
+          }
+        ]
       }
     }
   ]

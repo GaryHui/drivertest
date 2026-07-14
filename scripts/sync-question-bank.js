@@ -141,6 +141,15 @@ async function main() {
   for (const q of questions) {
     const decision = decisions[q.id];
     if (!decision) continue;
+    if (decision.status === 'excluded') {
+      q.review = {
+        status: 'excluded',
+        reason: decision.note,
+        verifiedAt: decision.verifiedAt,
+        evidence: decision.evidence || []
+      };
+      continue;
+    }
     if (decision.expectedAnswer !== q.answer) {
       q.review = { status: 'conflict', reason: `核验记录答案为${decision.expectedAnswer}，导入答案为${q.answer}` };
       continue;
