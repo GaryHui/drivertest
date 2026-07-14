@@ -702,6 +702,34 @@ reviewed.push(...currentC1CivilizedDrivingQuestions.map(([localId, expectedAnswe
   lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
 })));
 
+const currentC1RoadOperationQuestions = [
+  ['police-public-3.4.1.4', 'D', '向左变更车道应提前开启左转向灯', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1120200.html'],
+  ['police-public-3.4.1.5', 'C', '汇入主干道前应观察并确认安全后汇入', 'https://www.jiakaobaodian.com/xinzhou/'],
+  ['police-public-3.4.1.23', 'C', '驶出环岛前应开启右转向灯', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1125400.html'],
+  ['police-public-3.4.1.24', 'D', '直接进入环岛且不变更车道时不用开启转向灯', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1125400.html'],
+  ['police-public-3.4.1.60', 'C', '夜间对向车辆未关闭远光灯时应减速或停车让行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883400.html'],
+  ['police-public-3.4.2.5', 'A', '汇入车流应提前开灯、保持直线、观察并确认安全', 'https://www.jiakaobaodian.com/linyi/'],
+  ['police-public-3.4.2.22', 'B', '急转弯路段不得超车', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812300.html'],
+  ['police-public-3.4.2.31', 'A', '铁路道口前方堵塞时即使信号允许也不得驶入', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-815900.html'],
+  ['police-public-3.4.2.35', 'B', '进入环岛并非向右转弯，题述开启右转向灯错误', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-812100.html'],
+  ['police-public-3.4.2.45', 'A', '有禁止掉头标志的区域不得掉头', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1098500.html'],
+  ['police-public-3.4.2.46', 'B', '危险路段不得掉头', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-856600.html'],
+  ['police-public-3.4.2.67', 'A', '急转弯处应减速并靠右行驶', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883200.html'],
+  ['police-public-3.4.2.68', 'A', '遇执行紧急任务的优先通行车辆应主动让行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-815100.html'],
+];
+
+reviewed.push(...currentC1RoadOperationQuestions.map(([localId, expectedAnswer, rule, publicUrl], index) => ({
+  localId,
+  expectedAnswer,
+  publicQuestionId: `current-c1-road-operation-${index + 1}`,
+  publicUrl,
+  publicTitle: `驾考宝典2026小车科目一公开页面：${rule}`,
+  verifiedAt: '2026-07-15',
+  note: `${rule}；本地答案与现行道路通行规定及当前小车科目一公开页面一致。`,
+  lawTitle: '《中华人民共和国道路交通安全法实施条例》关于转向灯、超车、掉头、铁路道口及让行的规定',
+  lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+})));
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);

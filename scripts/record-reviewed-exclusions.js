@@ -982,6 +982,45 @@ exclusions.push(...civilizedDrivingUncorroboratedIds.map((localId) => ({
   ],
 })));
 
+const verifiedRoadOperationIds = new Set([
+  'police-public-3.4.1.4', 'police-public-3.4.1.5', 'police-public-3.4.1.23',
+  'police-public-3.4.1.24', 'police-public-3.4.1.60', 'police-public-3.4.2.5',
+  'police-public-3.4.2.22', 'police-public-3.4.2.31', 'police-public-3.4.2.35',
+  'police-public-3.4.2.45', 'police-public-3.4.2.46', 'police-public-3.4.2.67',
+  'police-public-3.4.2.68',
+]);
+
+const roadOperationUncorroboratedIds = bank.questions
+  .filter((question) => question.id.startsWith('police-public-3.4.') && question.review?.status === 'pending')
+  .map((question) => question.id)
+  .filter((localId) => !verifiedRoadOperationIds.has(localId));
+
+exclusions.push(...roadOperationUncorroboratedIds.map((localId) => {
+  const corrupted = localId === 'police-public-3.4.2.72';
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: corrupted
+      ? 'dangerous-or-corrupted-answer-exclusion'
+      : 'current-c1-subject-one-not-corroborated',
+    note: corrupted
+      ? '数据污染隔离：题干尾部混入下一章节“高速公路、山区道路、桥梁、隧道、夜间、恶劣气象和复杂道路条件”标题，复原原题前不得开放。'
+      : '证据不足隔离：本题属于具体驾驶操作经验、特殊行人或牲畜处置、旧式操作数字口诀等内容；当前公开页面更多将同类内容列入安全文明驾驶/科目四，未找到可同时核对完整题干、选项和答案的当前C1科目一同题页，不凭相近题或常识推断开放。',
+    evidence: [
+      {
+        type: 'law',
+        title: '《中华人民共和国道路交通安全法实施条例》（用于核对通行规则边界）',
+        url: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+      },
+      {
+        type: 'cross-check-absent',
+        title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）',
+        url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+    ],
+  };
+}));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({
