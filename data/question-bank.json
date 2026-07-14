@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T15:05:31.035Z",
+    "generatedAt": "2026-07-14T15:07:49.381Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 136,
-    "verified": 136,
-    "pending": 743,
+    "playable": 142,
+    "verified": 142,
+    "pending": 737,
     "excluded": 450,
     "imports": {
       "police": 1339,
@@ -1661,8 +1661,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "机动车驾驶人违反道路通行规定，处警告或者20元以上200元以下罚款；法律另有规定的除外。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1130600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1130600.html"
+          }
+        ]
       }
     },
     {
@@ -1837,8 +1850,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "上道路行驶的机动车未悬挂机动车号牌，公安机关交通管理部门应当扣留机动车。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十五条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 13200900",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-13200900.html"
+          }
+        ]
       }
     },
     {
@@ -1867,8 +1893,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "上道路行驶的机动车未放置检验合格标志，公安机关交通管理部门应当扣留机动车。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十五条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 13200900",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-13200900.html"
+          }
+        ]
       }
     },
     {
@@ -2688,8 +2727,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶拼装机动车上道路行驶，处200元以上2000元以下罚款并吊销机动车驾驶证。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第一百条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 801900",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801900.html"
+          }
+        ]
       }
     },
     {
@@ -2718,8 +2770,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶达到报废标准的机动车上道路行驶，处200元以上2000元以下罚款并吊销机动车驾驶证。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第一百条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 802100",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-802100.html"
+          }
+        ]
       }
     },
     {
@@ -2748,8 +2813,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "出售达到报废标准的机动车，没收违法所得、处销售金额等额罚款，并对机动车予以收缴、强制报废。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第一百条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 801900",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801900.html"
+          }
+        ]
       }
     },
     {

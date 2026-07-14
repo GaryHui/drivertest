@@ -205,6 +205,63 @@ reviewed.push(...article99Questions.map(([localId, expectedAnswer, note]) => ({
   lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
 })));
 
+reviewed.push(
+  {
+    localId: 'police-public-1.1.1.43',
+    expectedAnswer: 'A',
+    publicQuestionId: '1130600',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1130600.html',
+    note: '机动车驾驶人违反道路通行规定，处警告或者20元以上200元以下罚款；法律另有规定的除外。',
+    lawTitle: '《中华人民共和国道路交通安全法》第九十条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.1.1.48',
+    expectedAnswer: 'D',
+    publicQuestionId: '13200900',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-13200900.html',
+    note: '上道路行驶的机动车未悬挂机动车号牌，公安机关交通管理部门应当扣留机动车。',
+    lawTitle: '《中华人民共和国道路交通安全法》第九十五条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.1.1.49',
+    expectedAnswer: 'B',
+    publicQuestionId: '13200900',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-13200900.html',
+    note: '上道路行驶的机动车未放置检验合格标志，公安机关交通管理部门应当扣留机动车。',
+    lawTitle: '《中华人民共和国道路交通安全法》第九十五条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.1.1.69',
+    expectedAnswer: 'B',
+    publicQuestionId: '801900',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801900.html',
+    note: '驾驶拼装机动车上道路行驶，处200元以上2000元以下罚款并吊销机动车驾驶证。',
+    lawTitle: '《中华人民共和国道路交通安全法》第一百条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.1.1.70',
+    expectedAnswer: 'C',
+    publicQuestionId: '802100',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-802100.html',
+    note: '驾驶达到报废标准的机动车上道路行驶，处200元以上2000元以下罚款并吊销机动车驾驶证。',
+    lawTitle: '《中华人民共和国道路交通安全法》第一百条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.1.1.71',
+    expectedAnswer: 'D',
+    publicQuestionId: '801900',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801900.html',
+    note: '出售达到报废标准的机动车，没收违法所得、处销售金额等额罚款，并对机动车予以收缴、强制报废。',
+    lawTitle: '《中华人民共和国道路交通安全法》第一百条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+);
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);

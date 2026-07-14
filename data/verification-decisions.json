@@ -6198,6 +6198,114 @@
           "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-829500.html"
         }
       ]
+    },
+    "police-public-1.1.1.43": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "机动车驾驶人违反道路通行规定，处警告或者20元以上200元以下罚款；法律另有规定的除外。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法》第九十条",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 1130600",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1130600.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.48": {
+      "expectedAnswer": "D",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "上道路行驶的机动车未悬挂机动车号牌，公安机关交通管理部门应当扣留机动车。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法》第九十五条",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 13200900",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-13200900.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.49": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "上道路行驶的机动车未放置检验合格标志，公安机关交通管理部门应当扣留机动车。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法》第九十五条",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 13200900",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-13200900.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.69": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "驾驶拼装机动车上道路行驶，处200元以上2000元以下罚款并吊销机动车驾驶证。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法》第一百条",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 801900",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801900.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.70": {
+      "expectedAnswer": "C",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "驾驶达到报废标准的机动车上道路行驶，处200元以上2000元以下罚款并吊销机动车驾驶证。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法》第一百条",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 802100",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-802100.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.71": {
+      "expectedAnswer": "D",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "出售达到报废标准的机动车，没收违法所得、处销售金额等额罚款，并对机动车予以收缴、强制报废。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法》第一百条",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 801900",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801900.html"
+        }
+      ]
     }
   }
 }
