@@ -264,6 +264,23 @@ reviewed.push(
 
 reviewed.push(
   {
+    localId: 'police-public-1.3.1.2', expectedAnswer: 'C', publicQuestionId: '827300',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-827300.html',
+    note: '违反交通运输管理法规发生重大事故，致人重伤、死亡或使公私财产遭受重大损失并构成交通肇事罪，处3年以下有期徒刑或者拘役。',
+    lawTitle: '《中华人民共和国刑法》第一百三十三条',
+    lawUrl: 'https://www.npc.gov.cn/zgrdw/npc/lfzt/rlys/2008-08/21/content_1882895.htm',
+  },
+  {
+    localId: 'police-public-1.3.1.3', expectedAnswer: 'A', publicQuestionId: '828000',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-828000.html',
+    note: '交通肇事后逃逸或者有其他特别恶劣情节，处3年以上7年以下有期徒刑。',
+    lawTitle: '《中华人民共和国刑法》第一百三十三条',
+    lawUrl: 'https://www.npc.gov.cn/zgrdw/npc/lfzt/rlys/2008-08/21/content_1882895.htm',
+  },
+);
+
+reviewed.push(
+  {
     localId: 'police-public-1.1.2.32', expectedAnswer: 'B', publicQuestionId: '819000',
     publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-819000.html',
     note: '道路养护车辆、工程作业车作业时，其他车辆和人员应当注意避让；“不用让行”的表述错误。',

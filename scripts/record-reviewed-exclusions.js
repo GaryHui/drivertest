@@ -110,6 +110,22 @@ const uncorroboratedCurrentRules = [
   ['police-public-1.1.2.45', '道路交通安全法“交通事故”定义题'],
 ];
 
+exclusions.push({
+  localId: 'police-public-1.3.1.1',
+  verificationClass: 'superseded-wording-exclusion',
+  note: '旧表述隔离：题干把“因逃逸致人死亡”写成7年以上15年以下；现行刑法第一百三十三条及当前C1公开题均表述为7年以上有期徒刑。为避免学生把15年误记成该条文固定上限，本题不开放。',
+  evidence: [
+    {
+      type: 'law', title: '《中华人民共和国刑法》第一百三十三条',
+      url: 'https://www.npc.gov.cn/zgrdw/npc/lfzt/rlys/2008-08/21/content_1882895.htm',
+    },
+    {
+      type: 'cross-check', title: '驾考宝典当前公开C1题：因逃逸致人死亡处7年以上有期徒刑',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-827900.html',
+    },
+  ],
+});
+
 exclusions.push(...uncorroboratedCurrentRules.map(([localId, label]) => ({
   localId,
   verificationClass: 'current-public-bank-not-corroborated',
@@ -123,6 +139,30 @@ exclusions.push(...uncorroboratedCurrentRules.map(([localId, label]) => ({
     {
       type: 'cross-check-absent',
       title: '驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
+const uncorroboratedCivilRules = [
+  ['police-public-1.4.1.1', '危险由自然原因引起时紧急避险人的民事责任题'],
+  ['police-public-1.4.2.1', '机动车撞伤行人的概括性民事责任题'],
+  ['police-public-1.4.2.2', '紧急避险措施不当造成损害的民事责任题'],
+  ['police-public-1.4.2.3', '因过错侵害他人人身财产的民事责任题'],
+  ['police-public-1.4.2.4', '正常行驶意外致人伤亡是否当然承担刑事与行政责任题'],
+];
+
+exclusions.push(...uncorroboratedCivilRules.map(([localId, label]) => ({
+  localId,
+  verificationClass: 'current-public-bank-not-corroborated',
+  note: `证据不足隔离：${label}可在现行民法典等法律中找到相关原则，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题；补齐当前题页交叉证据前不得开放。`,
+  evidence: [
+    {
+      type: 'law', title: '《中华人民共和国民法典》（全国人大法律文本）',
+      url: 'https://wb.flk.npc.gov.cn/flfg/PDF/bd53dd912c1048f2aecbaa229238334b.pdf',
+    },
+    {
+      type: 'cross-check-absent', title: '驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）',
       url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
     },
   ],
