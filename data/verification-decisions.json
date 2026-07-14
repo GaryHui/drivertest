@@ -11187,6 +11187,502 @@
           "url": "https://www.jiakaobaodian.com/ali/"
         }
       ]
+    },
+    "police-public-4.5.1.2": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.1.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.1.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.1.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.1.7": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.1.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.1.9": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.1.10": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "dangerous-or-corrupted-answer-exclusion",
+      "note": "数据污染隔离：题目选项或题干混入下一章节标题，原始结构已损坏；又涉及铁路道口或涉水制动等安全操作，复原前不得开放。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.12": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.13": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.14": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.15": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.16": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.2.17": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "dangerous-or-corrupted-answer-exclusion",
+      "note": "数据污染隔离：题目选项或题干混入下一章节标题，原始结构已损坏；又涉及铁路道口或涉水制动等安全操作，复原前不得开放。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-current-c1-and-subject-four-overlap",
+          "title": "驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.5.1.1": {
+      "expectedAnswer": "C",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "暴雨导致刮水器无法保证视线时，应立即减速并选择安全地点靠边停车；本地正确选项文字与当前小车科目一同题一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》驾驶视线不良处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典当前小车科目一题883800：暴雨刮水器无法刮净雨水",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883800.html"
+        }
+      ]
+    },
+    "police-public-4.5.1.4": {
+      "expectedAnswer": "D",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "雾天行车应开启雾灯；本地答案“防雾灯”与现行实施条例及当前小车科目一公开页面一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法实施条例》第五十八条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一专项：雾天行车应及时开启雾灯",
+          "url": "https://www.jiakaobaodian.com/zigong/"
+        }
+      ]
+    },
+    "police-public-4.5.2.11": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "冰雪路面紧急制动容易侧滑，应降低车速并利用发动机制动减速；本地判断答案与当前小车科目一页面和同题详情一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面行驶",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "official-explanation",
+          "title": "驾考宝典同题详情：冰雪路面紧急制动易侧滑，应利用发动机制动",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/truck-kemu1-885000.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一专项：冰雪路面利用发动机制动减速",
+          "url": "https://www.jiakaobaodian.com/lianyungang/"
+        }
+      ]
     }
   }
 }

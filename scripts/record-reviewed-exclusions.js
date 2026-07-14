@@ -720,6 +720,47 @@ exclusions.push(...tireLeakAndBlowoutExclusionIds.map((localId) => ({
   ],
 })));
 
+const complexWeatherAndRoadExclusionIds = [
+  'police-public-4.5.1.2', 'police-public-4.5.1.3', 'police-public-4.5.1.5',
+  'police-public-4.5.1.6', 'police-public-4.5.1.7', 'police-public-4.5.1.8',
+  'police-public-4.5.1.9', 'police-public-4.5.1.10', 'police-public-4.5.2.1',
+  'police-public-4.5.2.3', 'police-public-4.5.2.4', 'police-public-4.5.2.5',
+  'police-public-4.5.2.8', 'police-public-4.5.2.12', 'police-public-4.5.2.13',
+  'police-public-4.5.2.14', 'police-public-4.5.2.15', 'police-public-4.5.2.16',
+  'police-public-4.5.2.17',
+];
+
+exclusions.push(...complexWeatherAndRoadExclusionIds.map((localId) => {
+  const corrupted = ['police-public-4.5.1.10', 'police-public-4.5.2.17'].includes(localId);
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: corrupted
+      ? 'dangerous-or-corrupted-answer-exclusion'
+      : 'current-c1-answer-page-not-fully-corroborated',
+    note: corrupted
+      ? '数据污染隔离：题目选项或题干混入下一章节标题，原始结构已损坏；又涉及铁路道口或涉水制动等安全操作，复原前不得开放。'
+      : '证据不足隔离：本题涉及冰雪、雾天、大风、泥泞、涉水或施工路段的具体操作。当前驾考宝典城市页面中部分相似题在科目一和科目四均有出现，但C1科目一详情索引没有足够的同题答案页逐项核对；权威指引只能支持通用原则，不能证明旧题全部措辞和干扰项仍有效。',
+    evidence: [
+      {
+        type: 'current-official-guidance',
+        title: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面及视线不良处置',
+        url: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+      },
+      {
+        type: 'cross-check-current-c1-and-subject-four-overlap',
+        title: '驾考宝典2026小车页面：复杂天气题在科目一与科目四专项中交叉出现',
+        url: 'https://www.jiakaobaodian.com/taiyuan/',
+      },
+      {
+        type: 'cross-check-absent',
+        title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）',
+        url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+    ],
+  };
+}));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

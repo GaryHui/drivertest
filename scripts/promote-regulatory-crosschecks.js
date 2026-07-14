@@ -439,6 +439,46 @@ reviewed.push({
   },
 });
 
+reviewed.push(
+  {
+    localId: 'police-public-4.5.1.1',
+    expectedAnswer: 'C',
+    publicQuestionId: '883800',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883800.html',
+    publicTitle: '驾考宝典当前小车科目一题883800：暴雨刮水器无法刮净雨水',
+    verifiedAt: '2026-07-15',
+    note: '暴雨导致刮水器无法保证视线时，应立即减速并选择安全地点靠边停车；本地正确选项文字与当前小车科目一同题一致。',
+    lawTitle: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》驾驶视线不良处置',
+    lawUrl: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+  },
+  {
+    localId: 'police-public-4.5.1.4',
+    expectedAnswer: 'D',
+    publicQuestionId: 'current-c1-fog-lamp',
+    publicUrl: 'https://www.jiakaobaodian.com/zigong/',
+    publicTitle: '驾考宝典2026小车科目一专项：雾天行车应及时开启雾灯',
+    verifiedAt: '2026-07-15',
+    note: '雾天行车应开启雾灯；本地答案“防雾灯”与现行实施条例及当前小车科目一公开页面一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第五十八条',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.5.2.11',
+    expectedAnswer: 'A',
+    publicQuestionId: 'current-c1-ice-engine-braking',
+    publicUrl: 'https://www.jiakaobaodian.com/lianyungang/',
+    publicTitle: '驾考宝典2026小车科目一专项：冰雪路面利用发动机制动减速',
+    verifiedAt: '2026-07-15',
+    note: '冰雪路面紧急制动容易侧滑，应降低车速并利用发动机制动减速；本地判断答案与当前小车科目一页面和同题详情一致。',
+    lawTitle: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面行驶',
+    lawUrl: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+    supportingEvidence: {
+      title: '驾考宝典同题详情：冰雪路面紧急制动易侧滑，应利用发动机制动',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/truck-kemu1-885000.html',
+    },
+  },
+);
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);
