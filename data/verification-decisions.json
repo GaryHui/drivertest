@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "policy": "必须同时有现行法规原文和当前驾考题库公开页面，且答案一致，才允许verified。",
+  "decisions": {
+    "police-public-1.7.1.14": {
+      "expectedAnswer": "D",
+      "verifiedAt": "2026-07-14",
+      "note": "驾驶证记载的驾驶人信息变化，应在30日内申请换证。",
+      "evidence": [
+        {"type": "law", "title": "公安部令第172号第六十六条", "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"},
+        {"type": "cross-check", "title": "驾考宝典小车科目一公开题832200", "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-832200.html"}
+      ]
+    },
+    "police-public-1.2.1.15": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-14",
+      "note": "满12分后拒不参加学习、考试，公告驾驶证停止使用。",
+      "evidence": [
+        {"type": "law", "title": "公安部令第163号第二十九条", "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"},
+        {"type": "cross-check", "title": "驾考宝典小车科目一公开题5632100", "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-5632100.html"}
+      ]
+    },
+    "police-public-1.2.2.7": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-14",
+      "note": "周期届满未满12分且罚款已缴，记分清除。",
+      "evidence": [
+        {"type": "law", "title": "公安部令第163号第十五条", "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"},
+        {"type": "cross-check", "title": "驾考宝典小车科目一公开题14628500", "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-14628500.html"}
+      ]
+    },
+    "police-public-1.2.2.8": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "note": "罚款未缴时相关记分转入下一周期，不会清除。",
+      "evidence": [
+        {"type": "law", "title": "公安部令第163号第十五条", "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"},
+        {"type": "cross-check", "title": "驾考宝典小车科目一公开题832600", "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-832600.html"}
+      ]
+    }
+  }
+}

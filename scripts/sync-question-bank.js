@@ -6,6 +6,7 @@ const ROOT = path.join(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
 const IMPORTS = path.join(DATA, 'imports');
 const OUTPUT = path.join(DATA, 'question-bank.json');
+const DECISIONS = path.join(DATA, 'verification-decisions.json');
 const TODAY = new Date().toISOString().slice(0, 10);
 
 const sha = value => crypto.createHash('sha256').update(value).digest('hex').slice(0, 16);
@@ -53,6 +54,7 @@ function normalize(raw, source) {
     needsImage: Boolean(raw.needsImage || raw.image || raw.url),
     source: { code: source.code, name: source.name, url: source.url, importedAt: TODAY },
     region: raw.region || source.region || '全国',
+    category: raw.category || source.category || 'car-general',
     subject: 1,
     vehicle: raw.vehicle || source.vehicle || 'C1',
     legacy: Boolean(raw.legacy || source.legacy),
@@ -135,12 +137,23 @@ async function main() {
     code: 'roll', name: 'ROLL驾考题库（一次性导入）', url: 'https://www.mxnzp.com/doc/detail?id=33', region: '广东', updatedAt: TODAY
   });
   const questions = deduplicate(rows);
+  const decisions = readJson(DECISIONS)?.decisions || {};
+  for (const q of questions) {
+    const decision = decisions[q.id];
+    if (!decision) continue;
+    if (decision.expectedAnswer !== q.answer) {
+      q.review = { status: 'conflict', reason: `核验记录答案为${decision.expectedAnswer}，导入答案为${q.answer}` };
+      continue;
+    }
+    q.review = { status: 'verified', reason: decision.note, verifiedAt: decision.verifiedAt, evidence: decision.evidence };
+  }
   const stats = questions.reduce((a, q) => { a[q.review.status] = (a[q.review.status] || 0) + 1; return a; }, {});
   const output = {
     meta: {
       title: '粤驾速记本地题库', generatedAt: new Date().toISOString(), region: '广东', subject: 1, vehicle: 'C1',
       policy: '网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。',
-      total: questions.length, playable: questions.filter(q => q.review.status === 'verified' && !q.needsImage).length,
+      total: questions.length, c1Candidates: questions.filter(q => q.category === 'car-general').length,
+      playable: questions.filter(q => q.category === 'car-general' && q.review.status === 'verified' && !q.needsImage).length,
       verified: stats.verified || 0, pending: stats.pending || 0, excluded: stats.excluded || 0, imports: counts
     },
     questions
