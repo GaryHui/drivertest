@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:36:45.518Z",
+    "generatedAt": "2026-07-14T16:39:13.311Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
@@ -10,8 +10,8 @@
     "c1Candidates": 1161,
     "playable": 215,
     "verified": 215,
-    "pending": 245,
-    "excluded": 869,
+    "pending": 220,
+    "excluded": 894,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -42637,8 +42637,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {
@@ -42667,8 +42680,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {
@@ -42697,8 +42723,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -42727,8 +42766,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -42757,8 +42809,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -42787,8 +42852,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -42817,8 +42895,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -42847,8 +42938,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -42877,8 +42981,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {
@@ -42907,8 +43024,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {
@@ -42937,8 +43067,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {
@@ -42967,8 +43110,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {
@@ -42997,8 +43153,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {
@@ -43027,8 +43196,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "数据污染隔离：最后一个选项混入“6.2.2 判断题（12题）”章节标题；当前C1同题页也未能完整印证。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {
@@ -43055,8 +43237,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -43083,8 +43278,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -43111,8 +43319,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -43139,8 +43360,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -43167,8 +43401,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -43195,8 +43442,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -43223,8 +43483,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -43251,8 +43524,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -43279,8 +43565,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "source-defect",
+            "title": "承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）",
+            "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+          }
+        ]
       }
     },
     {
@@ -43307,8 +43606,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {
@@ -43335,8 +43647,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-c1-scope",
+            "title": "驾考宝典2026小车科目一第5章机动车基础知识公开入口",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题",
+            "url": "https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html"
+          }
+        ]
       }
     },
     {

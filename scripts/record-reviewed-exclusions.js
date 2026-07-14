@@ -1081,6 +1081,53 @@ exclusions.push(...legacyMechanicalKnowledgeIds.map((localId) => {
   };
 }));
 
+const instrumentAndSafetyDeviceIds = bank.questions
+  .filter((question) => question.id.startsWith('police-public-6.2.') && question.review?.status === 'pending')
+  .map((question) => question.id);
+
+const lostInstrumentSymbolIds = new Set([
+  'police-public-6.2.1.3', 'police-public-6.2.1.4', 'police-public-6.2.1.5',
+  'police-public-6.2.1.6', 'police-public-6.2.1.7', 'police-public-6.2.1.8',
+  'police-public-6.2.2.1', 'police-public-6.2.2.2', 'police-public-6.2.2.3',
+  'police-public-6.2.2.4', 'police-public-6.2.2.5', 'police-public-6.2.2.6',
+  'police-public-6.2.2.7', 'police-public-6.2.2.8', 'police-public-6.2.2.9',
+]);
+
+exclusions.push(...instrumentAndSafetyDeviceIds.map((localId) => {
+  const lostSymbol = lostInstrumentSymbolIds.has(localId);
+  const corrupted = localId === 'police-public-6.2.1.14';
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: lostSymbol
+      ? 'missing-original-instrument-symbol-exclusion'
+      : corrupted
+        ? 'dangerous-or-corrupted-answer-exclusion'
+        : 'current-c1-subject-one-not-corroborated',
+    note: lostSymbol
+      ? '缺失关键图示隔离：原题仪表灯符号在附件转文本时丢失，题干仅剩空引号。不同警告灯对应不同答案，找回原始图标并逐题核验前不得开放。'
+      : corrupted
+        ? '数据污染隔离：最后一个选项混入“6.2.2 判断题（12题）”章节标题；当前C1同题页也未能完整印证。'
+        : '证据不足隔离：题目涉及老式机械仪表、头枕、安全气囊或座椅操作。相关安全装置内容目前更多出现在安全文明驾驶/科目四；当前C1详情索引未找到题干、选项和答案完整一致的同题页。',
+    evidence: [
+      {
+        type: 'current-c1-scope',
+        title: '驾考宝典2026小车科目一第5章机动车基础知识公开入口',
+        url: 'https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html',
+      },
+      {
+        type: lostSymbol ? 'source-defect' : 'cross-check-related-subject',
+        title: lostSymbol
+          ? '承德市公安局公开汽车类题库附件转文本记录（仪表图标缺失）'
+          : '驾考宝典当前安全文明驾驶页面中的安全气囊、头枕和座椅同类题',
+        url: lostSymbol
+          ? 'https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html'
+          : 'https://www.jiakaobaodian.com/kaoshi/0f44bd46_520000.html',
+      },
+    ],
+  };
+}));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({
