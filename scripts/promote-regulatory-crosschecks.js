@@ -649,6 +649,33 @@ reviewed.push(
   },
 );
 
+const currentC1EnvironmentQuestions = [
+  ['police-public-3.2.1.1', 'B', '雨天主要造成路面湿滑、视线受阻', 'https://www.jiakaobaodian.com/fushun/'],
+  ['police-public-3.2.1.4', 'D', '雾天主要造成能见度低、视线不清', 'https://www.jiakaobaodian.com/taizhoushi/'],
+  ['police-public-3.2.1.6', 'D', '行人行走随意性大、方向多变', 'https://www.jiakaobaodian.com/shiyan/'],
+  ['police-public-3.2.1.7', 'A', '夜间能见度低，不利于观察道路交通情况', 'https://www.jiakaobaodian.com/taizhoushi/'],
+  ['police-public-3.2.1.9', 'D', '冰雪路面溜滑且反光影响视线', 'https://www.jiakaobaodian.com/tumushuke/'],
+  ['police-public-3.2.1.12', 'A', '水毁路面难以观察暗坑和凸起', 'https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html'],
+  ['police-public-3.2.1.13', 'C', '山区道路坡长弯急、危险路段多', 'https://www.jiakaobaodian.com/yibin/'],
+  ['police-public-3.2.1.14', 'B', '对向车辆强行超车占道时应尽可能减速避让', 'https://www.jiakaobaodian.com/heze/'],
+  ['police-public-3.2.2.1', 'A', '狂风可能使车辆产生横向偏移', 'https://www.jiakaobaodian.com/taiyuan/'],
+  ['police-public-3.2.2.2', 'A', '夜间视距缩短且注意力集中，容易疲劳', 'https://www.jiakaobaodian.com/heze/'],
+  ['police-public-3.2.2.5', 'A', '冰雪路面稳定性降低，急加速易空转或溜滑', 'https://www.jiakaobaodian.com/tumushuke/'],
+  ['police-public-3.2.2.8', 'A', '山区坡陡路窄弯急，事故风险较高', 'https://www.jiakaobaodian.com/yibin/'],
+];
+
+reviewed.push(...currentC1EnvironmentQuestions.map(([localId, expectedAnswer, rule, publicUrl], index) => ({
+  localId,
+  expectedAnswer,
+  publicQuestionId: `current-c1-environment-${index + 1}`,
+  publicUrl,
+  publicTitle: `驾考宝典2026小车科目一公开页面：${rule}`,
+  verifiedAt: '2026-07-15',
+  note: `${rule}；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。`,
+  lawTitle: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则',
+  lawUrl: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+})));
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);

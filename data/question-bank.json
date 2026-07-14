@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:17:54.389Z",
+    "generatedAt": "2026-07-14T16:20:42.248Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 183,
-    "verified": 183,
-    "pending": 420,
-    "excluded": 726,
+    "playable": 195,
+    "verified": 195,
+    "pending": 402,
+    "excluded": 732,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -21813,8 +21813,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "雨天主要造成路面湿滑、视线受阻；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：雨天主要造成路面湿滑、视线受阻",
+            "url": "https://www.jiakaobaodian.com/fushun/"
+          }
+        ]
       }
     },
     {
@@ -21843,8 +21856,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及湿滑路面附着力、侧滑或横风的具体机理和操作，当前公开页面主要将同类内容列入科目四/安全文明驾驶，C1科目一详情索引未找到完整同题答案页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面和视线不良处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车页面：湿滑附着力题主要列入科目四章节练习",
+            "url": "https://www.jiakaobaodian.com/fushun/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21873,8 +21904,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及湿滑路面附着力、侧滑或横风的具体机理和操作，当前公开页面主要将同类内容列入科目四/安全文明驾驶，C1科目一详情索引未找到完整同题答案页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面和视线不良处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车页面：湿滑附着力题主要列入科目四章节练习",
+            "url": "https://www.jiakaobaodian.com/fushun/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21903,8 +21952,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "雾天主要造成能见度低、视线不清；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：雾天主要造成能见度低、视线不清",
+            "url": "https://www.jiakaobaodian.com/taizhoushi/"
+          }
+        ]
       }
     },
     {
@@ -21933,8 +21995,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及湿滑路面附着力、侧滑或横风的具体机理和操作，当前公开页面主要将同类内容列入科目四/安全文明驾驶，C1科目一详情索引未找到完整同题答案页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面和视线不良处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车页面：湿滑附着力题主要列入科目四章节练习",
+            "url": "https://www.jiakaobaodian.com/fushun/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21963,8 +22043,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "行人行走随意性大、方向多变；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：行人行走随意性大、方向多变",
+            "url": "https://www.jiakaobaodian.com/shiyan/"
+          }
+        ]
       }
     },
     {
@@ -21993,8 +22086,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "夜间能见度低，不利于观察道路交通情况；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：夜间能见度低，不利于观察道路交通情况",
+            "url": "https://www.jiakaobaodian.com/taizhoushi/"
+          }
+        ]
       }
     },
     {
@@ -22066,8 +22172,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "冰雪路面溜滑且反光影响视线；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：冰雪路面溜滑且反光影响视线",
+            "url": "https://www.jiakaobaodian.com/tumushuke/"
+          }
+        ]
       }
     },
     {
@@ -22182,8 +22301,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "水毁路面难以观察暗坑和凸起；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：水毁路面难以观察暗坑和凸起",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+          }
+        ]
       }
     },
     {
@@ -22212,8 +22344,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "山区道路坡长弯急、危险路段多；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：山区道路坡长弯急、危险路段多",
+            "url": "https://www.jiakaobaodian.com/yibin/"
+          }
+        ]
       }
     },
     {
@@ -22242,8 +22387,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "对向车辆强行超车占道时应尽可能减速避让；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：对向车辆强行超车占道时应尽可能减速避让",
+            "url": "https://www.jiakaobaodian.com/heze/"
+          }
+        ]
       }
     },
     {
@@ -22272,8 +22430,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "数据污染隔离：正确选项混入“3.2.2判断题：（10题）”章节标题，且题目涉及全车灯光熄灭后的高风险处置，复原并获得当前同题页前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面和视线不良处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车页面：湿滑附着力题主要列入科目四章节练习",
+            "url": "https://www.jiakaobaodian.com/fushun/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -22300,8 +22476,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "狂风可能使车辆产生横向偏移；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：狂风可能使车辆产生横向偏移",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          }
+        ]
       }
     },
     {
@@ -22328,8 +22517,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "夜间视距缩短且注意力集中，容易疲劳；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：夜间视距缩短且注意力集中，容易疲劳",
+            "url": "https://www.jiakaobaodian.com/heze/"
+          }
+        ]
       }
     },
     {
@@ -22356,8 +22558,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题涉及湿滑路面附着力、侧滑或横风的具体机理和操作，当前公开页面主要将同类内容列入科目四/安全文明驾驶，C1科目一详情索引未找到完整同题答案页。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面和视线不良处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车页面：湿滑附着力题主要列入科目四章节练习",
+            "url": "https://www.jiakaobaodian.com/fushun/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -22425,8 +22645,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "冰雪路面稳定性降低，急加速易空转或溜滑；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：冰雪路面稳定性降低，急加速易空转或溜滑",
+            "url": "https://www.jiakaobaodian.com/tumushuke/"
+          }
+        ]
       }
     },
     {
@@ -22535,8 +22768,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "山区坡陡路窄弯急，事故风险较高；本地正确答案与当前小车科目一公开页面及交通运输部安全驾驶原则一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面、视线不良及自然灾害处置原则",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开页面：山区坡陡路窄弯急，事故风险较高",
+            "url": "https://www.jiakaobaodian.com/yibin/"
+          }
+        ]
       }
     },
     {
@@ -22604,8 +22850,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：全车灯光突然熄灭后的制动方式取决于车速、道路和后方交通条件，当前C1科目一详情索引未找到完整同题答案页，不能把旧题的单一动作作为通用处置。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》湿滑路面和视线不良处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车页面：湿滑附着力题主要列入科目四章节练习",
+            "url": "https://www.jiakaobaodian.com/fushun/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
