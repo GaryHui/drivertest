@@ -1158,6 +1158,30 @@ exclusions.push(...legacyMaintenanceAndTyreIds.map((localId) => {
   };
 }));
 
+const corruptedRailwaySignalQuestion = bank.questions.find(
+  (question) => question.id === 'police-public-2.1.1.12' && question.review?.status === 'pending',
+);
+if (corruptedRailwaySignalQuestion) {
+  exclusions.push({
+    localId: corruptedRailwaySignalQuestion.id,
+    verifiedAt: '2026-07-15',
+    verificationClass: 'dangerous-or-corrupted-answer-exclusion',
+    note: '数据污染隔离：最后一个选项混入“2.1.2判断题（7题）”章节标题。铁路道口红灯禁止通行的规则虽仍有效，但脏选项会直接展示给学生，复原后方可开放。',
+    evidence: [
+      {
+        type: 'law',
+        title: '《中华人民共和国道路交通安全法实施条例》第四十三条',
+        url: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+      },
+      {
+        type: 'cross-check',
+        title: '驾考宝典当前小车科目一铁路道口信号题839200',
+        url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-839200.html',
+      },
+    ],
+  });
+}
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

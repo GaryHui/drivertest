@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:42:00.993Z",
+    "generatedAt": "2026-07-14T16:44:20.276Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 215,
-    "verified": 215,
-    "pending": 201,
-    "excluded": 913,
+    "playable": 233,
+    "verified": 233,
+    "pending": 182,
+    "excluded": 914,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -12984,8 +12984,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "红灯表示禁止通行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：红灯表示禁止通行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html"
+          }
+        ]
       }
     },
     {
@@ -13014,8 +13027,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "绿灯表示准许通行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：绿灯表示准许通行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html"
+          }
+        ]
       }
     },
     {
@@ -13044,8 +13070,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "黄灯表示警示；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：黄灯表示警示",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html"
+          }
+        ]
       }
     },
     {
@@ -13074,8 +13113,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "绿灯放行时转弯车辆不得妨碍直行车辆和行人；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：绿灯放行时转弯车辆不得妨碍直行车辆和行人",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html"
+          }
+        ]
       }
     },
     {
@@ -13104,8 +13156,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "红灯时右转车辆在不妨碍放行车辆和行人时可以通行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：红灯时右转车辆在不妨碍放行车辆和行人时可以通行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1121900.html"
+          }
+        ]
       }
     },
     {
@@ -13134,8 +13199,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "红灯时车辆应停在停止线以外；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：红灯时车辆应停在停止线以外",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html"
+          }
+        ]
       }
     },
     {
@@ -13164,8 +13242,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "黄灯亮时已越过停止线的车辆可以继续通行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：黄灯亮时已越过停止线的车辆可以继续通行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html"
+          }
+        ]
       }
     },
     {
@@ -13194,8 +13285,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "红色叉形灯亮时本车道禁止通行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：红色叉形灯亮时本车道禁止通行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-806300.html"
+          }
+        ]
       }
     },
     {
@@ -13224,8 +13328,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "绿色向上箭头准许直行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：绿色向上箭头准许直行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-835600.html"
+          }
+        ]
       }
     },
     {
@@ -13254,8 +13371,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "红色向上箭头禁止直行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：红色向上箭头禁止直行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-836800.html"
+          }
+        ]
       }
     },
     {
@@ -13284,8 +13414,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "持续闪烁黄灯提示瞭望并确认安全后通过；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：持续闪烁黄灯提示瞭望并确认安全后通过",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1129900.html"
+          }
+        ]
       }
     },
     {
@@ -13314,8 +13457,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "数据污染隔离：最后一个选项混入“2.1.2判断题（7题）”章节标题。铁路道口红灯禁止通行的规则虽仍有效，但脏选项会直接展示给学生，复原后方可开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典当前小车科目一铁路道口信号题839200",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-839200.html"
+          }
+        ]
       }
     },
     {
@@ -13342,8 +13498,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "红色叉形灯亮时本车道不准通行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：红色叉形灯亮时本车道不准通行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-806300.html"
+          }
+        ]
       }
     },
     {
@@ -13370,8 +13539,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "红色箭头灯亮时对应方向禁止通行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：红色箭头灯亮时对应方向禁止通行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-806300.html"
+          }
+        ]
       }
     },
     {
@@ -13398,8 +13580,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "红色向左箭头不是准许左转；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：红色向左箭头不是准许左转",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-837200.html"
+          }
+        ]
       }
     },
     {
@@ -13426,8 +13621,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "绿色向上箭头准许直行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：绿色向上箭头准许直行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1159600.html"
+          }
+        ]
       }
     },
     {
@@ -13454,8 +13662,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "绿色向右箭头准许右转；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：绿色向右箭头准许右转",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-836700.html"
+          }
+        ]
       }
     },
     {
@@ -13482,8 +13703,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "红色向右箭头不是准许右转；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：红色向右箭头不是准许右转",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-836700.html"
+          }
+        ]
       }
     },
     {
@@ -13510,8 +13744,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "绿色向左箭头准许左转而非直行；本地答案与现行交通信号法规及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一交通信号题：绿色向左箭头准许左转而非直行",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1159600.html"
+          }
+        ]
       }
     },
     {

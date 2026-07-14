@@ -730,6 +730,39 @@ reviewed.push(...currentC1RoadOperationQuestions.map(([localId, expectedAnswer, 
   lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
 })));
 
+const currentC1TrafficLightQuestions = [
+  ['police-public-2.1.1.1', 'B', '红灯表示禁止通行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html'],
+  ['police-public-2.1.1.2', 'C', '绿灯表示准许通行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html'],
+  ['police-public-2.1.1.3', 'D', '黄灯表示警示', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html'],
+  ['police-public-2.1.1.4', 'C', '绿灯放行时转弯车辆不得妨碍直行车辆和行人', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html'],
+  ['police-public-2.1.1.5', 'A', '红灯时右转车辆在不妨碍放行车辆和行人时可以通行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1121900.html'],
+  ['police-public-2.1.1.6', 'D', '红灯时车辆应停在停止线以外', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html'],
+  ['police-public-2.1.1.7', 'B', '黄灯亮时已越过停止线的车辆可以继续通行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-805000.html'],
+  ['police-public-2.1.1.8', 'A', '红色叉形灯亮时本车道禁止通行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-806300.html'],
+  ['police-public-2.1.1.9', 'C', '绿色向上箭头准许直行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-835600.html'],
+  ['police-public-2.1.1.10', 'C', '红色向上箭头禁止直行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-836800.html'],
+  ['police-public-2.1.1.11', 'D', '持续闪烁黄灯提示瞭望并确认安全后通过', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1129900.html'],
+  ['police-public-2.1.2.1', 'B', '红色叉形灯亮时本车道不准通行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-806300.html'],
+  ['police-public-2.1.2.2', 'A', '红色箭头灯亮时对应方向禁止通行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-806300.html'],
+  ['police-public-2.1.2.3', 'B', '红色向左箭头不是准许左转', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-837200.html'],
+  ['police-public-2.1.2.4', 'A', '绿色向上箭头准许直行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1159600.html'],
+  ['police-public-2.1.2.5', 'A', '绿色向右箭头准许右转', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-836700.html'],
+  ['police-public-2.1.2.6', 'B', '红色向右箭头不是准许右转', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-836700.html'],
+  ['police-public-2.1.2.7', 'B', '绿色向左箭头准许左转而非直行', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1159600.html'],
+];
+
+reviewed.push(...currentC1TrafficLightQuestions.map(([localId, expectedAnswer, rule, publicUrl], index) => ({
+  localId,
+  expectedAnswer,
+  publicQuestionId: `current-c1-traffic-light-${index + 1}`,
+  publicUrl,
+  publicTitle: `驾考宝典2026小车科目一交通信号题：${rule}`,
+  verifiedAt: '2026-07-15',
+  note: `${rule}；本地答案与现行交通信号法规及当前小车科目一公开题页一致。`,
+  lawTitle: '《中华人民共和国道路交通安全法实施条例》第三十八条至第四十三条',
+  lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+})));
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);
