@@ -24,6 +24,40 @@ const exclusions = [
       },
     ],
   },
+  {
+    localId: 'police-public-1.1.1.44',
+    verificationClass: 'superseded-penalty-exclusion',
+    note: '旧规隔离：题库答案“暂扣1个月以上3个月、罚200元以上500元”已失效；现行为暂扣6个月，并处1000元以上2000元罚款。',
+    evidence: [
+      {
+        type: 'law',
+        title: '《中华人民共和国道路交通安全法》第九十一条',
+        url: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+      },
+      {
+        type: 'cross-check',
+        title: '驾考宝典当前公开题：饮酒驾驶机动车一次记12分（解析载明现行处罚）',
+        url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-834100.html',
+      },
+    ],
+  },
+  {
+    localId: 'police-public-1.1.1.45',
+    verificationClass: 'superseded-penalty-exclusion',
+    note: '旧规隔离：题库答案“15日以下拘留、暂扣3至6个月、罚500至2000元”已失效；现行醉酒驾驶为吊销驾驶证、依法追究刑事责任，5年内不得重新取得。',
+    evidence: [
+      {
+        type: 'law',
+        title: '《中华人民共和国道路交通安全法》第九十一条',
+        url: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+      },
+      {
+        type: 'cross-check',
+        title: '驾考宝典当前公开C1题：醉酒驾驶刑事处罚及吊证规则',
+        url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-828500.html',
+      },
+    ],
+  },
 ];
 
 for (const question of bank.questions) {
