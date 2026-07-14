@@ -1329,6 +1329,317 @@
           "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-879000.html"
         }
       ]
+    },
+    "police-public-3.3.1.7": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8966），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 869700",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-869700.html"
+        }
+      ]
+    },
+    "police-public-3.3.1.8": {
+      "expectedAnswer": "C",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8889），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 869800",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-869800.html"
+        }
+      ]
+    },
+    "police-public-3.4.1.53": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8889），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 874800",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-874800.html"
+        }
+      ]
+    },
+    "police-public-3.4.1.56": {
+      "expectedAnswer": "D",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8889），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 874900",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-874900.html"
+        }
+      ]
+    },
+    "police-public-3.4.2.2": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8889），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 1125600",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1125600.html"
+        }
+      ]
+    },
+    "police-public-4.2.2.5": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8837），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 881800",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-881800.html"
+        }
+      ]
+    },
+    "police-public-5.1.1.6": {
+      "expectedAnswer": "C",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8831），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 885300",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-885300.html"
+        }
+      ]
+    },
+    "police-public-3.4.1.15": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8824），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 872800",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-872800.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.1": {
+      "expectedAnswer": "D",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8824），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 878400",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-878400.html"
+        }
+      ]
+    },
+    "police-public-3.2.2.7": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8667），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 869300",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-869300.html"
+        }
+      ]
+    },
+    "police-public-3.4.1.19": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8667），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 873200",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-873200.html"
+        }
+      ]
+    },
+    "police-public-3.4.1.21": {
+      "expectedAnswer": "D",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8649），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 873300",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-873300.html"
+        }
+      ]
+    },
+    "police-public-3.2.1.8": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "stable-safety-reviewed-fuzzy",
+      "note": "人工复核：题干仅有轻微措辞差异（Dice 0.8571），正确选项文字一致；不涉及数字或处罚规则。",
+      "evidence": [
+        {
+          "type": "official-question-bank",
+          "title": "承德市公安局2025-08-20公开汽车类题库",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 868200",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-868200.html"
+        }
+      ]
+    },
+    "police-public-1.2.2.4": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "实习期驾驶机动车，应当在车身后部粘贴或者悬挂统一式样的实习标志。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）第七十六条",
+          "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+        },
+        {
+          "type": "official-explanation",
+          "title": "福州市公安局关于公安部令第172号实习期规定的解读",
+          "url": "https://gaj.fuzhou.gov.cn/jwxx/ztlm/rjzc/jgdt/202509/t20250905_5074141.htm"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 833500",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-833500.html"
+        }
+      ]
+    },
+    "police-public-1.7.2.15": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "驾驶人在驾驶证核发地车辆管理所管辖区以外居住，可以向居住地车辆管理所申请换证。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《机动车驾驶证申领和使用规定》第六十四条",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679696.htm"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 832300",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-832300.html"
+        }
+      ]
+    },
+    "police-public-4.1.2.7": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "高速公路车速达到每小时100公里时，保持100米以上属于安全距离；法规同时规定，车速超过每小时100公里时应当保持100米以上距离。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法实施条例》第八十条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 879700",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-879700.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.33": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "机动车在道路上临时停车，不得妨碍其他车辆和行人通行。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法》第五十六条",
+          "url": "http://www.npc.gov.cn/zgrdw/npc//zfjc/zfjcelys/2016-12/13/content_2003512.htm"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一公开题 819700",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-819700.html"
+        }
+      ]
     }
   }
 }
