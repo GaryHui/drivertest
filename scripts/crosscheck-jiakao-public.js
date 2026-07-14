@@ -8,6 +8,8 @@ const cachePath = path.join(root, 'audit', 'jiakao-detail-crosscheck-cache.json'
 const outputPath = path.join(root, 'data', 'jiakao-crosscheck.json');
 const batchSize = Number(process.env.JIAKAO_BATCH_SIZE || 100);
 const delayMs = Number(process.env.JIAKAO_DELAY_MS || 250);
+const concurrency = Math.max(1, Number(process.env.JIAKAO_CONCURRENCY || 3));
+const requestTimeoutMs = Number(process.env.JIAKAO_TIMEOUT_MS || 15000);
 
 const publicIndex = JSON.parse(fs.readFileSync(publicIndexPath, 'utf8'));
 const localBank = JSON.parse(fs.readFileSync(localBankPath, 'utf8'));
@@ -34,12 +36,14 @@ function normalize(value) {
 
 function parseDetail(html, questionId) {
   const title = html.match(/<title>([\s\S]*?)\s*-\s*驾考宝典<\/title>/i);
-  const answer = html.match(/<p\b(?=[^>]*\bclass="[^"]*\bsuccess\b[^"]*")(?=[^>]*\bdata-right=(?:"?true"?))[^>]*>\s*([A-H])、/i);
+  const answer = html.match(/<p\b(?=[^>]*\bclass="[^"]*\bsuccess\b[^"]*")(?=[^>]*\bdata-right=(?:"?true"?))[^>]*>\s*([A-H])、([\s\S]*?)<\/p>/i);
   if (!title || !answer) throw new Error(`Cannot parse public detail ${questionId}`);
+  const correctOptionText = decodeHtml(answer[2].replace(/<[^>]+>/g, '').trim());
   return {
     questionId: String(questionId),
     fingerprint: normalize(title[1]),
     answer: answer[1].toUpperCase(),
+    correctOptionFingerprint: normalize(correctOptionText),
     url: `https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-${questionId}.html`,
     checkedAt: new Date().toISOString(),
   };
@@ -53,6 +57,7 @@ function saveCache() {
 async function fetchOne(questionId) {
   const url = `https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-${questionId}.html`;
   const response = await fetch(url, {
+    signal: AbortSignal.timeout(requestTimeoutMs),
     headers: {
       accept: 'text/html,application/xhtml+xml',
       'user-agent': 'drivertest-answer-audit/1.0',
@@ -63,24 +68,34 @@ async function fetchOne(questionId) {
 }
 
 async function updateCache() {
-  const remaining = publicIndex.questionIds.filter((id) => !cache[id]).slice(0, batchSize);
-  for (let index = 0; index < remaining.length; index += 1) {
-    const id = remaining[index];
-    try {
-      cache[id] = await fetchOne(id);
-    } catch (error) {
-      cache[id] = {
-        questionId: String(id),
-        error: error.message,
-        checkedAt: new Date().toISOString(),
-      };
+  const remaining = publicIndex.questionIds
+    .filter((id) => !cache[id] || (!cache[id].error && !cache[id].correctOptionFingerprint))
+    .slice(0, batchSize);
+  let cursor = 0;
+  let completed = 0;
+  async function worker() {
+    while (cursor < remaining.length) {
+      const index = cursor;
+      cursor += 1;
+      const id = remaining[index];
+      try {
+        cache[id] = await fetchOne(id);
+      } catch (error) {
+        cache[id] = {
+          questionId: String(id),
+          error: error.message,
+          checkedAt: new Date().toISOString(),
+        };
+      }
+      completed += 1;
+      if (completed % 10 === 0) {
+        saveCache();
+        console.log(`Fetched ${completed}/${remaining.length} in this batch.`);
+      }
+      if (cursor < remaining.length) await new Promise((resolve) => setTimeout(resolve, delayMs));
     }
-    if ((index + 1) % 10 === 0) {
-      saveCache();
-      console.log(`Fetched ${index + 1}/${remaining.length} in this batch.`);
-    }
-    if (index + 1 < remaining.length) await new Promise((resolve) => setTimeout(resolve, delayMs));
   }
+  await Promise.all(Array.from({ length: Math.min(concurrency, remaining.length) }, worker));
   saveCache();
 }
 
@@ -109,11 +124,15 @@ function buildCrosscheck() {
       };
     }
     const match = matches[0];
+    const localCorrectOption = question.options['ABCDEFGH'.indexOf(question.answer)] || '';
+    const answerTextAgrees = normalize(localCorrectOption) === match.correctOptionFingerprint;
     return {
       localId: question.id,
-      status: question.answer === match.answer ? 'answer-agrees' : 'answer-conflict',
+      status: answerTextAgrees ? 'answer-agrees' : 'answer-conflict',
       answer: question.answer,
       publicAnswer: match.answer,
+      answerTextFingerprint: normalize(localCorrectOption),
+      publicAnswerTextFingerprint: match.correctOptionFingerprint,
       publicQuestionId: match.questionId,
       evidenceUrl: match.url,
       checkedAt: match.checkedAt,

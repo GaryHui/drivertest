@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-07-14T14:15:57.760Z",
+  "generatedAt": "2026-07-14T14:36:54.310Z",
   "note": "驾考宝典仅作交叉验证；answer-agrees 不等于法规核验完成。",
   "publicIndexCount": 1311,
-  "publicDetailsChecked": 107,
+  "publicDetailsChecked": 1168,
   "localCandidateCount": 1161,
   "counts": {
-    "not-matched-yet": 967,
-    "missing-image": 194
+    "not-matched-yet": 923,
+    "missing-image": 194,
+    "answer-agrees": 44
   },
   "results": [
     {
@@ -3495,9 +3496,14 @@
     },
     {
       "localId": "police-public-3.2.2.4",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "869000",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-869000.html",
+      "checkedAt": "2026-07-14T14:36:27.919Z"
     },
     {
       "localId": "police-public-3.2.2.5",
@@ -3507,9 +3513,14 @@
     },
     {
       "localId": "police-public-3.2.2.6",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "869200",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-869200.html",
+      "checkedAt": "2026-07-14T14:36:27.980Z"
     },
     {
       "localId": "police-public-3.2.2.7",
@@ -3525,9 +3536,14 @@
     },
     {
       "localId": "police-public-3.2.2.9",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "869400",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-869400.html",
+      "checkedAt": "2026-07-14T14:36:28.165Z"
     },
     {
       "localId": "police-public-3.2.2.10",
@@ -3765,9 +3781,14 @@
     },
     {
       "localId": "police-public-3.3.2.10",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "871000",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871000.html",
+      "checkedAt": "2026-07-14T14:36:29.056Z"
     },
     {
       "localId": "police-public-3.3.2.11",
@@ -3789,9 +3810,14 @@
     },
     {
       "localId": "police-public-3.3.2.14",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "871100",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871100.html",
+      "checkedAt": "2026-07-14T14:36:29.054Z"
     },
     {
       "localId": "police-public-3.3.2.15",
@@ -3831,9 +3857,14 @@
     },
     {
       "localId": "police-public-3.3.2.21",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "871500",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871500.html",
+      "checkedAt": "2026-07-14T14:36:29.116Z"
     },
     {
       "localId": "police-public-3.3.2.22",
@@ -3873,9 +3904,14 @@
     },
     {
       "localId": "police-public-3.3.2.28",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "871900",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-871900.html",
+      "checkedAt": "2026-07-14T14:36:29.251Z"
     },
     {
       "localId": "police-public-3.4.1.1",
@@ -4257,9 +4293,14 @@
     },
     {
       "localId": "police-public-3.4.2.1",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "875400",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-875400.html",
+      "checkedAt": "2026-07-14T14:36:31.356Z"
     },
     {
       "localId": "police-public-3.4.2.2",
@@ -4269,9 +4310,14 @@
     },
     {
       "localId": "police-public-3.4.2.3",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "875500",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-875500.html",
+      "checkedAt": "2026-07-14T14:36:31.524Z"
     },
     {
       "localId": "police-public-3.4.2.4",
@@ -4299,9 +4345,14 @@
     },
     {
       "localId": "police-public-3.4.2.8",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "876000",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-876000.html",
+      "checkedAt": "2026-07-14T14:36:31.675Z"
     },
     {
       "localId": "police-public-3.4.2.9",
@@ -4347,9 +4398,14 @@
     },
     {
       "localId": "police-public-3.4.2.16",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "876300",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-876300.html",
+      "checkedAt": "2026-07-14T14:36:31.707Z"
     },
     {
       "localId": "police-public-3.4.2.17",
@@ -4365,9 +4421,14 @@
     },
     {
       "localId": "police-public-3.4.2.19",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "876400",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-876400.html",
+      "checkedAt": "2026-07-14T14:36:31.872Z"
     },
     {
       "localId": "police-public-3.4.2.20",
@@ -4377,9 +4438,14 @@
     },
     {
       "localId": "police-public-3.4.2.21",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "876600",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-876600.html",
+      "checkedAt": "2026-07-14T14:36:31.915Z"
     },
     {
       "localId": "police-public-3.4.2.22",
@@ -4425,9 +4491,14 @@
     },
     {
       "localId": "police-public-3.4.2.29",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "877000",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-877000.html",
+      "checkedAt": "2026-07-14T14:36:32.028Z"
     },
     {
       "localId": "police-public-3.4.2.30",
@@ -4467,9 +4538,14 @@
     },
     {
       "localId": "police-public-3.4.2.36",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "877200",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-877200.html",
+      "checkedAt": "2026-07-14T14:36:32.064Z"
     },
     {
       "localId": "police-public-3.4.2.37",
@@ -4491,9 +4567,14 @@
     },
     {
       "localId": "police-public-3.4.2.40",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "877400",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-877400.html",
+      "checkedAt": "2026-07-14T14:36:32.233Z"
     },
     {
       "localId": "police-public-3.4.2.41",
@@ -4539,9 +4620,14 @@
     },
     {
       "localId": "police-public-3.4.2.48",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "877500",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-877500.html",
+      "checkedAt": "2026-07-14T14:36:32.315Z"
     },
     {
       "localId": "police-public-3.4.2.49",
@@ -4587,9 +4673,14 @@
     },
     {
       "localId": "police-public-3.4.2.56",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "877600",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-877600.html",
+      "checkedAt": "2026-07-14T14:36:32.384Z"
     },
     {
       "localId": "police-public-3.4.2.57",
@@ -4623,9 +4714,14 @@
     },
     {
       "localId": "police-public-3.4.2.62",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "877800",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-877800.html",
+      "checkedAt": "2026-07-14T14:36:32.418Z"
     },
     {
       "localId": "police-public-3.4.2.63",
@@ -4641,15 +4737,25 @@
     },
     {
       "localId": "police-public-3.4.2.65",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "877900",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-877900.html",
+      "checkedAt": "2026-07-14T14:36:32.434Z"
     },
     {
       "localId": "police-public-3.4.2.66",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "878000",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-878000.html",
+      "checkedAt": "2026-07-14T14:36:32.630Z"
     },
     {
       "localId": "police-public-3.4.2.67",
@@ -4677,9 +4783,14 @@
     },
     {
       "localId": "police-public-3.4.2.71",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "878200",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-878200.html",
+      "checkedAt": "2026-07-14T14:36:32.677Z"
     },
     {
       "localId": "police-public-3.4.2.72",
@@ -4779,9 +4890,14 @@
     },
     {
       "localId": "police-public-4.1.2.2",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "879500",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-879500.html",
+      "checkedAt": "2026-07-14T14:36:33.391Z"
     },
     {
       "localId": "police-public-4.1.2.3",
@@ -4797,9 +4913,14 @@
     },
     {
       "localId": "police-public-4.1.2.5",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "879600",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-879600.html",
+      "checkedAt": "2026-07-14T14:36:33.495Z"
     },
     {
       "localId": "police-public-4.1.2.6",
@@ -4815,9 +4936,14 @@
     },
     {
       "localId": "police-public-4.1.2.8",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "879800",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-879800.html",
+      "checkedAt": "2026-07-14T14:36:33.592Z"
     },
     {
       "localId": "police-public-4.1.2.9",
@@ -4827,15 +4953,25 @@
     },
     {
       "localId": "police-public-4.1.2.10",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "879900",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-879900.html",
+      "checkedAt": "2026-07-14T14:36:33.752Z"
     },
     {
       "localId": "police-public-4.1.2.11",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "880800",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-880800.html",
+      "checkedAt": "2026-07-14T14:36:34.229Z"
     },
     {
       "localId": "police-public-4.1.2.12",
@@ -4851,9 +4987,14 @@
     },
     {
       "localId": "police-public-4.1.2.14",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "880100",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-880100.html",
+      "checkedAt": "2026-07-14T14:36:33.865Z"
     },
     {
       "localId": "police-public-4.2.1.1",
@@ -4911,21 +5052,36 @@
     },
     {
       "localId": "police-public-4.2.2.2",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "881600",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-881600.html",
+      "checkedAt": "2026-07-14T14:36:34.555Z"
     },
     {
       "localId": "police-public-4.2.2.3",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "881700",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-881700.html",
+      "checkedAt": "2026-07-14T14:36:34.589Z"
     },
     {
       "localId": "police-public-4.2.2.4",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "882000",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-882000.html",
+      "checkedAt": "2026-07-14T14:36:34.711Z"
     },
     {
       "localId": "police-public-4.2.2.5",
@@ -4953,15 +5109,25 @@
     },
     {
       "localId": "police-public-4.2.2.9",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "882100",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-882100.html",
+      "checkedAt": "2026-07-14T14:36:34.906Z"
     },
     {
       "localId": "police-public-4.2.2.10",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "882200",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-882200.html",
+      "checkedAt": "2026-07-14T14:36:34.960Z"
     },
     {
       "localId": "police-public-4.2.2.11",
@@ -5061,9 +5227,14 @@
     },
     {
       "localId": "police-public-4.4.2.4",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "882900",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-882900.html",
+      "checkedAt": "2026-07-14T14:36:34.987Z"
     },
     {
       "localId": "police-public-4.4.2.5",
@@ -5073,9 +5244,14 @@
     },
     {
       "localId": "police-public-4.4.2.6",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "883700",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883700.html",
+      "checkedAt": "2026-07-14T14:36:35.504Z"
     },
     {
       "localId": "police-public-4.4.2.7",
@@ -5085,9 +5261,14 @@
     },
     {
       "localId": "police-public-4.4.2.8",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "883600",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883600.html",
+      "checkedAt": "2026-07-14T14:36:35.441Z"
     },
     {
       "localId": "police-public-4.4.2.9",
@@ -5103,15 +5284,25 @@
     },
     {
       "localId": "police-public-4.4.2.11",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "883300",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883300.html",
+      "checkedAt": "2026-07-14T14:36:35.317Z"
     },
     {
       "localId": "police-public-4.4.2.12",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "883400",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883400.html",
+      "checkedAt": "2026-07-14T14:36:35.347Z"
     },
     {
       "localId": "police-public-4.4.2.13",
@@ -5193,9 +5384,14 @@
     },
     {
       "localId": "police-public-4.5.2.2",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "884400",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-884400.html",
+      "checkedAt": "2026-07-14T14:36:35.809Z"
     },
     {
       "localId": "police-public-4.5.2.3",
@@ -5217,9 +5413,14 @@
     },
     {
       "localId": "police-public-4.5.2.6",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "B",
-      "publicQuestionIds": []
+      "publicAnswer": "B",
+      "answerTextFingerprint": "错误",
+      "publicAnswerTextFingerprint": "错误",
+      "publicQuestionId": "884500",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-884500.html",
+      "checkedAt": "2026-07-14T14:36:35.824Z"
     },
     {
       "localId": "police-public-4.5.2.7",
@@ -5235,15 +5436,25 @@
     },
     {
       "localId": "police-public-4.5.2.9",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "884800",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-884800.html",
+      "checkedAt": "2026-07-14T14:36:36.343Z"
     },
     {
       "localId": "police-public-4.5.2.10",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "884900",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-884900.html",
+      "checkedAt": "2026-07-14T14:36:36.151Z"
     },
     {
       "localId": "police-public-4.5.2.11",
@@ -5409,9 +5620,14 @@
     },
     {
       "localId": "police-public-5.1.2.9",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "885900",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-885900.html",
+      "checkedAt": "2026-07-14T14:36:36.306Z"
     },
     {
       "localId": "police-public-5.1.2.10",
@@ -5421,9 +5637,14 @@
     },
     {
       "localId": "police-public-5.1.2.11",
-      "status": "not-matched-yet",
+      "status": "answer-agrees",
       "answer": "A",
-      "publicQuestionIds": []
+      "publicAnswer": "A",
+      "answerTextFingerprint": "正确",
+      "publicAnswerTextFingerprint": "正确",
+      "publicQuestionId": "886200",
+      "evidenceUrl": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-886200.html",
+      "checkedAt": "2026-07-14T14:36:36.362Z"
     },
     {
       "localId": "police-public-5.1.2.12",
