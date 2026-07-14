@@ -822,6 +822,53 @@ exclusions.push(...mountainDrivingUncorroboratedIds.map((localId) => ({
   ],
 })));
 
+const highwayDrivingUncorroboratedIds = [
+  'police-public-4.1.1.3', 'police-public-4.1.1.4', 'police-public-4.1.1.5',
+  'police-public-4.1.1.8', 'police-public-4.1.1.10', 'police-public-4.1.1.11',
+  'police-public-4.1.1.13', 'police-public-4.1.1.14', 'police-public-4.1.2.1',
+  'police-public-4.1.2.2', 'police-public-4.1.2.3', 'police-public-4.1.2.6',
+];
+
+exclusions.push(...highwayDrivingUncorroboratedIds.map((localId) => {
+  const conflict = localId === 'police-public-4.1.1.5';
+  const corrupted = localId === 'police-public-4.1.1.14';
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: conflict
+      ? 'current-public-question-wording-conflict'
+      : corrupted
+        ? 'dangerous-or-corrupted-answer-exclusion'
+        : 'current-c1-answer-page-not-fully-corroborated',
+    note: conflict
+      ? '现行题页措辞冲突隔离：旧题断言时速90至110公里“应在中间车道”，但现行规则只规定最左侧最低110、中间最低90；当前驾考宝典改为询问“不应在最左侧”，并不排除符合标志和安全条件时使用右侧车道。旧题答案过度绝对，不开放。'
+      : corrupted
+        ? '数据污染隔离：正确选项混入“4.1.2 判断题：（14题）”章节标题，原始选项已损坏，复原前不得开放。'
+        : '证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。',
+    evidence: [
+      {
+        type: 'current-regulation',
+        title: '《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条',
+        url: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+      },
+      {
+        type: conflict ? 'current-public-wording-conflict' : 'cross-check-related-current-question',
+        title: conflict
+          ? '驾考宝典当前题页改问“90至110公里不应在哪条车道”并答最左侧'
+          : '驾考宝典当前高速公路限速与车道规则题页',
+        url: conflict
+          ? 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-974100.html'
+          : 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html',
+      },
+      {
+        type: 'cross-check-absent',
+        title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）',
+        url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+    ],
+  };
+}));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

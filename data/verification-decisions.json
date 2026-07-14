@@ -12323,6 +12323,372 @@
           "url": "https://www.jiakaobaodian.com/qingdao/"
         }
       ]
+    },
+    "police-public-4.1.1.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-public-question-wording-conflict",
+      "note": "现行题页措辞冲突隔离：旧题断言时速90至110公里“应在中间车道”，但现行规则只规定最左侧最低110、中间最低90；当前驾考宝典改为询问“不应在最左侧”，并不排除符合标志和安全条件时使用右侧车道。旧题答案过度绝对，不开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "current-public-wording-conflict",
+          "title": "驾考宝典当前题页改问“90至110公里不应在哪条车道”并答最左侧",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-974100.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.10": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.13": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.14": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "dangerous-or-corrupted-answer-exclusion",
+      "note": "数据污染隔离：正确选项混入“4.1.2 判断题：（14题）”章节标题，原始选项已损坏，复原前不得开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.2.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.2.2": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.2.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.2.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题涉及高速汇入时机、横向间距、出口预告距离、隧道横风或匝道具体操作。现行法规只能支持部分通用原则，当前C1科目一详情索引没有完整同题答案页，或同题仅出现在安全文明驾驶页面，不能据旧题直接开放。",
+      "evidence": [
+        {
+          "type": "current-regulation",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条至第八十二条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check-related-current-question",
+          "title": "驾考宝典当前高速公路限速与车道规则题页",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1092300.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.2": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "机动车在高速公路匝道内不得倒车、逆行、穿越中央分隔带掉头；本地正确选项“不准掉头”与现行条例和当前小车题页一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法实施条例》第八十二条第一项",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一专项：驶入高速公路匝道后不得掉头",
+          "url": "https://www.jiakaobaodian.com/haixi/"
+        }
+      ]
+    },
+    "police-public-4.1.1.7": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "高速公路最低车速不得低于60公里/小时；三车道最右侧车道最低车速为60公里/小时，本地答案与现行条例及当前题页一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典当前科目一同规则题1092500：三车道最右侧最低60公里/小时",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/truck-kemu1-1092500.html"
+        }
+      ]
+    },
+    "police-public-4.1.1.9": {
+      "expectedAnswer": "D",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "高速公路车速超过100公里/小时时应与同车道前车保持100米以上距离；旧题以100公里/小时设问，当前公开题页仍采用100米安全距离答案。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法实施条例》第八十条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一专项：时速100公里保持100米以上距离",
+          "url": "https://www.jiakaobaodian.com/changji/"
+        }
+      ]
+    },
+    "police-public-4.1.2.4": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "同方向两车道高速公路左侧车道最低车速为100公里/小时，低于100公里/小时应在右侧车道行驶；故题干说在左侧行驶错误。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法实施条例》第七十八条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典当前科目一同规则题1093300：两车道左侧最低100公里/小时",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu1-1093300.html"
+        }
+      ]
+    },
+    "police-public-4.1.2.9": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "高速公路禁止倒车，驶过出口后应继续前行至下一出口；本地判断“错误”与现行条例和当前小车科目一页面一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法实施条例》第八十二条第一项",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一：驶过高速出口不得沿路肩倒车",
+          "url": "https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html"
+        }
+      ]
     }
   }
 }

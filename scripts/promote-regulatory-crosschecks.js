@@ -601,6 +601,54 @@ reviewed.push(
   },
 );
 
+reviewed.push(
+  {
+    localId: 'police-public-4.1.1.2', expectedAnswer: 'B', publicQuestionId: 'current-c1-ramp-no-uturn',
+    publicUrl: 'https://www.jiakaobaodian.com/haixi/',
+    publicTitle: '驾考宝典2026小车科目一专项：驶入高速公路匝道后不得掉头',
+    verifiedAt: '2026-07-15',
+    note: '机动车在高速公路匝道内不得倒车、逆行、穿越中央分隔带掉头；本地正确选项“不准掉头”与现行条例和当前小车题页一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第八十二条第一项',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.1.1.7', expectedAnswer: 'B', publicQuestionId: '1092500-related',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/truck-kemu1-1092500.html',
+    publicTitle: '驾考宝典当前科目一同规则题1092500：三车道最右侧最低60公里/小时',
+    verifiedAt: '2026-07-15',
+    note: '高速公路最低车速不得低于60公里/小时；三车道最右侧车道最低车速为60公里/小时，本地答案与现行条例及当前题页一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第七十八条',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.1.1.9', expectedAnswer: 'D', publicQuestionId: 'current-c1-100km-distance',
+    publicUrl: 'https://www.jiakaobaodian.com/changji/',
+    publicTitle: '驾考宝典2026小车科目一专项：时速100公里保持100米以上距离',
+    verifiedAt: '2026-07-15',
+    note: '高速公路车速超过100公里/小时时应与同车道前车保持100米以上距离；旧题以100公里/小时设问，当前公开题页仍采用100米安全距离答案。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第八十条',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.1.2.4', expectedAnswer: 'B', publicQuestionId: '1093300-related',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/bus-kemu1-1093300.html',
+    publicTitle: '驾考宝典当前科目一同规则题1093300：两车道左侧最低100公里/小时',
+    verifiedAt: '2026-07-15',
+    note: '同方向两车道高速公路左侧车道最低车速为100公里/小时，低于100公里/小时应在右侧车道行驶；故题干说在左侧行驶错误。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第七十八条',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.1.2.9', expectedAnswer: 'B', publicQuestionId: 'current-c1-missed-exit-no-reverse',
+    publicUrl: 'https://www.jiakaobaodian.com/mnks/car-c1-kemu1-330400.html',
+    publicTitle: '驾考宝典2026小车科目一：驶过高速出口不得沿路肩倒车',
+    verifiedAt: '2026-07-15',
+    note: '高速公路禁止倒车，驶过出口后应继续前行至下一出口；本地判断“错误”与现行条例和当前小车科目一页面一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第八十二条第一项',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+);
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);
