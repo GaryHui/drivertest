@@ -1231,6 +1231,48 @@ exclusions.push(...firstAidNonC1Ids.map((localId) => {
   };
 }));
 
+const supersededLicenceBusinessIds = [
+  'police-public-1.7.1.1', 'police-public-1.7.1.12', 'police-public-1.7.1.15',
+  'police-public-1.7.1.16', 'police-public-1.7.2.2', 'police-public-1.7.2.12',
+].filter((localId) => bank.questions.some(
+  (question) => question.id === localId && question.review?.status === 'pending',
+));
+
+exclusions.push(...supersededLicenceBusinessIds.map((localId) => {
+  const corrupted = localId === 'police-public-1.7.1.16';
+  const ageRule = localId === 'police-public-1.7.1.12';
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: corrupted
+      ? 'dangerous-or-corrupted-answer-exclusion'
+      : ageRule
+        ? 'superseded-age-rule-exclusion'
+        : 'superseded-licence-business-rule-exclusion',
+    note: corrupted
+      ? '数据污染隔离：最后一个选项混入“1.7.2判断题（19题）”章节标题；且现行代理业务提交的是代理人身份证明和驾驶人的委托书，旧题表述已经变化。'
+      : ageRule
+        ? '旧规隔离：现行规则为70周岁以上驾驶人每年提交身体条件证明，不再是本题所述60周岁。'
+        : '旧规或过度概括隔离：本题关于吊销后统一期限、仅向核发地办理、遗失补证材料或驾驶技能准考证明的表述，与公安部令第172号现行分类期限和便民办理规则不一致或已不再使用。',
+    evidence: [
+      {
+        type: 'law',
+        title: '《机动车驾驶证申领和使用规定》（公安部令第172号）',
+        url: 'https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html',
+      },
+      {
+        type: ageRule ? 'official-explanation' : 'cross-check-absent',
+        title: ageRule
+          ? '烟台市政府答复：现行为70周岁以上每年提交身体条件证明'
+          : '驾考宝典当前小车科目一详情索引未保留本题旧表述',
+        url: ageRule
+          ? 'https://www.yantai.gov.cn/art/2024/4/1/art_44443_3178687.html'
+          : 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+    ],
+  };
+}));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

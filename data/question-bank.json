@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:46:36.003Z",
+    "generatedAt": "2026-07-14T16:49:43.494Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 233,
-    "verified": 233,
-    "pending": 142,
-    "excluded": 954,
+    "playable": 254,
+    "verified": 254,
+    "pending": 115,
+    "excluded": 960,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -10737,8 +10737,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧规或过度概括隔离：本题关于吊销后统一期限、仅向核发地办理、遗失补证材料或驾驶技能准考证明的表述，与公安部令第172号现行分类期限和便民办理规则不一致或已不再使用。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未保留本题旧表述",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -10767,8 +10780,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "以欺骗等不正当手段取得的驾驶许可被撤销后，三年内不得重新申请；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：以欺骗等不正当手段取得的驾驶许可被撤销后，三年内不得重新申请",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801300.html"
+          }
+        ]
       }
     },
     {
@@ -10840,8 +10866,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "每个科目考试一次，考试不合格可以补考一次；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：每个科目考试一次，考试不合格可以补考一次",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html"
+          }
+        ]
       }
     },
     {
@@ -10870,8 +10909,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "考试过程中作弊应终止考试并取消相应考试资格；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：考试过程中作弊应终止考试并取消相应考试资格",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html"
+          }
+        ]
       }
     },
     {
@@ -10900,8 +10952,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶证有效期满前九十日内申请换证；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：驾驶证有效期满前九十日内申请换证",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1126200.html"
+          }
+        ]
       }
     },
     {
@@ -10930,8 +10995,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "换证材料不包括人身保险单；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：换证材料不包括人身保险单",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1131000.html"
+          }
+        ]
       }
     },
     {
@@ -10960,8 +11038,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "户籍迁出原车管所辖区应向迁入地车管所申请换证；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：户籍迁出原车管所辖区应向迁入地车管所申请换证",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-832100.html"
+          }
+        ]
       }
     },
     {
@@ -10990,8 +11081,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶证超过有效期一年以上未换证将被注销；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：驾驶证超过有效期一年以上未换证将被注销",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1122800.html"
+          }
+        ]
       }
     },
     {
@@ -11106,8 +11210,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧规隔离：现行规则为70周岁以上驾驶人每年提交身体条件证明，不再是本题所述60周岁。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "official-explanation",
+            "title": "烟台市政府答复：现行为70周岁以上每年提交身体条件证明",
+            "url": "https://www.yantai.gov.cn/art/2024/4/1/art_44443_3178687.html"
+          }
+        ]
       }
     },
     {
@@ -11222,8 +11339,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧规或过度概括隔离：本题关于吊销后统一期限、仅向核发地办理、遗失补证材料或驾驶技能准考证明的表述，与公安部令第172号现行分类期限和便民办理规则不一致或已不再使用。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未保留本题旧表述",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -11252,8 +11382,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "数据污染隔离：最后一个选项混入“1.7.2判断题（19题）”章节标题；且现行代理业务提交的是代理人身份证明和驾驶人的委托书，旧题表述已经变化。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未保留本题旧表述",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -11280,8 +11423,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "小型汽车驾驶证可以在居住地申请，不必返回户籍地；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：小型汽车驾驶证可以在居住地申请，不必返回户籍地",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-831500.html"
+          }
+        ]
       }
     },
     {
@@ -11308,8 +11464,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧规或过度概括隔离：本题关于吊销后统一期限、仅向核发地办理、遗失补证材料或驾驶技能准考证明的表述，与公安部令第172号现行分类期限和便民办理规则不一致或已不再使用。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未保留本题旧表述",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -11377,8 +11546,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "考试结果应当场公布并出示成绩单；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：考试结果应当场公布并出示成绩单",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html"
+          }
+        ]
       }
     },
     {
@@ -11405,8 +11587,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "成绩单由申请人和考试员签名，不是教练员；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：成绩单由申请人和考试员签名，不是教练员",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html"
+          }
+        ]
       }
     },
     {
@@ -11433,8 +11628,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶人可以委托代理人办理换证、补证业务；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：驾驶人可以委托代理人办理换证、补证业务",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1122800.html"
+          }
+        ]
       }
     },
     {
@@ -11461,8 +11669,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "初次取得驾驶证有效期为六年而非十年；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：初次取得驾驶证有效期为六年而非十年",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-825200.html"
+          }
+        ]
       }
     },
     {
@@ -11489,8 +11710,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "吸食、注射毒品成瘾未戒除不得申请驾驶证；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：吸食、注射毒品成瘾未戒除不得申请驾驶证",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1128800.html"
+          }
+        ]
       }
     },
     {
@@ -11517,8 +11751,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "高血压并非驾驶证申领规定列明的一概禁止情形；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：高血压并非驾驶证申领规定列明的一概禁止情形",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-831600.html"
+          }
+        ]
       }
     },
     {
@@ -11545,8 +11792,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "造成交通事故后逃逸构成犯罪被吊销驾驶证的终生不得重新取得；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：造成交通事故后逃逸构成犯罪被吊销驾驶证的终生不得重新取得",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-831900.html"
+          }
+        ]
       }
     },
     {
@@ -11573,8 +11833,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "中型客车准驾车型不能在初次申领时申请；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：中型客车准驾车型不能在初次申领时申请",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-831500.html"
+          }
+        ]
       }
     },
     {
@@ -11601,8 +11874,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧规或过度概括隔离：本题关于吊销后统一期限、仅向核发地办理、遗失补证材料或驾驶技能准考证明的表述，与公安部令第172号现行分类期限和便民办理规则不一致或已不再使用。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未保留本题旧表述",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -11629,8 +11915,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "考试作弊后已通过的其他科目成绩并非仍然有效；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：考试作弊后已通过的其他科目成绩并非仍然有效",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html"
+          }
+        ]
       }
     },
     {
@@ -11657,8 +11956,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "换证应在有效期满前九十日内办理，不是期满后；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：换证应在有效期满前九十日内办理，不是期满后",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1126200.html"
+          }
+        ]
       }
     },
     {
@@ -11726,8 +12038,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶证记载信息变化换证应提交身份证明和驾驶证；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：驾驶证记载信息变化换证应提交身份证明和驾驶证",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-832200.html"
+          }
+        ]
       }
     },
     {
@@ -11754,8 +12079,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶证遗失补证不要求社区证明和单位证明；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：驾驶证遗失补证不要求社区证明和单位证明",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1123700.html"
+          }
+        ]
       }
     },
     {
@@ -11782,8 +12120,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "换证、补证可以委托代理人办理；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+            "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一驾驶证业务题：换证、补证可以委托代理人办理",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1122800.html"
+          }
+        ]
       }
     },
     {

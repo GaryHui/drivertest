@@ -763,6 +763,42 @@ reviewed.push(...currentC1TrafficLightQuestions.map(([localId, expectedAnswer, r
   lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
 })));
 
+const currentC1LicenceBusinessQuestions = [
+  ['police-public-1.7.1.2', 'D', '以欺骗等不正当手段取得的驾驶许可被撤销后，三年内不得重新申请', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801300.html'],
+  ['police-public-1.7.1.4', 'A', '每个科目考试一次，考试不合格可以补考一次', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html'],
+  ['police-public-1.7.1.5', 'B', '考试过程中作弊应终止考试并取消相应考试资格', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html'],
+  ['police-public-1.7.1.6', 'A', '驾驶证有效期满前九十日内申请换证', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1126200.html'],
+  ['police-public-1.7.1.7', 'C', '换证材料不包括人身保险单', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1131000.html'],
+  ['police-public-1.7.1.8', 'D', '户籍迁出原车管所辖区应向迁入地车管所申请换证', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-832100.html'],
+  ['police-public-1.7.1.9', 'B', '驾驶证超过有效期一年以上未换证将被注销', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1122800.html'],
+  ['police-public-1.7.2.1', 'B', '小型汽车驾驶证可以在居住地申请，不必返回户籍地', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-831500.html'],
+  ['police-public-1.7.2.4', 'A', '考试结果应当场公布并出示成绩单', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html'],
+  ['police-public-1.7.2.5', 'B', '成绩单由申请人和考试员签名，不是教练员', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html'],
+  ['police-public-1.7.2.6', 'A', '驾驶人可以委托代理人办理换证、补证业务', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1122800.html'],
+  ['police-public-1.7.2.7', 'B', '初次取得驾驶证有效期为六年而非十年', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-825200.html'],
+  ['police-public-1.7.2.8', 'B', '吸食、注射毒品成瘾未戒除不得申请驾驶证', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1128800.html'],
+  ['police-public-1.7.2.9', 'B', '高血压并非驾驶证申领规定列明的一概禁止情形', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-831600.html'],
+  ['police-public-1.7.2.10', 'B', '造成交通事故后逃逸构成犯罪被吊销驾驶证的终生不得重新取得', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-831900.html'],
+  ['police-public-1.7.2.11', 'B', '中型客车准驾车型不能在初次申领时申请', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-831500.html'],
+  ['police-public-1.7.2.13', 'B', '考试作弊后已通过的其他科目成绩并非仍然有效', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-826900.html'],
+  ['police-public-1.7.2.14', 'B', '换证应在有效期满前九十日内办理，不是期满后', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1126200.html'],
+  ['police-public-1.7.2.16', 'A', '驾驶证记载信息变化换证应提交身份证明和驾驶证', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-832200.html'],
+  ['police-public-1.7.2.17', 'B', '驾驶证遗失补证不要求社区证明和单位证明', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1123700.html'],
+  ['police-public-1.7.2.18', 'B', '换证、补证可以委托代理人办理', 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1122800.html'],
+];
+
+reviewed.push(...currentC1LicenceBusinessQuestions.map(([localId, expectedAnswer, rule, publicUrl], index) => ({
+  localId,
+  expectedAnswer,
+  publicQuestionId: `current-c1-licence-business-${index + 1}`,
+  publicUrl,
+  publicTitle: `驾考宝典2026小车科目一驾驶证业务题：${rule}`,
+  verifiedAt: '2026-07-15',
+  note: `${rule}；本地答案与公安部令第172号现行条文及当前小车科目一公开题页一致。`,
+  lawTitle: '《机动车驾驶证申领和使用规定》（公安部令第172号）',
+  lawUrl: 'https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html',
+})));
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);
