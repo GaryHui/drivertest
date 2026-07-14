@@ -2166,18 +2166,3676 @@
     "police-public-1.1.2.31": {
       "status": "excluded",
       "verifiedAt": "2026-07-14",
-      "verificationClass": "reviewed-scope-exclusion",
-      "note": "隔离：题干涉及前置式翻斗车专用锁止机构，无法可靠归入C1小型汽车通用考试范围；当前公开题页模糊匹配不足以证明同题。",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
       "evidence": [
         {
           "type": "source",
-          "title": "承德市公安局公开汽车类题库原始附件",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.9": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.12": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.13": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.14": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.15": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.16": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.18": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.19": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.20": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.21": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.22": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.23": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.24": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.25": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.26": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.27": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.28": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.29": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.30": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.31": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.32": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.33": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.34": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.35": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.36": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.37": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.38": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.39": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.40": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.41": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.42": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.43": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.44": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.45": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.46": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.47": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.48": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.49": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.50": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.51": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.52": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.53": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.55": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.56": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.57": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.59": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.60": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.61": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.62": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.63": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.64": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.65": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.66": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.67": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.68": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.69": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.70": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.71": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.72": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.73": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.74": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.75": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.76": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.77": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.78": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.79": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.80": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.81": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.82": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.83": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.84": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.85": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.86": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.87": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.88": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.89": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.90": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.91": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.92": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.93": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.94": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.95": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.96": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.97": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.98": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.99": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.1.100": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.7": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.9": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.10": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.12": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.13": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.14": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.15": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.16": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.17": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.18": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.20": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.21": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.22": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.23": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.24": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.25": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.26": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.27": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.28": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.29": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.30": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.31": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.32": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.33": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.35": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.36": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.37": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.38": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.39": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.40": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.41": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.42": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.43": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.44": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.45": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.46": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.47": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.48": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.49": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.52": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.53": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.54": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.55": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.56": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.57": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.58": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.59": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.60": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.2.2.61": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.2": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.7": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.9": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.10": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.12": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.13": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.14": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.15": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.16": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.17": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.18": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.19": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.20": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.1.21": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.2": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.7": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.9": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.10": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.3.2.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.1.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.1.2": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.1.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.1.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.1.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.1.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.1.7": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.1.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.2.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.2.2": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.2.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.2.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.2.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.2.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.2.7": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-2.4.2.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "missing-original-image-exclusion",
+      "note": "隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始导入记录标记为缺图）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.12": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.50": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
           "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
         },
         {
-          "type": "cross-check-rejected",
-          "title": "驾考宝典公开题页模糊候选 814600（相似度不足，不能作为同题证据）",
-          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-814600.html"
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.2.1.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.2.1.12": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.2.1.14": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.2.2.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.2.2.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.2.2.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.5.1.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.6.1.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.7.1.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.7.1.10": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.7.1.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.7.1.13": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "superseded-age-rule-exclusion",
+      "note": "隔离：旧年龄规则：第172号令已将相关重点车型年龄节点调整为63周岁；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《机动车驾驶证申领和使用规定》（公安部令第172号）",
+          "url": "https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html"
+        }
+      ]
+    },
+    "police-public-1.7.2.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.7.2.19": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "legacy-rule-exclusion",
+      "note": "隔离：旧版附件中的新规敏感题，隔离等待人工对照现行法规；完成现行条文与当前公开题页逐题复核前不得进入练习。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（旧版附件来源）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        },
+        {
+          "type": "current-regulation",
+          "title": "《道路交通安全违法行为记分管理办法》（公安部令第163号）",
+          "url": "https://www.gov.cn/gongbao/content/2022/content_5679697.htm"
+        }
+      ]
+    },
+    "police-public-1.1.1.14": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.15": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.16": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.13": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.21": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.22": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.7": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.12": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.16": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.17": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.2": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.6": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.7": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.9": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.10": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.13": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.17": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.18": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.19": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.20": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.23": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.24": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.25": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.2": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.3": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.9": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.10": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.11": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.14": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.15": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.18": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.19": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.20": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.21": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.22": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.23": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.24": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.25": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.26": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.27": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.28": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.29": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.2.30": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为machinery-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.26": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.27": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.28": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.29": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.30": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.31": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.32": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.33": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.34": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.35": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.36": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.37": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
+        }
+      ]
+    },
+    "police-public-1.1.1.38": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-14",
+      "verificationClass": "non-c1-scope-exclusion",
+      "note": "隔离：本题分类为truck-special、准驾车型为C1，不属于C1小型汽车科目一通用练习范围。",
+      "evidence": [
+        {
+          "type": "source",
+          "title": "承德市公安局公开汽车类题库（原始章节/车型分类）",
+          "url": "https://ga.chengde.gov.cn/art/2025/8/20/art_2935_1079682.html"
         }
       ]
     }

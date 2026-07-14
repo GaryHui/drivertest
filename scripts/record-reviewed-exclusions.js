@@ -26,12 +26,70 @@ const exclusions = [
   },
 ];
 
+for (const question of bank.questions) {
+  if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
+  exclusions.push({
+    localId: question.id,
+    verificationClass: 'missing-original-image-exclusion',
+    note: '隔离：原始附件未保留本题所需图片，无法确认图示内容与答案；找回原图并重新核验前不得进入练习。',
+    evidence: [
+      {
+        type: 'source',
+        title: `${question.source.name}（原始导入记录标记为缺图）`,
+        url: question.source.url,
+      },
+    ],
+  });
+}
+
+for (const question of bank.questions) {
+  if (question.category === 'car-general' && question.vehicle === 'C1') continue;
+  exclusions.push({
+    localId: question.id,
+    verificationClass: 'non-c1-scope-exclusion',
+    note: `隔离：本题分类为${question.category}、准驾车型为${question.vehicle}，不属于C1小型汽车科目一通用练习范围。`,
+    evidence: [
+      {
+        type: 'source',
+        title: `${question.source.name}（原始章节/车型分类）`,
+        url: question.source.url,
+      },
+    ],
+  });
+}
+
+for (const question of bank.questions) {
+  if (question.review.status !== 'excluded' || decisions.decisions[question.id]) continue;
+  const ageRule = /年龄|60\s*(周岁|岁)|63\s*(周岁|岁)/.test(`${question.stem} ${question.options.join(' ')}`);
+  exclusions.push({
+    localId: question.id,
+    verificationClass: ageRule ? 'superseded-age-rule-exclusion' : 'legacy-rule-exclusion',
+    note: `隔离：${question.review.reason}；完成现行条文与当前公开题页逐题复核前不得进入练习。`,
+    evidence: [
+      {
+        type: 'source',
+        title: `${question.source.name}（旧版附件来源）`,
+        url: question.source.url,
+      },
+      {
+        type: 'current-regulation',
+        title: ageRule
+          ? '《机动车驾驶证申领和使用规定》（公安部令第172号）'
+          : '《道路交通安全违法行为记分管理办法》（公安部令第163号）',
+        url: ageRule
+          ? 'https://www.gov.cn/gongbao/2025/issue_11866/202502/content_7004031.html'
+          : 'https://www.gov.cn/gongbao/content/2022/content_5679697.htm',
+      },
+    ],
+  });
+}
+
 for (const item of exclusions) {
   if (!questions.has(item.localId)) throw new Error(`Missing exclusion candidate ${item.localId}`);
   decisions.decisions[item.localId] = {
     status: 'excluded',
     verifiedAt: '2026-07-14',
-    verificationClass: 'reviewed-scope-exclusion',
+    verificationClass: item.verificationClass || 'reviewed-scope-exclusion',
     note: item.note,
     evidence: item.evidence,
   };
