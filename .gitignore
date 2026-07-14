@@ -1,1 +1,4 @@
 .vercel
+audit/jiakao-*.js
+audit/jiakao-*.html
+audit/jiakao-detail-crosscheck-cache.json
