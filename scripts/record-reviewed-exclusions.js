@@ -792,6 +792,36 @@ exclusions.push(...nightDrivingUncorroboratedIds.map((localId) => ({
   ],
 })));
 
+const mountainDrivingUncorroboratedIds = [
+  'police-public-4.2.1.1', 'police-public-4.2.1.2', 'police-public-4.2.1.4',
+  'police-public-4.2.1.5', 'police-public-4.2.2.1', 'police-public-4.2.2.7',
+  'police-public-4.2.2.8',
+];
+
+exclusions.push(...mountainDrivingUncorroboratedIds.map((localId) => ({
+  localId,
+  verifiedAt: '2026-07-15',
+  verificationClass: 'current-c1-answer-page-not-fully-corroborated',
+  note: '证据不足隔离：本题属于山区跟车、坡道停车、会车或上坡换挡的具体驾驶操作。驾考宝典当前页面多将同类题列入科目四/安全文明驾驶，当前C1科目一详情索引未找到完整同题答案页；不能仅凭旧附件或相似题推定全部措辞仍有效。',
+  evidence: [
+    {
+      type: 'current-official-guidance',
+      title: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》山区及长大下坡相关处置',
+      url: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+    },
+    {
+      type: 'cross-check-related-subject',
+      title: '驾考宝典当前小车页面：山区跟车与坡道题主要列入科目四章节练习',
+      url: 'https://www.jiakaobaodian.com/mnks/car.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

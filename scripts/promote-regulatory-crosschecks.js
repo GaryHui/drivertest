@@ -536,6 +536,71 @@ reviewed.push(
   },
 );
 
+reviewed.push(
+  {
+    localId: 'police-public-4.2.1.6', expectedAnswer: 'B', publicQuestionId: 'current-c1-long-downhill-engine-braking',
+    publicUrl: 'https://www.jiakaobaodian.com/suqian/',
+    publicTitle: '驾考宝典2026小车科目一专项：下长坡利用发动机制动控制车速',
+    verifiedAt: '2026-07-15',
+    note: '下长坡控制车速应挂低速挡并利用发动机制动，不能空挡或踩离合滑行；本地答案与当前小车科目一页面及权威应急指引一致。',
+    lawTitle: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》长大下坡处置',
+    lawUrl: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+    supportingEvidence: {
+      title: '驾考宝典当前同类详情：下长坡利用发动机制动控制车速',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-13425900.html',
+    },
+  },
+  {
+    localId: 'police-public-4.2.1.7', expectedAnswer: 'C', publicQuestionId: 'current-c1-long-downhill-brake-heat',
+    publicUrl: 'https://www.jiakaobaodian.com/suqian/',
+    publicTitle: '驾考宝典2026小车科目一山区驾驶：长下坡制动与发动机制动',
+    verifiedAt: '2026-07-15',
+    note: '长下坡连续使用行车制动会使制动器温度升高并导致制动效能下降；本地答案与当前公开题页及权威指南一致。',
+    lawTitle: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》长大下坡处置',
+    lawUrl: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+    supportingEvidence: {
+      title: '驾考宝典当前同类详情：连续制动导致制动器温度升高、效果下降',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-13425900.html',
+    },
+  },
+  {
+    localId: 'police-public-4.2.1.8', expectedAnswer: 'B', publicQuestionId: '881400',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-881400.html',
+    publicTitle: '驾考宝典当前小车科目一题881400：窄山路靠山方不让行的处置',
+    verifiedAt: '2026-07-15',
+    note: '窄山路靠山体一方不让行时，应提前减速并选择安全地点避让；本地正确选项与当前小车科目一同题一致。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第四十八条',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+  {
+    localId: 'police-public-4.2.2.6', expectedAnswer: 'A', publicQuestionId: 'current-c1-steep-downhill-no-overtaking',
+    publicUrl: 'https://www.jiakaobaodian.com/taiyuan/',
+    publicTitle: '驾考宝典2026小车科目一山区道路专项：下陡坡不得超车',
+    verifiedAt: '2026-07-15',
+    note: '机动车行经陡坡等不具备安全超车条件的路段不得超车；本地判断答案与现行法律及当前小车科目一专项一致。',
+    lawTitle: '《中华人民共和国道路交通安全法》第四十三条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-4.2.2.11', expectedAnswer: 'A', publicQuestionId: 'current-c1-mountain-danger-no-stop',
+    publicUrl: 'https://www.jiakaobaodian.com/qingdao/',
+    publicTitle: '驾考宝典2026小车科目一专项：山区危险路段谨慎驾驶、避免停车',
+    verifiedAt: '2026-07-15',
+    note: '通过山区危险路段应谨慎驾驶并避免停车；本地判断与当前小车科目一公开页面一致。',
+    lawTitle: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》突遇自然灾害处置',
+    lawUrl: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+  },
+  {
+    localId: 'police-public-4.2.2.12', expectedAnswer: 'A', publicQuestionId: 'current-c1-landslide-no-stop',
+    publicUrl: 'https://www.jiakaobaodian.com/qingdao/',
+    publicTitle: '驾考宝典2026小车科目一专项：塌方泥石流路段避免停车',
+    verifiedAt: '2026-07-15',
+    note: '经常发生塌方、泥石流的山区地段不应停车逗留；本地判断与当前小车科目一公开页面及权威应急原则一致。',
+    lawTitle: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》突遇自然灾害处置',
+    lawUrl: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+  },
+);
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);

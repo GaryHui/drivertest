@@ -12044,6 +12044,285 @@
           "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-883200.html"
         }
       ]
+    },
+    "police-public-4.2.1.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题属于山区跟车、坡道停车、会车或上坡换挡的具体驾驶操作。驾考宝典当前页面多将同类题列入科目四/安全文明驾驶，当前C1科目一详情索引未找到完整同题答案页；不能仅凭旧附件或相似题推定全部措辞仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》山区及长大下坡相关处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-related-subject",
+          "title": "驾考宝典当前小车页面：山区跟车与坡道题主要列入科目四章节练习",
+          "url": "https://www.jiakaobaodian.com/mnks/car.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.2.1.2": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题属于山区跟车、坡道停车、会车或上坡换挡的具体驾驶操作。驾考宝典当前页面多将同类题列入科目四/安全文明驾驶，当前C1科目一详情索引未找到完整同题答案页；不能仅凭旧附件或相似题推定全部措辞仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》山区及长大下坡相关处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-related-subject",
+          "title": "驾考宝典当前小车页面：山区跟车与坡道题主要列入科目四章节练习",
+          "url": "https://www.jiakaobaodian.com/mnks/car.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.2.1.4": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题属于山区跟车、坡道停车、会车或上坡换挡的具体驾驶操作。驾考宝典当前页面多将同类题列入科目四/安全文明驾驶，当前C1科目一详情索引未找到完整同题答案页；不能仅凭旧附件或相似题推定全部措辞仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》山区及长大下坡相关处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-related-subject",
+          "title": "驾考宝典当前小车页面：山区跟车与坡道题主要列入科目四章节练习",
+          "url": "https://www.jiakaobaodian.com/mnks/car.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.2.1.5": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题属于山区跟车、坡道停车、会车或上坡换挡的具体驾驶操作。驾考宝典当前页面多将同类题列入科目四/安全文明驾驶，当前C1科目一详情索引未找到完整同题答案页；不能仅凭旧附件或相似题推定全部措辞仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》山区及长大下坡相关处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-related-subject",
+          "title": "驾考宝典当前小车页面：山区跟车与坡道题主要列入科目四章节练习",
+          "url": "https://www.jiakaobaodian.com/mnks/car.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.2.2.1": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题属于山区跟车、坡道停车、会车或上坡换挡的具体驾驶操作。驾考宝典当前页面多将同类题列入科目四/安全文明驾驶，当前C1科目一详情索引未找到完整同题答案页；不能仅凭旧附件或相似题推定全部措辞仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》山区及长大下坡相关处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-related-subject",
+          "title": "驾考宝典当前小车页面：山区跟车与坡道题主要列入科目四章节练习",
+          "url": "https://www.jiakaobaodian.com/mnks/car.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.2.2.7": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题属于山区跟车、坡道停车、会车或上坡换挡的具体驾驶操作。驾考宝典当前页面多将同类题列入科目四/安全文明驾驶，当前C1科目一详情索引未找到完整同题答案页；不能仅凭旧附件或相似题推定全部措辞仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》山区及长大下坡相关处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-related-subject",
+          "title": "驾考宝典当前小车页面：山区跟车与坡道题主要列入科目四章节练习",
+          "url": "https://www.jiakaobaodian.com/mnks/car.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.2.2.8": {
+      "status": "excluded",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-c1-answer-page-not-fully-corroborated",
+      "note": "证据不足隔离：本题属于山区跟车、坡道停车、会车或上坡换挡的具体驾驶操作。驾考宝典当前页面多将同类题列入科目四/安全文明驾驶，当前C1科目一详情索引未找到完整同题答案页；不能仅凭旧附件或相似题推定全部措辞仍有效。",
+      "evidence": [
+        {
+          "type": "current-official-guidance",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》山区及长大下坡相关处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check-related-subject",
+          "title": "驾考宝典当前小车页面：山区跟车与坡道题主要列入科目四章节练习",
+          "url": "https://www.jiakaobaodian.com/mnks/car.html"
+        },
+        {
+          "type": "cross-check-absent",
+          "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+          "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+        }
+      ]
+    },
+    "police-public-4.2.1.6": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "下长坡控制车速应挂低速挡并利用发动机制动，不能空挡或踩离合滑行；本地答案与当前小车科目一页面及权威应急指引一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》长大下坡处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "official-explanation",
+          "title": "驾考宝典当前同类详情：下长坡利用发动机制动控制车速",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-13425900.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一专项：下长坡利用发动机制动控制车速",
+          "url": "https://www.jiakaobaodian.com/suqian/"
+        }
+      ]
+    },
+    "police-public-4.2.1.7": {
+      "expectedAnswer": "C",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "长下坡连续使用行车制动会使制动器温度升高并导致制动效能下降；本地答案与当前公开题页及权威指南一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》长大下坡处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "official-explanation",
+          "title": "驾考宝典当前同类详情：连续制动导致制动器温度升高、效果下降",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-13425900.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一山区驾驶：长下坡制动与发动机制动",
+          "url": "https://www.jiakaobaodian.com/suqian/"
+        }
+      ]
+    },
+    "police-public-4.2.1.8": {
+      "expectedAnswer": "B",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "窄山路靠山体一方不让行时，应提前减速并选择安全地点避让；本地正确选项与当前小车科目一同题一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法实施条例》第四十八条",
+          "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=75"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典当前小车科目一题881400：窄山路靠山方不让行的处置",
+          "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-881400.html"
+        }
+      ]
+    },
+    "police-public-4.2.2.6": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "机动车行经陡坡等不具备安全超车条件的路段不得超车；本地判断答案与现行法律及当前小车科目一专项一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "《中华人民共和国道路交通安全法》第四十三条",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一山区道路专项：下陡坡不得超车",
+          "url": "https://www.jiakaobaodian.com/taiyuan/"
+        }
+      ]
+    },
+    "police-public-4.2.2.11": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "通过山区危险路段应谨慎驾驶并避免停车；本地判断与当前小车科目一公开页面一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》突遇自然灾害处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一专项：山区危险路段谨慎驾驶、避免停车",
+          "url": "https://www.jiakaobaodian.com/qingdao/"
+        }
+      ]
+    },
+    "police-public-4.2.2.12": {
+      "expectedAnswer": "A",
+      "verifiedAt": "2026-07-15",
+      "verificationClass": "current-regulation-and-public-crosscheck",
+      "note": "经常发生塌方、泥石流的山区地段不应停车逗留；本地判断与当前小车科目一公开页面及权威应急原则一致。",
+      "evidence": [
+        {
+          "type": "law",
+          "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》突遇自然灾害处置",
+          "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+        },
+        {
+          "type": "cross-check",
+          "title": "驾考宝典2026小车科目一专项：塌方泥石流路段避免停车",
+          "url": "https://www.jiakaobaodian.com/qingdao/"
+        }
+      ]
     }
   }
 }
