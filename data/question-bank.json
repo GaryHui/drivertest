@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T15:55:10.005Z",
+    "generatedAt": "2026-07-14T15:58:04.604Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
@@ -10,8 +10,8 @@
     "c1Candidates": 1161,
     "playable": 162,
     "verified": 162,
-    "pending": 581,
-    "excluded": 586,
+    "pending": 553,
+    "excluded": 614,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -35738,8 +35738,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35768,8 +35791,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35798,8 +35844,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35828,8 +35897,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35858,8 +35950,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35888,8 +36003,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35918,8 +36056,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35948,8 +36109,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -35978,8 +36162,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36008,8 +36215,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36038,8 +36268,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36068,8 +36321,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "数据污染隔离：正确选项混入“5.10.2 判断题：（16题）”章节标题，原始题目结构已损坏；完成当前公开题页逐项复原前不得进入练习。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36096,8 +36372,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36124,8 +36423,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36152,8 +36474,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36180,8 +36525,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36208,8 +36576,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36236,8 +36627,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36264,8 +36678,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36292,8 +36729,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36320,8 +36780,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36348,8 +36831,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36376,8 +36882,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36404,8 +36933,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36432,8 +36984,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36460,8 +37035,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36488,8 +37086,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -36516,8 +37137,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险应急题隔离：本题涉及高速公路水滑、急转避险、碰撞护栏或故障停车后的具体操作。现行法规和公安交管公开指引只足以确认“车靠边、人撤离、即报警”、150米外警示等通用规则；当前C1科目一详情索引未找到可逐项核对的同题，不能据旧题库推定整道题及全部干扰项仍有效。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《中华人民共和国道路交通安全法》第六十八条：高速公路故障警示、人员转移及报警",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "深圳交警：高速公路意外停车应车移应急车道、人员撤至护栏外并在150米外警示",
+            "url": "https://szjj.sz.gov.cn/m/YD_ZWGK/YD_QT/YD_YJGL/content/post_11158757.html"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部道路运输驾驶员应急驾驶操作指南（试行）",
+            "url": "https://www.dhlh.gov.cn/jtj/Web/_F0_0_5L4T0RLC59B782242C89482CBC.htm"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
