@@ -25,8 +25,10 @@ function reviewQuestion(question) {
   const twoPointRule = /(一次记|记|扣|违法记)\s*2\s*分|记二分|扣二分|记分分值[^。]{0,20}2分/i;
   const obsoleteScore = /(拨打|接听).*手持电话[^。]{0,25}(2分|二分)|(故意遮挡|污损).*号牌[^。]{0,25}(12分|十二分)/i;
   const legacySensitive = /(记分|满分学习|审验教育|实习期|有效期满换证|学法减分|准驾车型不符|遮挡.*号牌|污损.*号牌)/i;
+  const supersededAge = /(年龄|年满|达到)\s*60\s*(周岁|岁)|60\s*(周岁|岁)以上.*(大型客车|牵引车|大型货车|身体条件)/i;
   if (twoPointRule.test(text)) return { status: 'excluded', reason: '疑似旧规：包含已取消的2分记分表述' };
   if (obsoleteScore.test(text)) return { status: 'excluded', reason: '疑似旧版记分答案' };
+  if (question.legacy && supersededAge.test(text)) return { status: 'excluded', reason: '旧年龄规则：第172号令已将相关重点车型年龄节点调整为63周岁' };
   if (question.legacy && legacySensitive.test(text)) return { status: 'excluded', reason: '旧版附件中的新规敏感题，隔离等待人工对照现行法规' };
   if (question.legacy) return { status: 'pending', reason: '公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验' };
   return { status: 'pending', reason: '外部补充题，待按现行法规人工核验' };
@@ -138,7 +140,7 @@ async function main() {
     meta: {
       title: '粤驾速记本地题库', generatedAt: new Date().toISOString(), region: '广东', subject: 1, vehicle: 'C1',
       policy: '网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。',
-      total: questions.length, playable: questions.filter(q => q.review.status !== 'excluded' && !q.needsImage).length,
+      total: questions.length, playable: questions.filter(q => q.review.status === 'verified' && !q.needsImage).length,
       verified: stats.verified || 0, pending: stats.pending || 0, excluded: stats.excluded || 0, imports: counts
     },
     questions

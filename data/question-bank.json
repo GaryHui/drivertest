@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T12:04:36.222Z",
+    "generatedAt": "2026-07-14T13:32:30.423Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
-    "playable": 1095,
+    "playable": 0,
     "verified": 0,
-    "pending": 1296,
-    "excluded": 33,
+    "pending": 1293,
+    "excluded": 36,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -8761,7 +8761,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "旧版附件中的新规敏感题，隔离等待人工对照现行法规"
+        "reason": "旧年龄规则：第172号令已将相关重点车型年龄节点调整为63周岁"
       }
     },
     {
@@ -33416,8 +33416,8 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧年龄规则：第172号令已将相关重点车型年龄节点调整为63周岁"
       }
     },
     {
@@ -34727,8 +34727,8 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧年龄规则：第172号令已将相关重点车型年龄节点调整为63周岁"
       }
     },
     {
@@ -34757,7 +34757,7 @@
       "updatedAt": "2025-08-20",
       "review": {
         "status": "excluded",
-        "reason": "旧版附件中的新规敏感题，隔离等待人工对照现行法规"
+        "reason": "旧年龄规则：第172号令已将相关重点车型年龄节点调整为63周岁"
       }
     },
     {
@@ -35625,8 +35625,8 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧年龄规则：第172号令已将相关重点车型年龄节点调整为63周岁"
       }
     },
     {
