@@ -94,6 +94,34 @@ const exclusions = [
   },
 ];
 
+const uncorroboratedCurrentRules = [
+  ['police-public-1.1.1.46', '违法停车且驾驶人不在现场、妨碍通行的罚款题'],
+  ['police-public-1.1.1.47', '违法停车且驾驶人在现场拒绝驶离的罚款题'],
+  ['police-public-1.1.1.51', '不按规定安装机动车号牌的警告或罚款题'],
+  ['police-public-1.1.1.54', '非法安装警报器、标志灯具的罚款题'],
+  ['police-public-1.1.1.72', '逾期不履行行政处罚决定的强制执行题'],
+  ['police-public-1.1.1.73', '交通违法行为人15日内接受处理题'],
+  ['police-public-1.1.1.74', '无正当理由逾期未接受处理的吊证题'],
+];
+
+exclusions.push(...uncorroboratedCurrentRules.map(([localId, label]) => ({
+  localId,
+  verificationClass: 'current-public-bank-not-corroborated',
+  note: `证据不足隔离：${label}在现行法规中可找到相关规则，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题；补齐当前题页交叉证据前不得开放。`,
+  evidence: [
+    {
+      type: 'law',
+      title: '现行道路交通安全法律法规检索入口',
+      url: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({
