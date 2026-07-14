@@ -3,4 +3,5 @@ main{display:flex;flex-direction:column}
 .hero{order:-1;grid-template-columns:1fr;text-align:center;min-height:0;padding:42px 64px}
 .hero-copy{max-width:760px;margin:auto}.hero-sub{margin-left:auto;margin-right:auto}.hero-actions{display:none}
 .stats-strip{order:0}
+.wrong-breakdown{margin-top:14px;padding:15px;background:#fffaf0;border:1px solid #f0dfb9;border-radius:13px}.wrong-breakdown>p{margin:0 0 10px;font-size:12px;font-weight:800;color:#8a6429}.wrong-breakdown>div{display:grid;grid-template-columns:repeat(2,1fr);gap:7px}.wrong-breakdown span{padding:10px;background:white;border-radius:9px;font-size:12px;line-height:1.5}.wrong-breakdown small{display:block;font-size:9px;color:var(--muted);margin-bottom:3px}.wrong-breakdown .key{background:var(--ink);color:white}.wrong-breakdown .key small{color:var(--lime)}.wrong-breakdown .mix{grid-column:1/-1;background:#fff0e9}
 @media(max-width:800px){.mode-list{grid-template-columns:1fr 1fr}#quiz{margin-top:22px;margin-bottom:44px}.hero{padding:34px 18px}.hero h1{font-size:32px}.hero-sub{font-size:14px}.source-note{margin-bottom:0}}
