@@ -423,6 +423,22 @@ reviewed.push(
   },
 );
 
+reviewed.push({
+  localId: 'police-public-5.1.1.11',
+  expectedAnswer: 'D',
+  publicQuestionId: 'current-c1-tire-pressure',
+  publicUrl: 'https://www.jiakaobaodian.com/ali/',
+  publicTitle: '驾考宝典2026小车科目一专项：轮胎气压过低导致爆胎',
+  verifiedAt: '2026-07-15',
+  note: '轮胎气压过低时高速行驶会产生波浪变形和异常升温，可能导致爆胎；本地正确选项“爆胎”与当前小车科目一公开页面及驾考宝典同题详情一致，并有交通运输部现行应急指南交叉支持。',
+  lawTitle: '交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》4.4车辆爆胎',
+  lawUrl: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+  supportingEvidence: {
+    title: '驾考宝典同题详情：轮胎气压过低高速行驶会导致爆胎',
+    url: 'https://www.jiakaobaodian.com/tiku/shiti/truck-kemu3-1076700.html',
+  },
+});
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);
@@ -433,7 +449,7 @@ for (const item of reviewed) {
   }
   decisions.decisions[item.localId] = {
     expectedAnswer: item.expectedAnswer,
-    verifiedAt: '2026-07-14',
+    verifiedAt: item.verifiedAt || '2026-07-14',
     verificationClass: 'current-regulation-and-public-crosscheck',
     note: item.note,
     evidence: [
@@ -443,7 +459,7 @@ for (const item of reviewed) {
         : []),
       {
         type: 'cross-check',
-        title: `驾考宝典2026小车科目一公开题 ${item.publicQuestionId}`,
+        title: item.publicTitle || `驾考宝典2026小车科目一公开题 ${item.publicQuestionId}`,
         url: item.publicUrl || candidate.best.evidenceUrl,
       },
     ],

@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:00:04.452Z",
+    "generatedAt": "2026-07-14T16:04:09.508Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 162,
-    "verified": 162,
-    "pending": 537,
-    "excluded": 630,
+    "playable": 163,
+    "verified": 163,
+    "pending": 505,
+    "excluded": 661,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -31962,8 +31962,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -31992,8 +32010,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32022,8 +32058,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32052,8 +32106,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32082,8 +32154,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32155,8 +32245,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32185,8 +32293,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32215,8 +32341,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32245,8 +32389,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32275,8 +32437,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "轮胎气压过低时高速行驶会产生波浪变形和异常升温，可能导致爆胎；本地正确选项“爆胎”与当前小车科目一公开页面及驾考宝典同题详情一致，并有交通运输部现行应急指南交叉支持。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》4.4车辆爆胎",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "official-explanation",
+            "title": "驾考宝典同题详情：轮胎气压过低高速行驶会导致爆胎",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/truck-kemu3-1076700.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一专项：轮胎气压过低导致爆胎",
+            "url": "https://www.jiakaobaodian.com/ali/"
+          }
+        ]
       }
     },
     {
@@ -32305,8 +32485,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "数据污染隔离：正确选项混入“5.1.2 判断题：（12题）”章节标题，原始选项已损坏；当前公开题页虽仍出现相似题名，但无法证明污染后的整题与答案完整。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32333,8 +32531,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32361,8 +32577,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32389,8 +32623,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32417,8 +32669,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32445,8 +32715,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32473,8 +32761,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32501,8 +32807,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32529,8 +32853,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32598,8 +32940,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32667,8 +33027,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "暂缓开放：当前驾考宝典不同城市页面把爆胎题分别列入科目一和科目四，具体题目归属存在交叉；交通运输部指南可支持“握稳方向、缓慢减速、避免紧急制动”等原则，但当前C1科目一详情索引没有足够的同题答案页逐项核对。本题涉及高风险应急操作，证据不足时继续隔离。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》车辆爆胎处置",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-current-c1-and-subject-four-overlap",
+            "title": "驾考宝典2026小车页面：爆胎题在科目一与科目四专项中均有出现",
+            "url": "https://www.jiakaobaodian.com/taiyuan/"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出足够同题答案页）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32697,8 +33075,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32727,8 +33128,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32757,8 +33181,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32787,8 +33234,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32817,8 +33287,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "数据污染隔离：正确选项混入“5.2.2 判断题：（6题）”章节标题，题目结构已损坏；本题又涉及高速转向失控时的高风险操作，不得依据残缺旧题开放。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32845,8 +33338,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32873,8 +33389,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32901,8 +33440,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32929,8 +33491,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32957,8 +33542,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -32985,8 +33593,31 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属隔离：本题考查转向装置失控后的具体紧急操控。驾考宝典当前公开同类题明确列在小车科目四/安全文明驾驶专项中，当前C1科目一详情索引未检出可逐项核对的同题；操作性应急知识不能只凭旧附件答案并入科目一。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前小车安全文明驾驶题页：高速转向失控紧急制动",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu3-979800.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典2026小车页面：转向失控题列于科目四专项练习",
+            "url": "https://www.jiakaobaodian.com/jingzhou/"
+          },
+          {
+            "type": "current-official-guidance",
+            "title": "交通运输部《道路运输驾驶员应急驾驶操作指南（试行）》",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
