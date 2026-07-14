@@ -8,4 +8,4 @@
 .simple-compare strong{display:block;font-size:17px;margin-top:4px}
 .simple-compare i{font-style:normal;font-size:10px;color:#a29283}
 .versus .tip{background:#fff8df;padding:9px 11px;border-radius:9px;color:#6f6338}
-@media(max-width:800px){.contrast-grid{display:block}.versus{margin-bottom:12px}.example-question b{font-size:14px}.simple-compare strong{font-size:15px}.contrast-grid .versus:nth-child(n+5){display:none}}
+@media(max-width:800px){.contrast-grid{display:block}.versus{margin-bottom:12px}.example-question b{font-size:14px}.simple-compare strong{font-size:15px}}
