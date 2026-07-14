@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:15:45.547Z",
+    "generatedAt": "2026-07-14T16:17:54.389Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
@@ -10,8 +10,8 @@
     "c1Candidates": 1161,
     "playable": 183,
     "verified": 183,
-    "pending": 436,
-    "excluded": 710,
+    "pending": 420,
+    "excluded": 726,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -21057,8 +21057,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21087,8 +21105,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21117,8 +21153,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21147,8 +21201,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21177,8 +21249,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21207,8 +21297,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21237,8 +21345,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21267,8 +21393,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21297,8 +21441,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21327,8 +21489,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "数据污染隔离：正确选项混入“3.1.2判断题：（7题）”章节标题，原题结构已损坏；复原前不得开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21355,8 +21535,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21383,8 +21581,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21411,8 +21627,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21439,8 +21673,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21467,8 +21719,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -21495,8 +21765,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html"
+          },
+          {
+            "type": "cross-check-related-subject",
+            "title": "驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门",
+            "url": "https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {

@@ -869,6 +869,43 @@ exclusions.push(...highwayDrivingUncorroboratedIds.map((localId) => {
   };
 }));
 
+const basicVehicleOperationIds = [
+  'police-public-3.1.1.1', 'police-public-3.1.1.2', 'police-public-3.1.1.3',
+  'police-public-3.1.1.4', 'police-public-3.1.1.6', 'police-public-3.1.1.7',
+  'police-public-3.1.1.8', 'police-public-3.1.1.9', 'police-public-3.1.1.10',
+  'police-public-3.1.1.11', 'police-public-3.1.2.1', 'police-public-3.1.2.2',
+  'police-public-3.1.2.3', 'police-public-3.1.2.4', 'police-public-3.1.2.5',
+  'police-public-3.1.2.6',
+];
+
+exclusions.push(...basicVehicleOperationIds.map((localId) => ({
+  localId,
+  verifiedAt: '2026-07-15',
+  verificationClass: localId === 'police-public-3.1.1.11'
+    ? 'dangerous-or-corrupted-answer-exclusion'
+    : 'current-c1-subject-one-not-corroborated',
+  note: localId === 'police-public-3.1.1.11'
+    ? '数据污染隔离：正确选项混入“3.1.2判断题：（7题）”章节标题，原题结构已损坏；复原前不得开放。'
+    : '科目归属及车型差异隔离：当前驾考宝典公开页面把上车观察、开门下车和基础操纵同类题主要列在科目四/安全文明驾驶；自动挡“2、L、P挡”和钥匙联锁等描述还会随车型设计变化。当前C1科目一详情索引未检出完整同题，不能将旧式车辆操作题作为通用现行规则开放。',
+  evidence: [
+    {
+      type: 'cross-check-related-subject',
+      title: '驾考宝典当前安全文明驾驶题：进入驾驶室前观察车辆周围',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/bus-kemu3-993100.html',
+    },
+    {
+      type: 'cross-check-related-subject',
+      title: '驾考宝典当前科目四页面：驾乘人员下车前观察侧后方再缓开门',
+      url: 'https://www.jiakaobaodian.com/kaoshi/5e20f5e5.html',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（当前C1详情索引未检出完整同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({
