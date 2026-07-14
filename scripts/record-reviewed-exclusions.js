@@ -195,6 +195,65 @@ exclusions.push(...uncorroboratedEnforcementProcedureIds.map((localId) => ({
   ],
 })));
 
+const uncorroboratedAccidentProcedureIds = [
+  'police-public-1.6.1.1', 'police-public-1.6.1.2', 'police-public-1.6.1.3',
+  'police-public-1.6.2.4', 'police-public-1.6.2.5', 'police-public-1.6.2.6',
+];
+
+exclusions.push(...uncorroboratedAccidentProcedureIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-public-bank-not-corroborated',
+  note: '证据不足隔离：本题属于旧版道路交通事故处理或调解程序细节；已对照现行事故处理程序规定，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页证据前不开放。',
+  evidence: [
+    {
+      type: 'current-regulation', title: '《道路交通事故处理程序规定》（公安部令第146号）',
+      url: 'https://www.gov.cn/zhengce/2021-12/25/content_5712900.htm',
+    },
+    {
+      type: 'cross-check-absent', title: '驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
+const uncorroboratedRegistrationIds = [
+  'police-public-1.8.1.1', 'police-public-1.8.1.2', 'police-public-1.8.2.1',
+  'police-public-1.8.2.2', 'police-public-1.8.2.3', 'police-public-1.8.2.6',
+  'police-public-1.8.2.8',
+];
+
+exclusions.push(...uncorroboratedRegistrationIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-public-bank-not-corroborated',
+  note: '证据不足隔离：本题属于旧版机动车登记、变更或转让程序细节；已对照公安部令第164号现行《机动车登记规定》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页证据前不开放。',
+  evidence: [
+    {
+      type: 'current-regulation', title: '《机动车登记规定》（公安部令第164号）',
+      url: 'https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202305/t20230509_478410.html',
+    },
+    {
+      type: 'cross-check-absent', title: '驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
+exclusions.push({
+  localId: 'police-public-1.8.2.5',
+  verificationClass: 'current-regulation-answer-conflict',
+  note: '答案冲突隔离：旧题把“改变车身颜色后10日内申请变更登记”判为错误；公安部令第164号第十六条明确规定，改变车身颜色后应在10日内申请变更登记，当前公开题也确认需要办理变更登记。',
+  evidence: [
+    {
+      type: 'current-regulation', title: '《机动车登记规定》第十六条',
+      url: 'https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202305/t20230509_478410.html',
+    },
+    {
+      type: 'cross-check', title: '驾考宝典当前公开C1题：改变车身颜色应办理变更登记',
+      url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1123900.html',
+    },
+  ],
+});
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

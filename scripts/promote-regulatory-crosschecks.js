@@ -264,6 +264,40 @@ reviewed.push(
 
 reviewed.push(
   {
+    localId: 'police-public-1.8.2.4', expectedAnswer: 'B', publicQuestionId: '836200',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-836200.html',
+    note: '达到国家强制报废标准的机动车不得办理注册登记，也不能通过转让登记继续流通。',
+    lawTitle: '《机动车登记规定》（公安部令第164号）',
+    lawUrl: 'https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202305/t20230509_478410.html',
+  },
+  {
+    localId: 'police-public-1.8.2.7', expectedAnswer: 'A', publicQuestionId: 'current-c1-exam-page',
+    publicUrl: 'https://www.jiakaobaodian.com/kaoshi/e0060296.html',
+    note: '机动车所有人申请转让登记前，应将涉及该车的道路交通安全违法行为和交通事故处理完毕。',
+    lawTitle: '《机动车登记规定》（公安部令第164号）第二十五条',
+    lawUrl: 'https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202305/t20230509_478410.html',
+  },
+);
+
+reviewed.push(
+  {
+    localId: 'police-public-1.6.2.2', expectedAnswer: 'B', publicQuestionId: '1123200',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1123200.html',
+    note: '未造成人身伤亡且对事实及成因无争议的交通事故，当事人可以自行协商；“不得自行协商”的表述错误。',
+    lawTitle: '《中华人民共和国道路交通安全法》第七十条',
+    lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+  },
+  {
+    localId: 'police-public-1.6.2.3', expectedAnswer: 'B', publicQuestionId: '830700',
+    publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-830700.html',
+    note: '交通事故造成建筑物、公共设施或者其他设施损毁，应报警等候处理，不得自行撤离。',
+    lawTitle: '《中华人民共和国道路交通安全法实施条例》第八十八条',
+    lawUrl: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=75',
+  },
+);
+
+reviewed.push(
+  {
     localId: 'police-public-1.5.1.11', expectedAnswer: 'C', publicQuestionId: '802500',
     publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-802500.html',
     note: '对扣留的拼装机动车或达到报废标准的机动车，依法收缴并强制报废。',
