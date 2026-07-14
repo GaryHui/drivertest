@@ -1,1 +1,6 @@
-@media(max-width:800px){.mode-list{grid-template-columns:1fr 1fr}}
+main{display:flex;flex-direction:column}
+#quiz{order:-2;margin-top:36px;margin-bottom:72px}
+.hero{order:-1;grid-template-columns:1fr;text-align:center;min-height:0;padding:42px 64px}
+.hero-copy{max-width:760px;margin:auto}.hero-sub{margin-left:auto;margin-right:auto}.hero-actions{display:none}
+.stats-strip{order:0}
+@media(max-width:800px){.mode-list{grid-template-columns:1fr 1fr}#quiz{margin-top:22px;margin-bottom:44px}.hero{padding:34px 18px}.hero h1{font-size:32px}.hero-sub{font-size:14px}.source-note{margin-bottom:0}}
