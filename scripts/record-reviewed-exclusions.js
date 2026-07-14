@@ -1182,6 +1182,55 @@ if (corruptedRailwaySignalQuestion) {
   });
 }
 
+const firstAidNonC1Ids = bank.questions
+  .filter((question) => question.id.startsWith('police-public-7.1.') && question.review?.status === 'pending')
+  .map((question) => question.id);
+
+const highRiskLegacyFirstAidIds = new Set([
+  'police-public-7.1.1.4', 'police-public-7.1.1.5', 'police-public-7.1.1.9',
+  'police-public-7.1.1.11', 'police-public-7.1.1.12', 'police-public-7.1.1.13',
+  'police-public-7.1.1.15', 'police-public-7.1.1.16', 'police-public-7.1.1.17',
+  'police-public-7.1.2.5', 'police-public-7.1.2.7', 'police-public-7.1.2.10',
+  'police-public-7.1.2.14', 'police-public-7.1.2.16', 'police-public-7.1.2.18',
+  'police-public-7.1.2.19', 'police-public-7.1.2.20', 'police-public-7.1.1.22',
+]);
+
+exclusions.push(...firstAidNonC1Ids.map((localId) => {
+  const corrupted = localId === 'police-public-7.1.1.17';
+  const highRisk = highRiskLegacyFirstAidIds.has(localId);
+  return {
+    localId,
+    verifiedAt: '2026-07-15',
+    verificationClass: corrupted
+      ? 'dangerous-or-corrupted-answer-exclusion'
+      : highRisk
+        ? 'high-risk-legacy-first-aid-not-current-c1'
+        : 'first-aid-content-belongs-to-subject-four',
+    note: corrupted
+      ? '数据污染隔离：最后一个选项混入“7.1.2 判断题（23题）”章节标题；同时题目涉及脊柱伤员搬运，属于高风险专业急救操作。'
+      : highRisk
+        ? '高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。'
+        : '科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。',
+    evidence: [
+      {
+        type: 'current-subject-scope',
+        title: '驾考宝典2026小车题库目录：急救知识列入科目四第6章',
+        url: 'https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html',
+      },
+      {
+        type: 'official-guidance',
+        title: '交通运输部门道路运输驾驶员应急驾驶操作指引',
+        url: 'https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html',
+      },
+      {
+        type: 'cross-check-absent',
+        title: '驾考宝典当前小车科目一详情索引未检出本组完整同题',
+        url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+      },
+    ],
+  };
+}));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T16:44:20.276Z",
+    "generatedAt": "2026-07-14T16:46:36.003Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
@@ -10,8 +10,8 @@
     "c1Candidates": 1161,
     "playable": 233,
     "verified": 233,
-    "pending": 182,
-    "excluded": 914,
+    "pending": 142,
+    "excluded": 954,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -44736,8 +44736,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -44766,8 +44784,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -44796,8 +44832,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -44826,8 +44880,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -44856,8 +44928,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -44886,8 +44976,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -44916,8 +45024,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -44946,8 +45072,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -44976,8 +45120,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45006,8 +45168,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45036,8 +45216,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45066,8 +45264,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45096,8 +45312,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45126,8 +45360,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45156,8 +45408,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45186,8 +45456,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45216,8 +45504,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "数据污染隔离：最后一个选项混入“7.1.2 判断题（23题）”章节标题；同时题目涉及脊柱伤员搬运，属于高风险专业急救操作。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45244,8 +45550,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45272,8 +45596,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45300,8 +45642,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45328,8 +45688,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45356,8 +45734,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45384,8 +45780,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45412,8 +45826,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45440,8 +45872,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45468,8 +45918,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45496,8 +45964,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45524,8 +46010,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45552,8 +46056,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45580,8 +46102,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45608,8 +46148,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45636,8 +46194,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45664,8 +46240,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45692,8 +46286,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45720,8 +46332,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45748,8 +46378,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45776,8 +46424,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45804,8 +46470,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45832,8 +46516,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "高风险范围隔离：题目涉及伤员搬运、颈动脉压迫、止血带、骨折固定、烧伤饮水或人工呼吸等专业急救动作。当前题库将急救归入科目四；脱离现场评估照搬旧答案可能造成二次伤害，普通C1科目一练习不开放。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -45860,8 +46562,26 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "科目范围隔离：事故现场自救、伤员分类、止血、包扎、骨折或中毒救助属于当前小车科目四“防范次生事故处置与伤员急救知识”，当前C1科目一公开详情索引未收录本题。",
+        "verifiedAt": "2026-07-15",
+        "evidence": [
+          {
+            "type": "current-subject-scope",
+            "title": "驾考宝典2026小车题库目录：急救知识列入科目四第6章",
+            "url": "https://www.jiakaobaodian.com/mnks/car-c5-kemu1-530500.html"
+          },
+          {
+            "type": "official-guidance",
+            "title": "交通运输部门道路运输驾驶员应急驾驶操作指引",
+            "url": "https://jtj.cq.gov.cn/ztzl/aqsc/zcfg/202106/t20210611_9393317.html"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典当前小车科目一详情索引未检出本组完整同题",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
