@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T15:26:44.319Z",
+    "generatedAt": "2026-07-14T15:30:45.297Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
@@ -10,8 +10,8 @@
     "c1Candidates": 1161,
     "playable": 156,
     "verified": 156,
-    "pending": 667,
-    "excluded": 506,
+    "pending": 650,
+    "excluded": 523,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -12267,8 +12267,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12297,8 +12310,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12327,8 +12353,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12357,8 +12396,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12387,8 +12439,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12417,8 +12482,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12447,8 +12525,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12477,8 +12568,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12507,8 +12611,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12537,8 +12654,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12565,8 +12695,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12593,8 +12736,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12621,8 +12777,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12649,8 +12818,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12677,8 +12859,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12705,8 +12900,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {
@@ -12733,8 +12941,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "current-regulation",
+            "title": "《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）",
+            "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1248"
+          },
+          {
+            "type": "cross-check-absent",
+            "title": "驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）",
+            "url": "https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html"
+          }
+        ]
       }
     },
     {

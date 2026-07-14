@@ -254,6 +254,33 @@ exclusions.push({
   ],
 });
 
+const uncorroboratedCompulsoryInsuranceIds = [
+  'police-public-1.9.1.1', 'police-public-1.9.1.2', 'police-public-1.9.1.3',
+  'police-public-1.9.1.4', 'police-public-1.9.1.5', 'police-public-1.9.1.6',
+  'police-public-1.9.1.7', 'police-public-1.9.1.8', 'police-public-1.9.1.9',
+  'police-public-1.9.1.10', 'police-public-1.9.2.1', 'police-public-1.9.2.2',
+  'police-public-1.9.2.3', 'police-public-1.9.2.4', 'police-public-1.9.2.5',
+  'police-public-1.9.2.6', 'police-public-1.9.2.7',
+];
+
+exclusions.push(...uncorroboratedCompulsoryInsuranceIds.map((localId) => ({
+  localId,
+  verificationClass: 'current-public-bank-not-corroborated',
+  note: '证据不足隔离：本题属于旧版交强险责任、费率或处罚细节；已对照现行《机动车交通事故责任强制保险条例》，但在2026-07-14抓取的驾考宝典当前C1公开索引及1168个可读详情页中未找到可靠同题。补齐当前题页交叉证据前不开放，避免把仍有效的法规知识误当成当前C1必考原题。',
+  evidence: [
+    {
+      type: 'current-regulation',
+      title: '《机动车交通事故责任强制保险条例》（国家行政法规库，现行有效）',
+      url: 'https://xzfg.moj.gov.cn/front/law/detail?LawID=1248',
+    },
+    {
+      type: 'cross-check-absent',
+      title: '驾考宝典2026小车科目一公开顺序练习（未检出可靠同题）',
+      url: 'https://www.jiakaobaodian.com/mnks/exercise/0-car-kemu1.html',
+    },
+  ],
+})));
+
 for (const question of bank.questions) {
   if (question.category !== 'car-general' || question.vehicle !== 'C1' || !question.needsImage) continue;
   exclusions.push({
