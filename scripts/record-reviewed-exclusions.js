@@ -58,6 +58,40 @@ const exclusions = [
       },
     ],
   },
+  {
+    localId: 'police-public-1.1.1.52',
+    verificationClass: 'superseded-penalty-exclusion',
+    note: '旧规隔离：虽然空格处“扣留该机动车”仍正确，但题干所写200元以上2000元以下罚款已失效；现行处罚包含15日以下拘留并处2000元以上5000元以下罚款。',
+    evidence: [
+      {
+        type: 'law',
+        title: '《中华人民共和国道路交通安全法》第九十六条',
+        url: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+      },
+      {
+        type: 'cross-check',
+        title: '驾考宝典当前公开C1题：伪造、变造机动车证件的现行处罚',
+        url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801700.html',
+      },
+    ],
+  },
+  {
+    localId: 'police-public-1.1.1.53',
+    verificationClass: 'superseded-penalty-exclusion',
+    note: '旧规隔离：虽然空格处“扣留该机动车”仍正确，但题干所写200元以上2000元以下罚款已失效；现行罚款为2000元以上5000元以下。',
+    evidence: [
+      {
+        type: 'law',
+        title: '《中华人民共和国道路交通安全法》第九十六条',
+        url: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+      },
+      {
+        type: 'cross-check',
+        title: '驾考宝典当前公开C1题：使用其他车辆牌证的现行处罚',
+        url: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-829500.html',
+      },
+    ],
+  },
 ];
 
 for (const question of bank.questions) {

@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "粤驾速记本地题库",
-    "generatedAt": "2026-07-14T15:02:49.806Z",
+    "generatedAt": "2026-07-14T15:05:31.035Z",
     "region": "广东",
     "subject": 1,
     "vehicle": "C1",
     "policy": "网站只读取本文件；第三方接口仅用于维护时一次性同步。疑似旧规题自动隔离，未核验题明确标记。",
     "total": 1329,
     "c1Candidates": 1161,
-    "playable": 124,
-    "verified": 124,
-    "pending": 757,
-    "excluded": 448,
+    "playable": 136,
+    "verified": 136,
+    "pending": 743,
+    "excluded": 450,
     "imports": {
       "police": 1339,
       "jisu": 0,
@@ -1970,8 +1970,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧规隔离：虽然空格处“扣留该机动车”仍正确，但题干所写200元以上2000元以下罚款已失效；现行处罚包含15日以下拘留并处2000元以上5000元以下罚款。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十六条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典当前公开C1题：伪造、变造机动车证件的现行处罚",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-801700.html"
+          }
+        ]
       }
     },
     {
@@ -2000,8 +2013,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "excluded",
+        "reason": "旧规隔离：虽然空格处“扣留该机动车”仍正确，但题干所写200元以上2000元以下罚款已失效；现行罚款为2000元以上5000元以下。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十六条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典当前公开C1题：使用其他车辆牌证的现行处罚",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-829500.html"
+          }
+        ]
       }
     },
     {
@@ -2060,8 +2086,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "未取得机动车驾驶证驾驶机动车，处200元以上2000元以下罚款。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2090,8 +2129,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶证被暂扣期间驾驶机动车，处200元以上2000元以下罚款。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2120,8 +2172,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "未取得机动车驾驶证驾驶机动车，除罚款外可以并处15日以下拘留。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2150,8 +2215,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶证被吊销期间驾驶机动车，除罚款外可以并处15日以下拘留。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2180,8 +2258,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "驾驶证被暂扣期间驾驶机动车，除罚款外可以并处15日以下拘留。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2210,8 +2301,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "将机动车交由驾驶证被吊销、暂扣的人驾驶，处200元以上2000元以下罚款。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2326,8 +2430,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "造成交通事故后逃逸尚不构成犯罪，处200元以上2000元以下罚款。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2356,8 +2473,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "造成交通事故后逃逸尚不构成犯罪，除罚款外可以并处15日以下拘留。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2386,8 +2516,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "机动车行驶超过规定时速50%，处200元以上2000元以下罚款。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2416,8 +2559,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "机动车行驶超过规定时速50%，除罚款外可以并处吊销驾驶证。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2446,8 +2602,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "违反交通管制规定强行通行且不听劝阻，处200元以上2000元以下罚款。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {
@@ -2476,8 +2645,21 @@
       "legacy": true,
       "updatedAt": "2025-08-20",
       "review": {
-        "status": "pending",
-        "reason": "公安公开附件为旧版题库，已通过自动旧规筛查，仍待逐题人工核验"
+        "status": "verified",
+        "reason": "故意损毁、移动、涂改交通设施并造成危害后果，处200元以上2000元以下罚款。",
+        "verifiedAt": "2026-07-14",
+        "evidence": [
+          {
+            "type": "law",
+            "title": "《中华人民共和国道路交通安全法》第九十九条",
+            "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html"
+          },
+          {
+            "type": "cross-check",
+            "title": "驾考宝典2026小车科目一公开题 1134600",
+            "url": "https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html"
+          }
+        ]
       }
     },
     {

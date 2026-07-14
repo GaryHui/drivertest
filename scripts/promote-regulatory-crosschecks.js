@@ -180,6 +180,31 @@ const reviewed = [
   },
 ];
 
+const article99Questions = [
+  ['police-public-1.1.1.55', 'D', '未取得机动车驾驶证驾驶机动车，处200元以上2000元以下罚款。'],
+  ['police-public-1.1.1.56', 'C', '驾驶证被暂扣期间驾驶机动车，处200元以上2000元以下罚款。'],
+  ['police-public-1.1.1.57', 'A', '未取得机动车驾驶证驾驶机动车，除罚款外可以并处15日以下拘留。'],
+  ['police-public-1.1.1.58', 'B', '驾驶证被吊销期间驾驶机动车，除罚款外可以并处15日以下拘留。'],
+  ['police-public-1.1.1.59', 'C', '驾驶证被暂扣期间驾驶机动车，除罚款外可以并处15日以下拘留。'],
+  ['police-public-1.1.1.60', 'D', '将机动车交由驾驶证被吊销、暂扣的人驾驶，处200元以上2000元以下罚款。'],
+  ['police-public-1.1.1.63', 'C', '造成交通事故后逃逸尚不构成犯罪，处200元以上2000元以下罚款。'],
+  ['police-public-1.1.1.64', 'A', '造成交通事故后逃逸尚不构成犯罪，除罚款外可以并处15日以下拘留。'],
+  ['police-public-1.1.1.65', 'D', '机动车行驶超过规定时速50%，处200元以上2000元以下罚款。'],
+  ['police-public-1.1.1.66', 'B', '机动车行驶超过规定时速50%，除罚款外可以并处吊销驾驶证。'],
+  ['police-public-1.1.1.67', 'C', '违反交通管制规定强行通行且不听劝阻，处200元以上2000元以下罚款。'],
+  ['police-public-1.1.1.68', 'D', '故意损毁、移动、涂改交通设施并造成危害后果，处200元以上2000元以下罚款。'],
+];
+
+reviewed.push(...article99Questions.map(([localId, expectedAnswer, note]) => ({
+  localId,
+  expectedAnswer,
+  publicQuestionId: '1134600',
+  publicUrl: 'https://www.jiakaobaodian.com/tiku/shiti/car-kemu1-1134600.html',
+  note,
+  lawTitle: '《中华人民共和国道路交通安全法》第九十九条',
+  lawUrl: 'https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_79dc72ea621f4a9b8adec327abf5d0e1.html',
+})));
+
 let promoted = 0;
 for (const item of reviewed) {
   const question = questions.get(item.localId);
